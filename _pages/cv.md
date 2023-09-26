@@ -18,23 +18,30 @@ Education
   * Introduction of Mathematical Modelling (A)
   * Introduction to Intelligent Systems (A+)
 
-Work experience
+Research Experience
 ======
 * Summer 2023: Research Assistant
   * National University of Singapore
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-<!-- 
+  * Duties included: Signal Processing
+  * Supervisor: Changsheng WU
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Mathematical Modeling
+* Scientific Computing
+* Research plotting
+* Programming Language
+  * C / C++
+  * Python
+  * Java
+  * HTML / CSS
+  * Matlab
+  * Mathematica
+* Language
+  * Chinese: Native Speaker
+  * English: Fluent
+
+<!-- 
 
 Publications
 ======
