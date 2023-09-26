@@ -25,6 +25,17 @@ Research Experience
   * Duties included: Signal Processing
   * Supervisor: Changsheng WU
 
+Selected Award and Honors
+======
+-	**Grand Prize**, "Capital Challenge Cup" Academic and Scientific Works Competition	2023
+-	**17th "Spark" Member**, University-level Innovation Talent Club	2023
+-	**Silver Award**, IAF-CSA Space Universities CubeSat Challenge (China)	2023
+-	**Ying-Hua Scholar Candidate**, University-level exchange student to Oxford University	2022
+-	**Finalist**, 2023 Interdisciplinary Contest In Modeling (ICM)	2022
+-	**Overall Excellence Scholarship**, University-level Scholarship of Tsinghua University	2022
+-	**Philobiblon Scholarship**, University-level Scholarship of Tsinghua University	2022
+-	**‘Ling-Yi’ Scholar** @ Xinstitute
+
 Skills
 ======
 * Mathematical Modeling
