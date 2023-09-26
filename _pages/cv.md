@@ -12,7 +12,9 @@ redirect_from:
 Education
 ======
 **Tsinghua University**, 2021 - 2025
+
 *B.S. in Theoretical and Applied Mechanics & Aerospace Engineering*
+
 - Reverent Courses
   - Advanced linear Algebra(1) (A)
   - Fluid Mechanics (A)
