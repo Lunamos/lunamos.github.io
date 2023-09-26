@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-
 Hi! I am a undergraduate student at Xingjian College, Tsinghua.
 
 My research interests lie broadly in bioelectronics and neuroscience. I’m still exploring for my niche. Check my CV for more information!
 
 Feel free to reach out if you have anything to chat!
+
+# Recent News
+
+- *July,2023.* Visiting NUS!
