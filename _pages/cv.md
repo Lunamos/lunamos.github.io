@@ -24,10 +24,12 @@ Education
 
 Research Experience
 ======
-* Summer 2023: Research Assistant
-  * National University of Singapore
-  * Duties included: Signal Processing
-  * Supervisor: Changsheng WU
+**National University of Singapore**, 2023 Summer
+
+*Research Assistant Intern*
+ 
+* Duties included: Signal Processing
+* Supervisor: Changsheng WU
 
 Selected Award and Honors
 ======
