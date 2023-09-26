@@ -11,12 +11,14 @@ redirect_from:
 
 Education
 ======
-* B.S. in Theoretical and Applied Mechanics & Aerospace Engineering, Tsinghua University, 2021 - 2025
-  * Advanced linear Algebra(1) (A)
-  * Fluid Mechanics (A)
-  * Programming Fundamentals (A)
-  * Introduction of Mathematical Modelling (A)
-  * Introduction to Intelligent Systems (A+)
+**Tsinghua University**, 2021 - 2025
+*B.S. in Theoretical and Applied Mechanics & Aerospace Engineering*
+- Reverent Courses
+  - Advanced linear Algebra(1) (A)
+  - Fluid Mechanics (A)
+  - Programming Fundamentals (A)
+  - Introduction of Mathematical Modelling (A)
+  - Introduction to Intelligent Systems (A+)
 
 Research Experience
 ======
