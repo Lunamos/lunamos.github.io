@@ -16,4 +16,4 @@ Feel free to reach out if you have anything to chat!
 
 # Recent News
 
-- *July,2023.* Visiting NUS!
+- *July,2023.* Visiting National University of Singapore!
