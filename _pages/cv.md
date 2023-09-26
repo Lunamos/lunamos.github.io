@@ -11,22 +11,22 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Theoretical and Applied Mechanics & Aerospace Engineering, Tsinghua University, 2021 - 2025
+  * Advanced linear Algebra(1) (A)
+  * Fluid Mechanics (A)
+  * Programming Fundamentals (A)
+  * Introduction of Mathematical Modelling (A)
+  * Introduction to Intelligent Systems (A+)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* Summer 2023: Research Assistant
+  * National University of Singapore
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
   
+<!-- 
+
 Skills
 ======
 * Skill 1
@@ -56,4 +56,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams 
+
+-->
