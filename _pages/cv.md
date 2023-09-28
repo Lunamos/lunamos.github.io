@@ -28,7 +28,6 @@ Research Experience
 
 *Research Assistant Intern*
  
-* Duties included: Signal Processing
 * Supervisor: Changsheng WU
 
 Selected Award and Honors

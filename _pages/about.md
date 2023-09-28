@@ -30,4 +30,5 @@ Neuromodulation for understanding and restoration of human functions
 
 # Recent News
 
-- *July,2023.* Visiting National University of Singapore!
+- *Aug,2023.* Winning Silver Award in IAF-CSA Space Universities CubeSat Challenge (China).
+- *July,2023.* Visiting National University of Singapore as a summer research assistant intern.
