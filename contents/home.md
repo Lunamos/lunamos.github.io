@@ -6,7 +6,7 @@ My research interests lie in Robotics, Soft Actuation, intelligent control, simu
 
 I started research since my sophomore year. I fortunately began my very first research in [DISCOVER Lab](https://air.tsinghua.edu.cn/en/Research1/DISCOVER_Laboratory.htm) advised by Professor [Guyue Zhou](https://air.tsinghua.edu.cn/en/info/1046/1196.htm), where I collaborated with Dr. Yongliang Shi, Yuhang Zheng, Pengfei Li and Beiwen Tian on the building of a desktop robotics system aiming to make English-style breakfast and organize drawer interactively. It is also that time when I got my first publication.
 
-I am currently honored to be advised by Professor [Huichan Zhao](https://www.me.tsinghua.edu.cn/en/info/1084/1639.htm) at [THU Soft Robotics Research Group](https://www.thusoftrobot.com/) starting from October 2023. I am working on the design and control of a soft robotic arm with a focus on the robust real-time control of pneumatic artificial muscle (PAM).
+I am currently honored to be advised by Professor [Huichan Zhao](https://www.me.tsinghua.edu.cn/en/info/1084/1639.htm) at [THU Soft Robotics Research Group](https://www.thusoftrobot.com/) starting from October 2023. I am working on the design and control of a soft robotic arm with a focus on the robust real-time control of pneumatic artificial muscle (PAM) collaborated with Zhonghan Lin.
 
 
 ### Contact
