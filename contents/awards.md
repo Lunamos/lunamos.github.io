@@ -1,5 +1,5 @@
 
-- **1^{st} Place**, ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R) competition, 2023.
+- **$1^{st}$ Place**, ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R) competition, 2023.
 
 - **4^{th} Place**, RoboCup Humanoid League - kid size, 2023.
 
