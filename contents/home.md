@@ -12,8 +12,8 @@ I am passionate about open source and firmly believe in its potential to dissemi
 
 ### Contact
 * Github: [King-Bridge](https://github.com/King-Bridge)
-* Email: qy-wang21 [at] mails.tsinghua.edu.cn
-* Phone: +86\ 15010819068
+* Email: qy-wang21@mails.tsinghua.edu.cn
+* Phone: +86 15010819068
 <!-- * Google Scholar：[Congrui Yin's Google Scholar](https://scholar.google.com/citations?hl=en&user=7gsdLw4AAAAJ) -->
 
 ### Education
