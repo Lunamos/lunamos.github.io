@@ -2,13 +2,12 @@
 ### Biography
 I am currently a junior Undergraduate Student pursuing a bachelor's Degree in Mechanics and Aerospace Engineering at Xingjian College, Tsinghua University, China.
 
-<!-- My research interests lie in Large Multimodal Models (LMMs) and their application in diverse practical scenarios, such as biological and system large models. My focus also extends to developing efficient machine learning systems aimed at expediting the training and inference processing of LMMs (especially LLMs), leveraging expertise in high-performance computing and distributed systems.
+My research interests lie in Robotics, Soft Actuation, intelligent control, simulation to reality. My aspiration involves combining artificial muscle structures with dynamic simulators to build intelligent robots that can collaborate perfectly with humans. I am passionate about exploring the potential of soft robotics and its application in diverse practical scenarios, such as medical and industrial fields. I am also interested in developing efficient control algorithms and simulation methods to improve the performance of soft robots.
 
-Before transferring to the University of Minnesota, I studied at Nanchang University, majoring in Artificial Intelligence in a top-tier class with a School Academic Special Scholarship. I was honored to be advised by Professor [Zichen Xu](https://good.ncu.edu.cn/Pages/Professor.html) at [GOOD LAB](https://good.ncu.edu.cn) starting from March 2022, where my focus was on solving data-centric challenges and building efficient and reliable systems. I was the leader of Nanchang University Supercomputer Cluster Team ([NCUSCC](https://hpc.ncuscc.tech/)) Leader, with experience of ASC22 and SC23(IndySCC).
+I started research since my sophomore year. I fortunately began my very first research in [DISCOVER Lab](https://air.tsinghua.edu.cn/en/Research1/DISCOVER_Laboratory.htm) advised by Professor [Guyue Zhou](https://air.tsinghua.edu.cn/en/info/1046/1196.htm), where I collaborated with Dr. Yongliang Shi, Yuhang Zheng, Pengfei Li and Beiwen Tian on the building of a desktop robotics system aiming to make English-style breakfast and organize drawer interactively. It is also that time when I got my first publication.
 
-I was also fortunately recruited as a research assistant at **TOP** NLP Lab [TsinghuaNLP](https://github.com/thunlp) in Beijing from July to September 2023, advised by Professor [Zhiyuan Liu](https://nlp.csai.tsinghua.edu.cn/~lzy/), trying to build efficient distributed large language model training framework [BMTrain](https://github.com/OpenBMB/BMTrain) and Develop 10B Chinese LLM [CPM-Bee](https://github.com/OpenBMB/CPM-Bee/blob/main/README_en.md).
+I am currently honored to be advised by Professor [Huichan Zhao](https://www.me.tsinghua.edu.cn/en/info/1084/1639.htm) at [THU Soft Robotics Research Group](https://www.thusoftrobot.com/) starting from October 2023. I am working on the design and control of a soft robotic arm with a focus on the robust real-time control of pneumatic artificial muscle (PAM).
 
-I am passionate about open source and firmly believe in its potential to disseminate knowledge widely, leverage technology to lead innovation to the world and contribute to the advancement of human society. I am proud to have garnered over **1000 stars** and acquired **155 followers** on GitHub. It is gratifying to know that my open-source projects have benefitted numerous individuals, and I have personally gained valuable knowledge from the open-source community. -->
 
 ### Contact
 * Github: [King-Bridge](https://github.com/King-Bridge)
@@ -23,4 +22,6 @@ I am passionate about open source and firmly believe in its potential to dissemi
 Robotics, Soft Actuation, intelligent control, simulation to reality.
 
 #### Spare-time Hobbies
+I am the Principall Clarinet player in the [Tsinghua University Symphony Orchestra (TUSO)](https://www.arts.tsinghua.edu.cn/info/1084/1492.htm). 
+I am also a main player of Xingjian College soccer team.
 
