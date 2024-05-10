@@ -1,11 +1,11 @@
 # main links links
 main:
 
-  # - title: "Blogs"
-  #   url: /year-archive/
+  - title: "Blogs"
+    url: /year-archive/
 
-  # - title: "Awards"
-  #   url: /year-archive/
+  - title: "Awards"
+    url: /year-archive/
 
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /cv/
