@@ -3,8 +3,5 @@ main:
   - title: "Blogs"
     url: /year-archive/
 
-  - title: "Awards"
-    url: /year-archive/
-
-  - title: "CV"
-    url: /cv/
+  - title: "CV (pdf)"
+    url: /files/paper2.pdf
