@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Blogs"
-    url: /year-archive/
+  - title: "About me"
+    url: /about
 
   - title: "CV (pdf)"
-    url: /files/paper2.pdf
+    url: /files/cv.pdf
