@@ -10,10 +10,10 @@ I am currently honored to be advised by Professor [Huichan Zhao](https://www.me.
 
 
 ### Contact
-* Github: [King-Bridge](https://github.com/King-Bridge)
 * Email: qy-wang21@mails.tsinghua.edu.cn
 * Phone: +86 15010819068
-<!-- * Google Scholar：[Congrui Yin's Google Scholar](https://scholar.google.com/citations?hl=en&user=7gsdLw4AAAAJ) -->
+* Github: [King-Bridge](https://github.com/King-Bridge)
+* Google Scholar：[Qiyao Wang's Google Scholar](https://scholar.google.com/citations?user=d_r-sUMAAAAJ&hl=en&oi=ao)
 
 ### Education
 2021.09 - Present, Mechanics and Aerospace Engineering, Xingjian College, Tsinghua University.
@@ -22,6 +22,6 @@ I am currently honored to be advised by Professor [Huichan Zhao](https://www.me.
 Robotics, Soft Actuation, intelligent control, simulation to reality.
 
 #### Spare-time Hobbies
-I am the Principall Clarinet player in the [Tsinghua University Symphony Orchestra (TUSO)](https://www.arts.tsinghua.edu.cn/info/1084/1492.htm). 
+I am the principal Clarinet player in the [Tsinghua University Symphony Orchestra (TUSO)](https://www.arts.tsinghua.edu.cn/info/1084/1492.htm). 
 I am also a main player of Xingjian College soccer team.
 

@@ -1,3 +1,6 @@
+### July 01, 2024
+I begin my research internship in [Bio-inspired Robotics and Design Lab](https://brd.sutd.edu.sg/) in Singapore University of Technology and Design (SUTD).
+
 ### May 01, 2024
 Our paper "Enhancing Daily Life through an Interactive Desktop Robotics System" is available on [Springer](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_8).
 
