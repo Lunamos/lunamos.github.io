@@ -16,7 +16,7 @@ Beijing, China
 - Upcoming Ph.D. Student @ [THU Soft Robotics Research Group](https://www.thusoftrobot.com/), [Dept. of Mechanical Engineering](https://me.tsinghua.edu.cn/en/index.htm), Tsinghua University.
 
   - Advised by Prof. [Huichan Zhao](https://www.me.tsinghua.edu.cn/en/info/1084/1639.htm)
-  - Research interest lying in _Intelligent Control for Artificial Muscles_
+  - Research interest lying in **_Intelligent Control for Artificial Muscles_**
 
 - B. Eng. @ [Xingjian College, Tsinghua University](https://www.xjc.tsinghua.edu.cn/). (2021.09 - Now)
 
