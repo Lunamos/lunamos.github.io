@@ -18,4 +18,4 @@ Our team (TH-MOS) won the 4th Place in [RoboCup 2023 Humanoid League](https://20
 
 ### Jun 02, 2023
 
-Our team (Discover-Lab) won the 1st Place in [ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R)](https://lcas.lincoln.ac.uk/wp/events/the-pub-r-competition/) competition, 2023.
+Our team (Discover-Lab) won the 1st Place in [ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R)](https://lcas.lincoln.ac.uk/wp/events/the-pub-r-competition/) competition.
