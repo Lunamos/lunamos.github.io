@@ -1,4 +1,10 @@
 
+- <strong><strong>Excellent Graduate of Tsinghua University</strong></strong>, University-level honor (top 10%), 2023.
+
+- <strong><strong>Overall Excellence Scholarship</strong></strong>, University-level Scholarship of Tsinghua University, 2024.
+
+- <strong><strong>Arts and Literature Excellence Scholarship</strong></strong>, University-level Scholarship of Tsinghua University, 2023.
+
 - <strong><strong>1st Place</strong></strong>, ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R) competition, 2023.
 
 - <strong><strong>4th Place</strong></strong>, RoboCup Humanoid League - kid size, 2023.
@@ -16,4 +22,3 @@
 - <strong><strong>Overall Excellence Scholarship</strong></strong>, University-level Scholarship of Tsinghua University, 2022.
 
 - <strong><strong>Golden Prize</strong></strong>, Beijing University Students' Art Exhibition, 2021
-
