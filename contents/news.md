@@ -1,6 +1,6 @@
 ### June, 2025
 
-Our paper "Architected Vacuum Driven Origami Structures via Direct Ink Writing of RTV Silicone" is accepted to *Robotics and Automation Letter*.
+Our paper [Architected Vacuum Driven Origami Structures via Direct Ink Writing of RTV Silicone](https://ieeexplore.ieee.org/document/11091466) is accepted to *Robotics and Automation Letter*.
 
 ### Sept, 2024
 
