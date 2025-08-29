@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://yu-changqian.github.io/sitemap.xml
