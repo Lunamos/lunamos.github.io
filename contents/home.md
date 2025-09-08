@@ -13,12 +13,12 @@ Beijing, China
 
 ## Short Bio
 
-- Upcoming Ph.D. Student @ [THU Soft Robotics Research Group](https://www.thusoftrobot.com/), [Dept. of Mechanical Engineering](https://me.tsinghua.edu.cn/en/index.htm), Tsinghua University.
+- 1st-year Ph.D. Student @ [THU Soft Robotics Lab](https://www.thusoftrobot.com/), [Dept. of Mechanical Engineering](https://me.tsinghua.edu.cn/en/index.htm), Tsinghua University. (2025.09 - Present)
 
   - Advised by Prof. [Huichan Zhao](https://www.me.tsinghua.edu.cn/en/info/1084/1639.htm)
-  - Research interest lying in **_Intelligent Control for Artificial Muscles_**
+  - Research interest lying in **_Intelligent Control for Artificial Muscles_** and **_Bio-inspired Designs_**
 
-- B. Eng. @ [Xingjian College, Tsinghua University](https://www.xjc.tsinghua.edu.cn/). (2021.09 - Now)
+- B. Eng. @ [Xingjian College, Tsinghua University](https://www.xjc.tsinghua.edu.cn/). (2021.09 - 2025.06)
 
   - Major in Mechanics & Aerospace Engineering.
   - GPA 3.85 / 4.00. Ranked #4 out of 30 in the Major, with 24 courses receiving A or A+ grade.
