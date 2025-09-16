@@ -51,6 +51,9 @@ section .main-body{
     font-size: 1.0rem;
     font-weight: 200;
     line-height: 2.0rem;
+
+    max-width: 800px; /* 限制最大宽度，你可以按需调整这个数值 */
+    margin: 0 auto;   /* 让内容块在页面上水平居中 */
 }
 
 
