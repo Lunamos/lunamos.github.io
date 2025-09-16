@@ -1,5 +1,5 @@
 
-- <strong><strong>Excellent Graduate of Tsinghua University</strong></strong>, University-level honor (top 10%), 2023.
+- <strong><strong>Excellent Graduate of Tsinghua University</strong></strong>, University-level honor (top 10%), 2025.
 
 - <strong><strong>Overall Excellence Scholarship</strong></strong>, University-level Scholarship of Tsinghua University, 2024.
 
