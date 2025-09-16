@@ -40,13 +40,18 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+section header {
+    max-width: 800px; /* 和正文使用相同的最大宽度 */
+    /* margin: 0 auto;   同样让它水平居中 */
+}
+
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
     line-height: 4rem;
 
-    max-width: 800px; /* 限制最大宽度，你可以按需调整这个数值 */
+    /* max-width: 800px; 限制最大宽度，你可以按需调整这个数值 */
 }
 
 section .main-body{
