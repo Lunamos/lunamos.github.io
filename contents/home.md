@@ -11,7 +11,7 @@ Beijing, China
 - Github: [King-Bridge](https://github.com/King-Bridge)
 - Google Scholar：[Qiyao Wang's Google Scholar](https://scholar.google.com/citations?user=d_r-sUMAAAAJ&hl=en&oi=ao) -->
 
-## Short Bio
+### Short Bio
 
 - 1st-year Ph.D. Student @ [THU Soft Robotics Lab](https://www.thusoftrobot.com/), [Dept. of Mechanical Engineering](https://me.tsinghua.edu.cn/en/index.htm), Tsinghua University. (2025.09 - Present)
 
@@ -24,7 +24,7 @@ Beijing, China
   - GPA 3.85 / 4.00. Ranked #4 out of 30 in the Major, with 24 courses receiving A or A+ grade.
   - Selected A/A+ courses: Mathematical Analysis, Fluid Mechanics, Introduction to Partial Differential Equations, Introduction to Complex Analysis, Introduction to Intelligent Systems.
 
-## Research
+### Research
 
 My research interests lie in Robotics, Soft Actuation, intelligent control, simulation to reality. My aspiration involves combining artificial muscle structures with dynamic simulators to build intelligent robots that can collaborate perfectly with humans. I am passionate about exploring the potential of soft robotics and its application in diverse practical scenarios, such as medical and industrial fields. I am also interested in developing efficient control algorithms and simulation methods to improve the performance of soft robots.
 
@@ -36,11 +36,11 @@ I am currently honored to be advised by Professor Huichan Zhao at THU Soft Robot
 
 Robotics, Soft Actuation, intelligent control, simulation to reality. -->
 
-## Spare-time Hobbies
+### Spare-time Hobbies
 
 I am the principal Clarinet player in the [Tsinghua University Symphony Orchestra (TUSO)](https://www.arts.tsinghua.edu.cn/info/1084/1492.htm).
 I am also a main player of Xingjian College soccer team.
 
-## Misc
+### Misc
 
 **_Do Something Great._**
