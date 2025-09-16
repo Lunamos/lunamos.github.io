@@ -130,8 +130,3 @@ section .container {
     }
 
 }
-
-
-#home {
-    margin-top: 1.5rem !important; /* Bootstrap的 mt-5 大约是 3rem，你可以改成任何你想要的值 */
-}
