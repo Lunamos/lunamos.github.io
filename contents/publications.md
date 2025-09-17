@@ -30,7 +30,7 @@
         <strong>Enhancing Daily Life through an Interactive Desktop Robotics System</strong>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-            Yuhang Zheng<sup>&dagger;</sup>, <strong>Qiyao Wang</strong><sup>&dagger;</sup>, Chengliang Zhong, He Liang, Bo Liang, Zhengxiao Han, Yupeng
+            Yuhang Zheng<sup>&dagger;</sup>, <strong>Qiyao Wang</strong><sup>&dagger;</sup>, Chengliang Zhong*, He Liang, Bo Liang, Zhengxiao Han, Yupeng Zheng
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
         <em>CAAI International Conference on Artificial Intelligence (CICAI)</em>, 2023
