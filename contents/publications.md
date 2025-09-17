@@ -2,10 +2,10 @@
 
 <table>
   <tr>
-    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
+    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 1px;">
       <video src="static/assets/img/pub/2025architected.mp4" style="width: 100%;" />
     </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
+    <td style="vertical-align: top; padding-bottom: 1px;">
       <p>
         <strong>Architected Vacuum Driven Origami Structures via Direct Ink Writing of RTV Silicone</strong>
       </p>
@@ -22,10 +22,10 @@
   </tr>
 
   <tr>
-    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
+    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 1px;">
       <img src="static/assets/img/pub/2023enhancing.jpg" style="width: 100%;" />
     </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
+    <td style="vertical-align: top; padding-bottom: 1px;">
       <p>
         <strong>Enhancing Daily Life through an Interactive Desktop Robotics System</strong>
       </p>
