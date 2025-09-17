@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <video src="static/assets/img/pub/2025architected.mp4" style="width: 100%;" />
+    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
+      <video src="static/assets/img/pub/2025architected.mp4" autoplay loop muted style="width: 100%;" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">
@@ -22,7 +22,7 @@
   </tr>
 
   <tr>
-    <td width="192" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
+    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
       <img src="static/assets/img/pub/2023enhancing.jpg" style="width: 100%;" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
