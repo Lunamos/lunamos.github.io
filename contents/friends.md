@@ -5,8 +5,8 @@
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: flex-start; align-items: flex-start;">
 
   <!-- 第一个学生 -->
-  <div style="text-align: center; width: 180px;">
-    <a href="bingqi-huang.github.io">
+  <div style="text-align: center; width: 150px;">
+    <a href="https://bingqi-huang.github.io">
       <img 
         src="static/assets/img/friends/hbq.jpg" 
         alt="Bingqi Huang" 
@@ -14,7 +14,7 @@
       >
     </a>
     <p style="margin: 0;">
-      <a href="bingqi-huang.github.io" style="color: #4285F4; text-decoration: none;">Bingqi Huang</a>
+      <a href="https://bingqi-huang.github.io" style="color: #4285F4; text-decoration: none;">Bingqi Huang</a>
     </p>
   </div>
 
