@@ -1,7 +1,4 @@
-<!-- <h2>Group</h2>
-<p>PhD students:</p> -->
-
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: flex-start; align-items: flex-start;">
+<div style="display: flex; flex-wrap: wrap; gap: 50px; justify-content: center; align-items: flex-start;">
 
   <div style="text-align: center; width: 125px;">
     <a href="https://bingqi-huang.github.io">
