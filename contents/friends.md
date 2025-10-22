@@ -43,7 +43,7 @@
     <a href="https://mengchen-wang.github.io/">
       <img 
         src="static/assets/img/friends/wmc.jpg" 
-        alt="Zehao Jin" 
+        alt="Mengchen Wang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
     </a>
@@ -66,23 +66,10 @@
   </div>
 
   <div style="text-align: center; width: 125px;">
-    <a href="https://lunamos.github.io/">
-      <img 
-        src="static/assets/img/friends/jzh.jpg" 
-        alt="Zehao Jin" 
-        style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
-      >
-    </a>
-    <p style="margin: 0;">
-      <a href="https://lunamos.github.io/" style="color: #4285F4; text-decoration: none;">Zehao Jin</a>
-    </p>
-  </div>
-
-  <div style="text-align: center; width: 125px;">
     <a href="http://zilin-chen-22.github.io/zilinchen.github.io/">
       <img 
         src="static/assets/img/friends/czl.jpg" 
-        alt="Zehao Jin" 
+        alt="Zilin Chen" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
     </a>
