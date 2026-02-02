@@ -1,6 +1,27 @@
 
 
 <table>
+
+  <tr>
+    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
+      <video src="static/assets/img/pub/2026seesoil.mp4" autoplay loop muted style="width: 100%;" />
+    </td>
+    <td style="vertical-align: top; padding-bottom: 10px;">
+      <p style="margin-bottom: 1px;">
+        <strong>Seesoil: Mitigating Negative Emotions through a Desktop Robot for Oil Splash Incidents</strong>
+      </p>
+      <p style="margin-top: 1px; margin-bottom: 1px;">
+        Weijie Qin<sup>&dagger;</sup>, <strong>Qiyao Wang</strong><sup>&dagger;</sup>, Bingcen Gong<sup>&dagger;</sup>, Yijia Luo<sup>&dagger;</sup>
+      </p>
+      <p style="margin-top: 1px; margin-bottom: 1px;">
+        <em>ACM/IEEE International Conference on Human-Robot Interaction (HRI)</em>, Student Design Challenge (SDC), 2026.
+      </p>
+      <p style="margin-top: 1px; margin-bottom: 1px;"> (in press)
+        <!-- <a href="https://ieeexplore.ieee.org/abstract/document/11204509">[paper]</a> <a href="https://ieeexplore.ieee.org/abstract/document/11204509/media#media">[video]</a> -->
+      </p>
+    </td>
+  </tr>
+
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
       <img src="static/assets/img/pub/2025equimus.jpg" style="width: 100%;" />
