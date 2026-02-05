@@ -4,7 +4,7 @@
 
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/flygm.jpg" style="width: 100%;" />
+      <img src="static/assets/img/pub/flygm.jpg" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">
@@ -24,7 +24,7 @@
 
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/sopmaze.jpg" style="width: 100%;" />
+      <img src="static/assets/img/pub/sopmaze.jpg" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">
@@ -44,7 +44,7 @@
 
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/cosyne2026.jpg" style="width: 100%;" />
+      <img src="static/assets/img/pub/cosyne2026.jpg" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">

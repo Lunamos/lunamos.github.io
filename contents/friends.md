@@ -14,67 +14,15 @@
   </div>
 
   <div style="text-align: center; width: 125px;">
-    <a href="https://timzsu.github.io/">
+    <a href="https://king-bridge.github.io/">
       <img 
-        src="static/assets/img/friends/szy.jpg" 
-        alt="Zhengyuan Su" 
+        src="static/assets/img/friends/wqy.jpg" 
+        alt="Qiyao Wang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
     </a>
     <p style="margin: 0;">
-      <a href="https://timzsu.github.io/" style="color: #4285F4; text-decoration: none;">Zhengyuan Su</a>
-    </p>
-  </div>
-
-  <div style="text-align: center; width: 125px;">
-    <a href="https://fly-pigth.github.io/">
-      <img 
-        src="static/assets/img/friends/zyl.jpg" 
-        alt="Yinglei Zhu" 
-        style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
-      >
-    </a>
-    <p style="margin: 0;">
-      <a href="https://fly-pigth.github.io/" style="color: #4285F4; text-decoration: none;">Yinglei Zhu</a>
-    </p>
-  </div>
-
-  <div style="text-align: center; width: 125px;">
-    <a href="https://mengchen-wang.github.io/">
-      <img 
-        src="static/assets/img/friends/wmc.jpg" 
-        alt="Mengchen Wang" 
-        style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
-      >
-    </a>
-    <p style="margin: 0;">
-      <a href="https://mengchen-wang.github.io/" style="color: #4285F4; text-decoration: none;">Mengchen Wang</a>
-    </p>
-  </div>
-
-  <div style="text-align: center; width: 125px;">
-    <a href="https://lunamos.github.io/">
-      <img 
-        src="static/assets/img/friends/jzh.jpg" 
-        alt="Zehao Jin" 
-        style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
-      >
-    </a>
-    <p style="margin: 0;">
-      <a href="https://lunamos.github.io/" style="color: #4285F4; text-decoration: none;">Zehao Jin</a>
-    </p>
-  </div>
-
-  <div style="text-align: center; width: 125px;">
-    <a href="http://zilin-chen-22.github.io/zilinchen.github.io/">
-      <img 
-        src="static/assets/img/friends/czl.jpg" 
-        alt="Zilin Chen" 
-        style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
-      >
-    </a>
-    <p style="margin: 0;">
-      <a href="http://zilin-chen-22.github.io/zilinchen.github.io/" style="color: #4285F4; text-decoration: none;">Zilin Chen</a>
+      <a href="https://king-bridge.github.io/" style="color: #4285F4; text-decoration: none;">Qiyao Wang</a>
     </p>
   </div>
 
