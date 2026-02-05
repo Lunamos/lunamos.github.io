@@ -14,7 +14,7 @@
         <strong>Zehao Jin</strong>*, Yaoye Zhu, Chen Zhang, Yanan Sui
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>Cosyne 2026 Poster</em>
+        <em>Cosyne 2026 (Main Meeting) Poster</em>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
         <a href="https://sites.google.com/view/flygm">[project page]</a>
@@ -43,7 +43,7 @@
   </tr>
 
 
-  <tr>
+  <!-- <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
       <img src="static/assets/img/pub/flygm.png" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
@@ -61,6 +61,6 @@
         <a href="https://neurips.cc/virtual/2025/loc/san-diego/131402">[paper]</a>
       </p>
     </td>
-  </tr>
+  </tr> -->
 
 </table>
