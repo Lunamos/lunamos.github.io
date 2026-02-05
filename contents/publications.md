@@ -4,17 +4,17 @@
 
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/flygm.png" style="width: 100%;" onerror="this.style.display='none'" />
+      <img src="static/assets/img/pub/cosyne2026.png" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">
-        <strong>Whole-Brain Connectomic Graph Neural Networks Enable Whole-Body Locomotion Control in Drosophila</strong>
+        <strong>Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</strong>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <strong>Zehao Jin</strong>*, Yanan Sui
+        <strong>Zehao Jin</strong>*, Yaoye Zhu, Chen Zhang, Yanan Sui
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>NeurIPS 2025 Workshop Poster</em>
+        <em>Cosyne 2026 Poster</em>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
         <a href="https://sites.google.com/view/flygm">[project page]</a>
@@ -42,22 +42,23 @@
     </td>
   </tr>
 
+
   <tr>
     <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/cosyne2026.png" style="width: 100%;" onerror="this.style.display='none'" />
+      <img src="static/assets/img/pub/flygm.png" style="width: 100%;" onerror="this.style.display='none'" />
     </td>
     <td style="vertical-align: top; padding-bottom: 10px;">
       <p style="margin-bottom: 1px;">
-        <strong>Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</strong>
+        <strong>Whole-Brain Connectomic Graph Neural Networks Enable Whole-Body Locomotion Control in Drosophila</strong>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <strong>Zehao Jin</strong>*, Yaoye Zhu, Chen Zhang, Yanan Sui
+        <strong>Zehao Jin</strong>*, Yanan Sui
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>Cosyne 2026 Poster</em>
+        <em>NeurIPS 2025 Workshop Poster</em>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://sites.google.com/view/flygm">[project page]</a>
+        <a href="https://neurips.cc/virtual/2025/loc/san-diego/131402">[paper]</a>
       </p>
     </td>
   </tr>

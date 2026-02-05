@@ -17,12 +17,13 @@ Atlanta, Georgia, US
 
 ### Research
 
-My research interests lie at the intersection of **Neuroscience** and **Artificial Intelligence**. I am fascinated by understanding how biological neural systems work and leveraging these insights to build more intelligent AI systems.
+My research interests lie at the intersection of **Artificial Intelligence** and **Neuroscience**. I am fascinated by understanding how biological neural systems work and leveraging these insights to build more intelligent AI systems.
 
-**Current Research Focus:**
-- **Connectomics & Neural Control**: Developing brain-inspired controllers using whole-brain connectome data (flyGM project)
-- **Large Language Models**: Evaluating and improving LLM performance on complex reasoning tasks (SOP-Maze benchmark)
-- **Vision-Language Models**: Researching agentic strategies for multimodal AI systems
+**Research Interests:**
+- **Efficient High-Performance LLMs**: Building scalable and efficient large language models, potentially inspired by principles from neuroscience
+- **AI and Neuroscience**: Exploring the synergy between artificial intelligence and biological neural systems
+- **Vision-Language Models**: Developing multimodal AI systems including Vision-Language Models (VLM) and Vision-Language-Action models (VLA)
+
 
 ### Professional Experience
 
@@ -32,10 +33,10 @@ My research interests lie at the intersection of **Neuroscience** and **Artifici
   - Designed benchmarking pipelines for production-ready VLM/VLA evaluation
 
 - **Infplane AI** (Jun 2024 - Jun 2025)
-  - Cofounder & Machine Learning Engineer, Beijing, China
+  - Cofounder, Beijing, China
   - Pre-trained and finetuned LLMs using Megatron-LM and NVIDIA NeMo Framework
   - Developed automated hyperparameter optimization algorithms for LLM training
 
 ### Misc
 
-**_Bridging the gap between biological and artificial intelligence._**
+**_Understand Intelligence, Create Intelligence._**
