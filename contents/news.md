@@ -8,7 +8,7 @@ Started M.S. program in Computational Science and Engineering at Georgia Institu
 
 #### Dec, 2025
 
-Our paper [Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila](https://sites.google.com/view/flygm) is accepted as a **Cosyne 2026 (Main Meeting) Poster**.
+Our paper [Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila](https://sites.google.com/view/connectome-motion/connectome-motion) is accepted as a **Cosyne 2026 (Main Meeting) Poster**.
 
 #### Sep, 2025
 

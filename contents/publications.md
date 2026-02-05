@@ -17,7 +17,7 @@
         <em>Cosyne 2026 (Main Meeting) Poster</em>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://sites.google.com/view/flygm">[project page]</a>
+        <a href="https://sites.google.com/view/connectome-motion/connectome-motion">[project page]</a>
       </p>
     </td>
   </tr>

@@ -5,25 +5,15 @@ Atlanta, Georgia, US
 
 \[ [Email](mailto:lunamos.thu@gmail.com) | [Github](https://github.com/lunamos) \]
 
-### Short Bio
+### About Me
 
-- M.S. Student @ [Computational Science and Engineering](https://cse.gatech.edu/), Georgia Institute of Technology. (2026.01 - Present)
+Hi! I am a first-year M.S. student in [Computational Science and Engineering](https://cse.gatech.edu/) at Georgia Institute of Technology. Prior to Georgia Tech, I earned my Bachelor's degree from [Xingjian College](https://www.xjc.tsinghua.edu.cn/), Tsinghua University in 2025, where I was advised by [Prof. Yanan Sui](https://yanansui.com) at [LNS Group](https://lnsgroup.cc).
 
-- B.S. @ [Xingjian College, Tsinghua University](https://www.xjc.tsinghua.edu.cn/). (2021.09 - 2025.07)
+My research interests lie at the intersection of **Artificial Intelligence** and **Neuroscience**. I am fascinated by understanding how biological neural systems work and leveraging these insights to build more intelligent AI systems. Specifically, I am interested in:
 
-  - Major in Mechanics & Aerospace Engineering.
-  - GPA 3.77 / 4.00.
-  - Relevant Coursework: Pattern Recognition and Machine Learning, Data Structures and Algorithm, Human Factors Engineering and AI, Probability and Statistics, etc.
-
-### Research
-
-My research interests lie at the intersection of **Artificial Intelligence** and **Neuroscience**. I am fascinated by understanding how biological neural systems work and leveraging these insights to build more intelligent AI systems.
-
-**Research Interests:**
 - **Efficient High-Performance LLMs**: Building scalable and efficient large language models, potentially inspired by principles from neuroscience
 - **AI and Neuroscience**: Exploring the synergy between artificial intelligence and biological neural systems
 - **Vision-Language Models**: Developing multimodal AI systems including Vision-Language Models (VLM) and Vision-Language-Action models (VLA)
-
 
 ### Professional Experience
 
