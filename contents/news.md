@@ -1,28 +1,28 @@
 
-#### June, 2025
+#### Jan, 2026
 
-Our paper [Architected Vacuum Driven Origami Structures via Direct Ink Writing of RTV Silicone](https://ieeexplore.ieee.org/document/11091466) is accepted to *Robotics and Automation Letter*.
+Started M.S. program in Computational Science and Engineering at Georgia Institute of Technology!
 
-#### Sept, 2024
+#### Dec, 2025
 
-I reveived and accept the Ph.D offer by Prof. Huichan Zhao, THU Soft Robotics Research Group, Tsinghua University!
+Completed ML research internship at Keeta (Meituan) LongCat LLM Team.
 
-#### Aug, 2024
+#### Nov, 2025
 
-I had wonderful research internship at [Bio-inspired Robotics and Design Lab, SUTD](https://brd.sutd.edu.sg/) advised by [Prof. Pablo Valdivia y Alvarado](https://scholar.google.com/citations?user=SC6uXT4AAAAJ&hl=en&oi=ao) during the summer of 2024.
+Our paper "Whole-Brain Connectomic Graph Neural Networks Enable Whole-Body Locomotion Control in Drosophila" is accepted as a **NeurIPS 2025 Workshop Poster**.
 
-#### Jul, 2023
+#### Oct, 2025
 
-The demo of our paper "Enhancing Daily Life through an Interactive Desktop Robotics System" won the **Best Demo Award** at *CICAI 2023*.
+Our paper [SOP-Maze: Evaluating Large Language Models on Complicated Business Standard Operating Procedures](https://arxiv.org/abs/2510.08942) is submitted to *ACL 2026*.
 
-#### Jul, 2023
+#### Jan, 2026
 
-Our paper [Enhancing Daily Life through an Interactive Desktop Robotics System](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_8) (also my first paper) is accepted to *CICAI 2023*.
+Our paper "Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila" is accepted as a **Cosyne 2026 Poster**.
 
-#### Jul, 2023
+#### Jun, 2024
 
-Our team (TH-MOS) won the 4th Place in [RoboCup 2023 Humanoid League](https://2023.robocup.org/en/home/).
+Joined **Infplane AI** as Cofounder & Machine Learning Engineer.
 
-#### Jun, 2023
+#### May, 2023
 
-Our team (Discover-Lab) won the 1st Place in [ICRA Preparation and dish Up of an English Breakfast with Robots (PUB.R)](https://lcas.lincoln.ac.uk/wp/events/the-pub-r-competition/) competition.
+Our team became **Finalist** in Interdisciplinary Contest in Modeling (ICM), top 2% teams worldwide.
