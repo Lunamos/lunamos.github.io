@@ -29,7 +29,7 @@
   <div style="text-align: center; width: 125px;">
     <a href="https://nove1yst.github.io">
       <img 
-        src="static/assets/img/friends/wjr.jpg" 
+        src="static/assets/img/friends/wjr.png" 
         alt="Junran Wang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
