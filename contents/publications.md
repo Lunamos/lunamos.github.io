@@ -58,7 +58,7 @@
         Jiaming Wang*, Zhe Tang*, <strong>Zehao Jin</strong>*, Hefei Chen*, Yilin Jin*, Peng Ding*, Xiaoyu Li, Xuezhi Cao
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>Under review at ACL 2026</em>
+        <em> ACL Findings 2026</em>
       </p>
       <p style="margin-top: 1px; margin-bottom: 1px;">
         <a href="https://arxiv.org/abs/2510.08942">[paper]</a>
