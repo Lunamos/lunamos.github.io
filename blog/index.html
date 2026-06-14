@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="page-title">Blog · Zehao Jin</title>
+  <meta name="description" id="meta-desc" content="Essays and notes by Zehao Jin (金泽昊) — on AI, neuroscience, literature, and life. Bilingual: English / 中文." />
+  <link rel="canonical" href="https://lunamos.github.io/blog/" />
+  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Blog · Zehao Jin (金泽昊)" />
+  <meta property="og:description" content="Essays and notes on AI, neuroscience, literature, and life. Bilingual EN / 中文." />
+  <meta property="og:url" content="https://lunamos.github.io/blog/" />
+
+  <link rel="stylesheet" href="/static/css/blog.css" />
+
+  <!-- Google Analytics (shared with the main site) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RTHNRCWR2');
+  </script>
+</head>
+<body class="blog">
+  <header class="blog-header">
+    <div class="wrap">
+      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
+      <nav class="blog-nav">
+        <a href="/">Homepage</a>
+        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <div class="list-hero">
+      <h1 id="hero-title"><span class="accent">Writing</span></h1>
+      <p id="hero-sub"></p>
+    </div>
+
+    <div id="list" class="post-list">
+      <div class="loading"><div class="spinner"></div><span id="loading-text">Loading…</span></div>
+    </div>
+
+    <nav class="pagination" id="pagination" aria-label="Pagination"></nav>
+  </main>
+
+  <footer class="blog-footer">
+    <div id="footer-copy">© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
+  </footer>
+
+  <script src="/static/js/blog-i18n.js"></script>
+  <script src="/static/js/blog-list.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 const content_dir = 'contents/'
 const config_file = 'config.yml'
-const section_names = ['home', 'news', 'publications', 'awards', 'friends']
+const section_names = ['home', 'news', 'experience', 'publications', 'awards', 'friends']
 
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -47,19 +47,28 @@ window.addEventListener('DOMContentLoaded', event => {
         .catch(error => console.log(error));
 
 
-    // Marked
+    // Marked — load all sections, then typeset math ONCE (not per-section)
     marked.use({ mangle: false, headerIds: false })
-    section_names.forEach((name, idx) => {
+    Promise.all(section_names.map(name =>
         fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
-                const html = marked.parse(markdown);
-                document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
-                // MathJax
-                MathJax.typeset();
+                const el = document.getElementById(name + '-md');
+                if (el) el.innerHTML = marked.parse(markdown);
             })
-            .catch(error => console.log(error));
-    })
+            .catch(error => console.log(error))
+    )).then(() => {
+        // Progressive (blur-up) loading for any opt-in <img class="prog"> in content.
+        if (window.ProgImg) window.ProgImg.enhance(document);
+        // Typeset math a single time; wait for MathJax if it is still loading.
+        const doTypeset = () => { try { MathJax.typeset(); } catch (e) { } };
+        if (window.MathJax) {
+            if (MathJax.startup && MathJax.startup.promise) {
+                MathJax.startup.promise.then(doTypeset);
+            } else if (typeof MathJax.typeset === 'function') {
+                doTypeset();
+            }
+        }
+    });
 
 }); 

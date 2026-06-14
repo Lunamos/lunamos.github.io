@@ -2,8 +2,7 @@
 
   <div style="text-align: center; width: 125px;">
     <a href="https://bingqi-huang.github.io">
-      <img 
-        src="static/assets/img/friends/hbq.jpg" 
+      <img loading="lazy" decoding="async" src="static/assets/img/friends/hbq.jpg" 
         alt="Bingqi Huang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
@@ -15,8 +14,7 @@
 
   <div style="text-align: center; width: 125px;">
     <a href="https://king-bridge.github.io/">
-      <img 
-        src="static/assets/img/friends/wqy.jpg" 
+      <img loading="lazy" decoding="async" src="static/assets/img/friends/wqy.jpg" 
         alt="Qiyao Wang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >
@@ -28,8 +26,7 @@
 
   <div style="text-align: center; width: 125px;">
     <a href="https://nove1yst.github.io">
-      <img 
-        src="static/assets/img/friends/wjr.png" 
+      <img loading="lazy" decoding="async" src="static/assets/img/friends/wjr.png" 
         alt="Junran Wang" 
         style="width: 100%; aspect-ratio: 1/1; border-radius: 15px; object-fit: cover; margin-bottom: 8px;"
       >

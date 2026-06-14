@@ -1,90 +1,123 @@
-<table>
-  <tr>
-    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/sa.png" style="width: 100%;" onerror="this.style.display='none'" />
-    </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
-      <p style="margin-bottom: 1px;">
-        <strong>Stochastic Attention: Connectome-Inspired Randomized Routing for Expressive Linear-Time Attention</strong>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <strong>Zehao Jin</strong>, Yanan Sui
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>Preprint</em>
-      </p>
-      </p>
-         <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://arxiv.org/abs/2604.00754">[paper]</a>
-      </p>
-    </td>
-  </tr>
+<p style="color:#6b7280;font-size:.9rem;margin:-.3rem 0 .2rem;"><i class="bi bi-asterisk" style="font-size:.7rem;"></i> denotes equal contribution.</p>
 
-  <tr>
-    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/cosyne2026.png" style="width: 100%;" onerror="this.style.display='none'" />
-    </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
-      <p style="margin-bottom: 1px;">
-        <strong>Whole-Brain Connectomic Graph Model Enables Whole-Body Locomotion Control in Fruit Fly</strong>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <strong>Zehao Jin</strong>*, Yaoye Zhu, Chen Zhang, Yanan Sui
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>Cosyne 2026 (Main Meeting) Poster</em>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://lnsgroup.cc/research/FlyGM/">[project page]</a>
-      </p>
-         <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://arxiv.org/abs/2602.17997">[paper]</a>
-      </p>
-       <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://youtu.be/XVP8RdXqyGw">[YouTube]</a>
-      </p>
-    </td>
-  </tr>
+<div class="pub-list">
 
-  <tr>
-    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/sopmaze.png" style="width: 100%;" onerror="this.style.display='none'" />
-    </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
-      <p style="margin-bottom: 1px;">
-        <strong>SOP-Maze: Evaluating Large Language Models on Complicated Business Standard Operating Procedures</strong>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        Jiaming Wang*, Zhe Tang*, <strong>Zehao Jin</strong>*, Hefei Chen*, Yilin Jin*, Peng Ding*, Xiaoyu Li, Xuezhi Cao
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em> ACL Findings 2026</em>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://arxiv.org/abs/2510.08942">[paper]</a>
-      </p>
-    </td>
-  </tr>
+  <div class="pub">
+    <a class="pub-thumb" href="https://flas-ai.github.io" target="_blank" rel="noopener">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/flas.png" alt="FLAS overview" />
+    </a>
+    <div class="pub-info">
+      <p class="pub-title">Beyond Steering Vector: Flow-based Activation Steering for Inference-Time Intervention</p>
+      <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Ruixuan Deng*, Junran Wang*, Xinjie Shen, Chao Zhang</p>
+      <div class="pub-meta">
+        <span class="badge-venue">ICML 2026 MechInterp Workshop · Poster</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://flas-ai.github.io"><i class="bi bi-globe"></i>Project</a>
+        <a href="https://arxiv.org/abs/2605.05892"><i class="bi bi-file-earmark-text"></i>Paper</a>
+        <a href="https://github.com/flas-ai/FLAS"><i class="bi bi-github"></i>Code</a>
+        <a href="https://huggingface.co/spaces/Lunamos/flas-demo"><i class="bi bi-robot"></i>Demo</a>
+      </div>
+    </div>
+  </div>
 
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/sae_scaffold.svg" alt="Computational scaffold in SAEs" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Decompose Sparsely Where You Should, Absorb Densely Where You Should Not</p>
+      <p class="pub-authors">Ruixuan Deng, <span class="author-me">Zehao Jin</span>, Zekun Wang, Zihan Dong</p>
+      <div class="pub-meta">
+        <span class="badge-venue">ICML 2026 MechInterp Workshop</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://icml.cc/virtual/2026"><i class="bi bi-file-earmark-text"></i>Workshop paper</a>
+      </div>
+    </div>
+  </div>
 
-  <!-- <tr>
-    <td width="200" style="vertical-align: top; padding-right: 20px; padding-bottom: 10px;">
-      <img src="static/assets/img/pub/flygm.png" style="width: 100%;" onerror="this.style.display='none'" />
-    </td>
-    <td style="vertical-align: top; padding-bottom: 10px;">
-      <p style="margin-bottom: 1px;">
-        <strong>Whole-Brain Connectomic Graph Neural Networks Enable Whole-Body Locomotion Control in Drosophila</strong>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <strong>Zehao Jin</strong>*, Yanan Sui
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <em>NeurIPS 2025 Workshop Poster</em>
-      </p>
-      <p style="margin-top: 1px; margin-bottom: 1px;">
-        <a href="https://neurips.cc/virtual/2025/loc/san-diego/131402">[paper]</a>
-      </p>
-    </td>
-  </tr> -->
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/connectome_llm.svg" alt="Connectome of a large language model" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">The Connectome of a Large Language Model</p>
+      <p class="pub-authors">Ruixuan Deng, <span class="author-me">Zehao Jin</span></p>
+      <div class="pub-meta">
+        <span class="badge-venue violet">ICML 2026 MechInterp Workshop</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://icml.cc/virtual/2026"><i class="bi bi-file-earmark-text"></i>Workshop paper</a>
+      </div>
+    </div>
+  </div>
 
-</table>
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/sa.png" alt="Stochastic Attention" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Stochastic Attention: Connectome-Inspired Randomized Routing for Expressive Linear-Time Attention</p>
+      <p class="pub-authors"><span class="author-me">Zehao Jin</span>, Yanan Sui</p>
+      <div class="pub-meta">
+        <span class="badge-venue gray">Preprint · Under review</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2604.00754"><i class="bi bi-file-earmark-text"></i>Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/immersed_privacy.svg" alt="VLM privacy in the physical world" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</p>
+      <p class="pub-authors">Junran Wang*, Xinjie Shen*, <span class="author-me">Zehao Jin</span>*, Pan Li</p>
+      <div class="pub-meta">
+        <span class="badge-venue teal">ICML 2026 Workshop AIWILD</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2605.05340"><i class="bi bi-file-earmark-text"></i>Paper</a>
+        <a href="https://github.com/immersed-privacy/immersed-privacy"><i class="bi bi-github"></i>Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/sopmaze.png" alt="SOP-Maze" onerror="this.src='static/assets/img/pub/sae_scaffold.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">SOP-Maze: Evaluating Large Language Models on Complicated Business Standard Operating Procedures</p>
+      <p class="pub-authors">Jiaming Wang*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Hefei Chen*, Yilin Jin*, Peng Ding*, Xiaoyu Li, Xuezhi Cao</p>
+      <div class="pub-meta">
+        <span class="badge-venue green">ACL Findings 2026</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.08942"><i class="bi bi-file-earmark-text"></i>Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/cosyne2026.png" alt="Drosophila connectome model" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</p>
+      <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Yaoye Zhu, Chen Zhang, Yanan Sui</p>
+      <div class="pub-meta">
+        <span class="badge-venue amber">Cosyne 2026 · Poster</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://lnsgroup.cc/research/FlyGM/"><i class="bi bi-globe"></i>Project</a>
+        <a href="https://arxiv.org/abs/2602.17997"><i class="bi bi-file-earmark-text"></i>Paper</a>
+        <a href="https://youtu.be/XVP8RdXqyGw"><i class="bi bi-youtube"></i>Video</a>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,96 @@
+{
+  "_comment": "Blog manifest. DATES ARE PLACEHOLDERS pending the author's real publish dates (edit the 'date' fields, format YYYY-MM-DD; the listing sorts newest-first automatically). Each post has slug.cn.md and slug.en.md in this folder.",
+  "posts": [
+    {
+      "slug": "flas",
+      "date": "2025-05-20",
+      "title": { "cn": "如何给语言模型植入「思想钢印」？｜可解释性 SP1", "en": "How Do You Plant a \"Thought Seal\" Into a Language Model? | Interpretability SP1" },
+      "summary": { "cn": "介绍 FLAS，一种基于流的激活引导方法：无需额外训练、不损害模型能力，就能以任意强度向回复中植入任意概念，并借《三体》的「思想钢印」展示其效果与安全隐患。", "en": "An introduction to FLAS, a flow-based activation steering method that plants any concept into a model's replies at any strength, with no extra training and no loss of ability, framed through the \"thought seal\" from The Three-Body Problem." },
+      "tags": { "cn": ["可解释性", "激活引导", "AI 安全", "大语言模型"], "en": ["Interpretability", "Activation Steering", "AI Safety", "LLMs"] }
+    },
+    {
+      "slug": "analog-and-digital",
+      "date": "2024-12-15",
+      "title": { "cn": "重新认识世界（二）：Analog & Digital", "en": "Re-Understanding the World (II): Analog & Digital" },
+      "summary": { "cn": "从黑胶唱片到移动支付，从图灵机到观云看天，借 Analog 与 Digital 的区分重新打量我们所栖居的世界，以及数字界对感受与言辞界的悄然僭越。", "en": "From vinyl records to mobile payments, from the Turing machine to watching clouds drift by, a long meditation on the line between Analog and Digital, and on how the digital realm quietly encroaches on the realm of feeling and speech." },
+      "tags": { "cn": ["哲学", "认知", "数字化", "随笔"], "en": ["Philosophy", "Cognition", "Digitalization", "Essay"] }
+    },
+    {
+      "slug": "three-realms",
+      "date": "2024-11-15",
+      "title": { "cn": "重新认识世界（一）：实在界 · 象征界 · 想象界", "en": "Re-understanding the World (I): The Real, the Symbolic, the Imaginary" },
+      "summary": { "cn": "借拉康与齐泽克的三界理论，重新审视我们如何认识自我与世界：从镜中的误认，到符号搭起的舞台，再到那个永远无法被言说的混沌真实。这是「重新认识世界」系列的第一篇。", "en": "Using Lacan and Žižek's three orders, a walk through how we come to know ourselves and the world: from the misrecognition in the mirror, to the stage built out of signs, to the chaotic Real that can never be put into words. Part one of the Re-understanding the World series." },
+      "tags": { "cn": ["哲学", "拉康", "齐泽克", "科学哲学"], "en": ["Philosophy", "Lacan", "Žižek", "Philosophy of Science"] }
+    },
+    {
+      "slug": "sense-and-reason",
+      "date": "2024-10-15",
+      "title": { "cn": "意识探秘 EP1：谈谈感性与理性", "en": "The Quest for Consciousness, EP1: On Sensibility and Reason" },
+      "summary": { "cn": "从《银河系搭车客指南》到哥德尔、达马西奥与卡尔·萨根，一篇追问情绪与理智究竟是什么的随笔——结论是：情绪是一阶理性，理智是自涉感性。", "en": "An essay that runs from The Hitchhiker's Guide to Gödel, Damasio, and Carl Sagan to ask what emotion and reason really are. The claim it lands on: emotion is first-order reason, and reason is self-referential emotion." },
+      "tags": { "cn": ["随笔", "意识", "认知科学", "哲学"], "en": ["Essay", "Consciousness", "Cognitive Science", "Philosophy"] }
+    },
+    {
+      "slug": "cognitive-science",
+      "date": "2024-09-15",
+      "title": { "cn": "认知科学 EP1：什么是认知科学？", "en": "Cognitive Science EP1: What Is Cognitive Science?" },
+      "summary": { "cn": "认知科学系列的开篇。从哲学、心理学、语言学到神经科学，六大学科为何会汇成一门年轻的交叉学科，又为何作者相信 21 世纪一定属于它。", "en": "The opening essay of a cognitive science series. How philosophy, psychology, linguistics, anthropology, computer science, and neuroscience converged into one young cross-disciplinary field, and why the author is convinced the 21st century belongs to it." },
+      "tags": { "cn": ["认知科学", "随笔", "跨学科", "科学"], "en": ["Cognitive Science", "Essay", "Interdisciplinary", "Science"] }
+    },
+    {
+      "slug": "coffee-whisky",
+      "date": "2024-08-15",
+      "title": { "cn": "咖啡、威士忌与风味轮", "en": "Coffee, Whisky, and the Flavor Wheel" },
+      "summary": { "cn": "从一杯耶加雪菲和一杯泰斯卡10年说起，借风味轮、中国红与味精的故事，聊聊语言如何捕捉感官，以及为什么我们要培养并守护自己的「感受力」。", "en": "Starting from a cup of Yirgacheffe and a glass of Talisker 10, this essay wanders through flavor wheels, the many shades of \"China red,\" and the story of MSG to ask how language reaches for the senses, and why our capacity to feel is worth cultivating and protecting." },
+      "tags": { "cn": ["随笔", "咖啡", "威士忌", "感受力"], "en": ["Essay", "Coffee", "Whisky", "Sensitivity"] }
+    },
+    {
+      "slug": "three-writers",
+      "date": "2024-07-15",
+      "title": { "cn": "塞万提斯 博尔赫斯 卡尔维诺", "en": "Cervantes, Borges, Calvino" },
+      "summary": { "cn": "从堂·吉诃德的元小说，到博尔赫斯笔下的皮埃尔·梅纳尔，再到卡尔维诺《如果在冬夜，一个旅人》，一个「独立爱好者」追寻三位作家之间那条隐秘的「超链接」，并以超文本、海德格尔的「意义之网」与北岛的一字诗收束。", "en": "From the metafiction of Don Quixote, to Borges's Pierre Menard, to Calvino's If on a winter's night a traveler, one self-described lover of all things independent traces the hidden hyperlink running between three writers, then ties it to hypertext, Heidegger's web of meaning, and a one-character poem by Bei Dao." },
+      "tags": { "cn": ["文学", "先锋文学", "元小说", "超文本"], "en": ["Literature", "Avant-garde", "Metafiction", "Hypertext"] }
+    },
+    {
+      "slug": "the-creator",
+      "date": "2024-06-15",
+      "title": { "cn": "创作者", "en": "The Creator" },
+      "summary": { "cn": "创作究竟是为了什么？这篇随笔把它拆成三层：为自己、为读者、为作品，并坦诚地追问，当它们彼此冲突时又该如何取舍。", "en": "What does it really mean to create? This essay takes the question apart into three layers, writing for yourself, for the reader, and for the work, and asks honestly what to do when the three pull against one another." },
+      "tags": { "cn": ["随笔", "写作", "创作", "媒介"], "en": ["Essay", "Writing", "Creativity", "Media"] }
+    },
+    {
+      "slug": "cover-the-canvas",
+      "date": "2024-05-15",
+      "title": { "cn": "填满画布", "en": "Cover the Canvas" },
+      "summary": { "cn": "初稿为什么最难？史蒂文·普雷斯菲尔德把写初稿比作马蒂斯将军挺进巴格达：速度就是一切，遇到阻力就绕开，先把画布填满，细节留到以后。", "en": "Why is the first draft the hardest one? Steven Pressfield likens writing it to General Mattis advancing on Baghdad: speed is everything, go around the resistance, and just cover the canvas. The fixing comes later." },
+      "tags": { "cn": ["随笔", "写作", "创作", "拖延"], "en": ["Essay", "Writing", "Creativity", "Procrastination"] }
+    },
+    {
+      "slug": "against-metafiction",
+      "date": "2024-04-15",
+      "title": { "cn": "不要尝试元文学创作", "en": "Please Stop Trying to Write Metafiction" },
+      "summary": { "cn": "一篇关于自身的文章：作者一边劝读者去阻止他写元文学，一边大摇大摆地写了出来，还顺手抄了卡尔维诺和莱姆，再亲自跳出来指认并嘲弄自己。一场文字上的行为艺术。", "en": "An essay that talks about itself: the writer begs you to go stop him from writing metafiction while brazenly writing it anyway, lifting a passage from Calvino and a line from Lem, then stepping out to catch and mock himself. A small piece of performance art made of words." },
+      "tags": { "cn": ["随笔", "元文学", "后现代", "文学批评"], "en": ["Essay", "Metafiction", "Postmodernism", "Literary criticism"] }
+    },
+    {
+      "slug": "patience-for-boredom",
+      "date": "2024-03-15",
+      "title": { "cn": "给「无聊」多一点耐心", "en": "A Little More Patience for Boredom" },
+      "summary": { "cn": "借韩炳哲《倦怠社会》聊聊「无聊」与「倦怠」的分别：当我们把散步、读书、娱乐都变成为未来做准备的手段，反而失去了它们；放慢脚步、忍受深度的无聊，或许才是创造力与内心富足的真正源头。", "en": "Borrowing from Byung-Chul Han's The Burnout Society to tease apart boredom and burnout: when we turn walking, reading, and play into ways of preparing for the future, we lose them. Sitting with a deep, aimless boredom may be where creativity and a fuller inner life actually begin." },
+      "tags": { "cn": ["随笔", "哲学", "韩炳哲", "自我成长"], "en": ["Essay", "Philosophy", "Byung-Chul Han", "Self-growth"] }
+    },
+    {
+      "slug": "when-hope-fades",
+      "date": "2024-02-15",
+      "title": { "cn": "当希望破灭时，行动就开始了", "en": "When Hope Fades, Action Begins" },
+      "summary": { "cn": "为什么「希望」可能是一种诅咒？从潘多拉的盒子讲到环保主义者的绝望，重新审视希望、无能为力，以及失去希望之后真正的行动。", "en": "What if hope is the curse that keeps us from acting? Starting with Pandora's box and the despair of environmentalists, a rethinking of hope, helplessness, and the kind of action that only begins once hope is gone." },
+      "tags": { "cn": ["随笔", "希望", "行动主义", "社会议题"], "en": ["Essay", "Hope", "Activism", "Society"] }
+    },
+    {
+      "slug": "after-the-machine-shop",
+      "date": "2024-01-15",
+      "title": { "cn": "写在金工实习之后", "en": "After the Machine Shop" },
+      "summary": { "cn": "十几天的金工实习，从车工、钳工到智能制造，让我第一次勉强看清了整个工业世界的全貌，也治好了我对现代世界的那份无知带来的不安。", "en": "Ten-odd days of a metalworking practicum, from lathes and bench work to smart manufacturing, finally let me glimpse how the whole industrial world hangs together, and quieted my unease about how little I understood the things I use every day." },
+      "tags": { "cn": ["随笔", "认知", "工业制造", "科技"], "en": ["Essay", "Understanding", "Manufacturing", "Technology"] }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="page-title">Zehao Jin · Blog</title>
+  <meta name="description" id="meta-desc" content="" />
+  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" id="og-title" content="" />
+  <meta property="og:description" id="og-desc" content="" />
+
+  <link rel="stylesheet" href="/static/css/blog.css" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RTHNRCWR2');
+  </script>
+</head>
+<body class="blog">
+  <header class="blog-header">
+    <div class="wrap">
+      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
+      <nav class="blog-nav">
+        <a href="/blog/" id="nav-all">All posts</a>
+        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <article id="article">
+      <div class="loading"><div class="spinner"></div><span id="loading-text">Loading…</span></div>
+    </article>
+  </main>
+
+  <footer class="blog-footer">
+    <div>© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
+  </footer>
+
+  <script>
+    MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }, svg: { fontCache: 'global' } };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script src="/static/js/marked.min.js"></script>
+  <script src="/static/js/blog-i18n.js"></script>
+  <script src="/static/js/img-progressive.js"></script>
+  <script src="/static/js/blog-post.js"></script>
+</body>
+</html>
