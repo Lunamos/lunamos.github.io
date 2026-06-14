@@ -16,9 +16,14 @@
   </div>
 
   <div class="tl-item">
-    <a class="tl-logo" href="https://www.longcatai.org" target="_blank" rel="noopener">
-      <img loading="lazy" decoding="async" src="static/assets/img/logos/longcat.png" alt="Meituan LongCat" />
-    </a>
+    <div class="tl-logos-stack">
+      <a class="tl-logo" href="https://www.longcatai.org" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="static/assets/img/logos/longcat.png" alt="LongCat" />
+      </a>
+      <a class="tl-logo" href="https://about.meituan.com" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="static/assets/img/logos/meituan.svg" alt="美团" />
+      </a>
+    </div>
     <div class="tl-card">
       <p class="tl-role">基础模型研究实习生 · <span class="tl-org">美团 · 龙猫 (Keeta · LongCat)</span></p>
       <p class="tl-meta">2025 年 9 月 - 2025 年 12 月 · 上海</p>

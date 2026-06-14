@@ -16,9 +16,14 @@
   </div>
 
   <div class="tl-item">
-    <a class="tl-logo" href="https://www.longcatai.org" target="_blank" rel="noopener">
-      <img loading="lazy" decoding="async" src="static/assets/img/logos/longcat.png" alt="Meituan LongCat" />
-    </a>
+    <div class="tl-logos-stack">
+      <a class="tl-logo" href="https://www.longcatai.org" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="static/assets/img/logos/longcat.png" alt="LongCat" />
+      </a>
+      <a class="tl-logo" href="https://about.meituan.com" target="_blank" rel="noopener">
+        <img loading="lazy" decoding="async" src="static/assets/img/logos/meituan.svg" alt="Meituan" />
+      </a>
+    </div>
     <div class="tl-card">
       <p class="tl-role">Foundation Model Research Intern · <span class="tl-org">Keeta (Meituan) · LongCat</span></p>
       <p class="tl-meta">Sept 2025 - Dec 2025 &middot; Shanghai, China</p>
