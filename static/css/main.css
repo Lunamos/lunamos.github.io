@@ -327,6 +327,7 @@ details.news-more[open] > summary { margin-bottom: .4rem; }
     position: relative; padding: .32rem 0 .32rem 1.6rem;
     border-bottom: 1px dashed var(--line); font-size: .95rem;
 }
+#awards-md ul li p { margin: 0; }
 #awards-md ul li:last-child { border-bottom: none; }
 #awards-md ul li::before {
     content: "\F586"; font-family: "bootstrap-icons";
