@@ -8,7 +8,7 @@
       <p class="tl-role">基础模型研究实习生 · <span class="tl-org">阶跃星辰 (StepFun)</span></p>
       <p class="tl-meta">2026 年 5 月 - 至今 · 上海</p>
       <ul>
-        <li>参与 <strong>Agentic Rubrics</strong> RL 后训练，以及面向复杂任务的内部智能体评测基准建设。</li>
+        <li>参与 <strong>Agent 后训练</strong>和评测，以及面向复杂任务的内部智能体评测基准建设。</li>
         <li>基于 <strong>Claude Code</strong> 和 <strong>Codex</strong> 搭建了自动化 rubrics-benchmark 生成流水线，包括自动生成、质量控制和自迭代。</li>
         <li>在内网部署了 <strong>Hermes</strong> 和 <strong>Openclaw</strong>，将智能体能力集成到团队日常工作流中。</li>
       </ul>

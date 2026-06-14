@@ -2,22 +2,27 @@
 
   <div class="news-item">
     <div class="news-date">2026.06</div>
-    <div class="news-text">Our paper <a href="https://flas-ai.github.io"><strong>FLAS: Flow-based Activation Steering</strong></a> is accepted as a <strong>Poster at the ICML 2026 Mechanistic Interpretability Workshop</strong>! 🎉</div>
+    <div class="news-text">Our paper <a href="https://flas-ai.github.io"><strong>FLAS: Flow-based Activation Steering</strong></a> is accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>! 🎉</div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026.06</div>
-    <div class="news-text">Two more papers, <em>The Connectome of a Large Language Model</em> and <em>Decompose Sparsely Where You Should, Absorb Densely Where You Should Not</em>, are accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>.</div>
+    <div class="news-text">Our paper <a href="https://openreview.net/forum?id=GhH9CY7Ohk"><strong>Decompose Sparsely Where You Should, Absorb Densely Where You Should Not</strong></a> is accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>! 🎉</div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026.06</div>
+    <div class="news-text">Our paper <a href="https://openreview.net/forum?id=yTLuHmBQkG"><strong>The Connectome of a Large Language Model</strong></a> is accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>! 🎉</div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026.05</div>
-    <div class="news-text">Our paper <a href="https://arxiv.org/abs/2605.05340"><strong>How Far Are VLMs from Privacy Awareness in the Physical World?</strong></a> is accepted to the <strong>ICML 2026 Workshop on AI in the Wild (AIWILD)</strong>.</div>
+    <div class="news-text">Our paper <a href="https://arxiv.org/abs/2605.05340"><strong>How Far Are VLMs from Privacy Awareness in the Physical World?</strong></a> is accepted to the <strong>ICML 2026 Workshop on AI in the Wild (AIWILD)</strong>! 🎉</div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026.05</div>
-    <div class="news-text">Joined <strong>StepFun (阶跃星辰)</strong> as a Foundation Model Research Intern, working on agentic RL post-training and evaluation.</div>
+    <div class="news-text">Joined <strong>StepFun (阶跃星辰)</strong> as a Foundation Model Research Intern.</div>
   </div>
 
   <div class="news-item">
@@ -48,7 +53,7 @@
 
   <div class="news-item">
     <div class="news-date">2025.09</div>
-    <div class="news-text">Joined <strong>Keeta (Meituan) · LongCat</strong> as a Machine Learning Research Intern.</div>
+    <div class="news-text">Joined <strong>Keeta (Meituan) · LongCat</strong> as a Foundation Model Research Intern.</div>
   </div>
 
   </div>

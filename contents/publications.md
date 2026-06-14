@@ -10,7 +10,7 @@
       <p class="pub-title">Beyond Steering Vector: Flow-based Activation Steering for Inference-Time Intervention</p>
       <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Ruixuan Deng*, Junran Wang*, Xinjie Shen, Chao Zhang</p>
       <div class="pub-meta">
-        <span class="badge-venue">ICML 2026 MechInterp Workshop · Poster</span>
+        <span class="badge-venue">ICML 2026 MechInterp Workshop</span>
       </div>
       <div class="pub-links">
         <a href="https://flas-ai.github.io"><i class="bi bi-globe"></i>Project</a>
@@ -111,7 +111,7 @@
       <p class="pub-title">Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</p>
       <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Yaoye Zhu, Chen Zhang, Yanan Sui</p>
       <div class="pub-meta">
-        <span class="badge-venue amber">Cosyne 2026 · Poster</span>
+        <span class="badge-venue amber">Cosyne 2026</span>
       </div>
       <div class="pub-links">
         <a href="https://lnsgroup.cc/research/FlyGM/"><i class="bi bi-globe"></i>Project</a>

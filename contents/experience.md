@@ -8,7 +8,7 @@
       <p class="tl-role">Foundation Model Research Intern · <span class="tl-org">StepFun (阶跃星辰)</span></p>
       <p class="tl-meta">May 2026 - Present &middot; Shanghai, China</p>
       <ul>
-        <li>Working on <strong>Agentic Rubrics</strong> RL post-training and building an internal agentic evaluation benchmark for complex tasks.</li>
+        <li>Working on <strong>agent post-training</strong> and building an internal agentic evaluation benchmark for complex tasks.</li>
         <li>Built an automated rubrics-benchmark generation workflow on top of <strong>Claude Code</strong> and <strong>Codex</strong>, covering auto-generation, quality control, and self-iteration.</li>
         <li>Deployed <strong>Hermes</strong> and <strong>Openclaw</strong> on the internal network to integrate agents into team workflows.</li>
       </ul>
