@@ -30,7 +30,7 @@
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
     <h4>安全与对齐</h4>
-    <p>关心模型的可信、隐私和越狱，为了更安全的价值对齐的模型。</p>
+    <p>关心模型的可信、隐私和越狱，为了更安全的价值观对齐的模型。</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>

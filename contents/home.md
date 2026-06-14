@@ -30,7 +30,7 @@ Zehao Jin (金泽昊) -->
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
     <h4>Safety &amp; Alignment</h4>
-    <p>Trustworthiness, privacy, and jailbreak robustness, toward safer and more value-aligned models.</p>
+    <p>Trustworthiness, privacy, and jailbreak robustness, toward safer and more human-aligned models.</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>
