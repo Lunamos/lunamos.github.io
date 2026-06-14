@@ -16,8 +16,8 @@ Zehao Jin (金泽昊) -->
   </div>
   <div class="profile-bio">
     <h3>About Me</h3>
-    <p>Hi! I'm a first-year M.S. student in <a href="https://cse.gatech.edu/">Computational Science and Engineering</a> at Georgia Tech, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from <a href="https://www.xjc.tsinghua.edu.cn/">Xingjian College</a>, Tsinghua University in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
-    <p>I work on LLM alignment. I want to know what's actually going on inside a model (mechanistic interpretability) and how to steer it toward safe behavior (safety alignment). I'm also drawn to AI agents and the harness layer we build around them. I like to call this the <strong>neuroscience of LLMs</strong>: reverse-engineering an artificial mind to understand and align it.</p>
+    <p>Hi! I'm a first-year M.S. student in Computational Science and Engineering at Georgia Tech, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from Tsinghua University in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
+    <p>I work on LLM interpretability and safety alignment. I also care about harness engineering for code agents and work agents. I'm currently interning with the foundation model team at StepFun, and previously interned at Meituan's LongCat team, where I worked on agent evaluation, multimodal model deployment and evaluation, and agent framework design.</p>
   </div>
 </div>
 
@@ -25,23 +25,22 @@ Zehao Jin (金泽昊) -->
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-cpu"></i></div>
     <h4>Mechanistic Interpretability</h4>
-    <p>Sparse autoencoders, computational scaffolds, and the "connectome" of language models. Recovering the wiring inside LLMs.</p>
+    <p>Understanding how LLMs work from the inside, to learn how intelligence emerges.</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
     <h4>Safety &amp; Alignment</h4>
-    <p>Inference-time intervention and activation steering to make models controllable and trustworthy.</p>
+    <p>Trustworthiness, privacy, and jailbreak robustness, toward safer and more value-aligned models.</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>
     <h4>Agents &amp; Harness</h4>
-    <p>Human-AI agent collaboration, agentic rubrics and evaluation, and engineering the harness around the model.</p>
+    <p>Human-AI collaboration and harness engineering, for better general performance and self-evolution.</p>
   </div>
 </div>
 
 <blockquote class="viewpoint">
-  <span class="vp-quote">I believe human-AI agent collaboration, what I call <strong>harness engineering</strong>, is the most important capability of our era. I'm eagerly waiting for the Singularity.</span>
-  <span class="vp-sig">-- Understand Intelligence, Create Intelligence.</span>
+  <span class="vp-quote">Like the neuroscience of LLMs: we understand intelligence, we create intelligence.</span>
 </blockquote>
 
 ### Education
@@ -53,7 +52,7 @@ Zehao Jin (金泽昊) -->
   </div>
   <div class="edu-item">
     <span class="edu-dot"></span>
-    <span class="edu-text"><strong>Tsinghua University</strong>, Xingjian College, B.S. in Mechanics and Aerospace Engineering <span class="edu-date">· Sept 2021 - Jul 2025</span></span>
+    <span class="edu-text"><strong>Tsinghua University</strong>, B.S. in Mechanics and Aerospace Engineering <span class="edu-date">· Sept 2021 - Jul 2025</span></span>
   </div>
 </div>
 

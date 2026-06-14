@@ -16,8 +16,8 @@
   </div>
   <div class="profile-bio">
     <h3>关于我</h3>
-    <p>你好！我是<a href="https://cse.gatech.edu/">佐治亚理工学院</a>计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于<a href="https://www.xjc.tsinghua.edu.cn/">清华大学行健书院</a>，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
-    <p>我的研究方向是大语言模型的对齐。我想搞清楚模型内部到底在做什么计算（机械可解释性），以及怎样引导这些计算走向安全的方向（安全对齐）。我同样关注 AI 智能体和围绕模型搭建的 harness 层。我把这些统称为 <strong>LLM 的神经科学</strong>：逆向工程一个人造的大脑，去理解它、对齐它。</p>
+    <p>你好！我是佐治亚理工学院计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于清华大学，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
+    <p>我目前的研究方向是大语言模型的可解释性和安全对齐，我也关心 code agent 和 work agent 的 harness 工程。我正在阶跃星辰（StepFun）基模团队实习，也曾在美团的 LongCat 基模团队实习，做过 Agent 评测、多模态模型部署与评测、以及 Agent 框架设计。</p>
   </div>
 </div>
 
@@ -25,23 +25,22 @@
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-cpu"></i></div>
     <h4>机械可解释性</h4>
-    <p>稀疏自编码器、计算脚手架和语言模型的"连接组"。拆开 LLM 的内部接线。</p>
+    <p>尝试理解 LLM 内部的运行原理，为了理解智能如何产生和涌现。</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
     <h4>安全与对齐</h4>
-    <p>推理时干预和激活转向，让模型的行为可控、可信。</p>
+    <p>关心模型的可信、隐私和越狱，为了更安全的价值对齐的模型。</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>
     <h4>智能体与 Harness</h4>
-    <p>人与 AI 智能体的协作、智能体评测体系，以及围绕模型的 harness 工程。</p>
+    <p>人和 AI 的协作，Harness 工程，为了更好的通用表现和自我进化。</p>
   </div>
 </div>
 
 <blockquote class="viewpoint">
-  <span class="vp-quote">我相信人与 AI 智能体的协作（<strong>harness 工程</strong>）是这个时代最重要的能力。我热切地期待奇点的降临。</span>
-  <span class="vp-sig">-- 理解智能，创造智能。</span>
+  <span class="vp-quote">就像是 LLM 的神经科学，我们理解智能，我们创造智能。</span>
 </blockquote>
 
 ### 教育背景
@@ -53,7 +52,7 @@
   </div>
   <div class="edu-item">
     <span class="edu-dot"></span>
-    <span class="edu-text"><strong>清华大学</strong> 行健书院，工程力学 学士 <span class="edu-date">· 2021 年 9 月 - 2025 年 7 月</span></span>
+    <span class="edu-text"><strong>清华大学</strong>，工程力学 学士 <span class="edu-date">· 2021 年 9 月 - 2025 年 7 月</span></span>
   </div>
 </div>
 

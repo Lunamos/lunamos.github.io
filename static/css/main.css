@@ -324,7 +324,7 @@ details.news-more[open] > summary { margin-bottom: .4rem; }
 /* ---- Awards ---- */
 #awards-md ul { list-style: none; padding-left: 0; }
 #awards-md ul li {
-    position: relative; padding: .55rem 0 .55rem 1.6rem;
+    position: relative; padding: .32rem 0 .32rem 1.6rem;
     border-bottom: 1px dashed var(--line); font-size: .95rem;
 }
 #awards-md ul li:last-child { border-bottom: none; }
