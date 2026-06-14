@@ -1,3 +1,9 @@
+![Image](/static/assets/img/blog/the-creator/01.jpg)
+
+*Photo by Ningjinghai*
+
+---
+
 I asked myself a question:
 
 What is it that you create for?
@@ -25,8 +31,6 @@ The second layer is **"for the reader."**
 A follow, a subscription: these are not just numbers ticking upward on a creator's account. They are better understood as so many threads of connection between one person and another. The reader extends trust to the creator. The creator makes a promise back.
 
 I remember a WeChat account I used to follow, one that wrote about mathematics. I loved how they wrote: witty, easy to understand, and yet meaningful and deep. Every time they posted, I would drop everything to read it. But over time the flavor began to change. First came the ads at the bottom of each piece. Then the quality grew uneven. In the end it was indistinguishable from any of the assembly-line marketing accounts you find everywhere.
-
-There is a particular helplessness in watching a fine wine you had been saving slowly turn to vinegar, and it really does hurt. So when I sit down to write, I try to give the reader something genuinely good, something worth reading more than once and worth keeping.
 
 If there is one thing I would actually demand of a creator, I think it is this: **write what you and your friends would want to read.** If you do not even like what you have written, how could it possibly answer the trust someone has placed in you?
 
@@ -76,7 +80,7 @@ When Zuo Si of the Jin dynasty wrote his *Rhapsody on the Three Capitals*, every
 
 The generation before us read Jin Yong and Gu Long, secretly, at the desk or under the covers, and back then it was looked on as a waste of time. Now if some kid pulled out a copy of *The Smiling, Proud Wanderer* at school, that would surely count as a serious, studious child.
 
-I just came across [a post on the Tianya forum](https://bbs.tianya.cn/)[^1] about the book-buying frenzy of the 1980s. It said:
+I just came across a post on the Tianya forum[^1] about the book-buying frenzy of the 1980s. It said:
 
 > Sometimes a long line would suddenly form outside the Xinhua Bookstore. Don't bother asking what book it was, just join the queue. Even if you ended up with a duplicate, you could trade it with someone for one you didn't have. Some people even queued to buy books for profit. Back then a freshly printed set of the "Three Words" could be flipped for double the price.
 
@@ -129,5 +133,15 @@ I will end here. My view, in the shape of an old quatrain:
 **let both be cast aside.**
 
 That is all. Be well.
+
+### References
+
+[1] [Memories of the early 1980s: buying books and reading books](http://bbs.tianya.cn/post-no16-294521-1.shtml)
+
+[2] [Creation in the internet age, part one: are we doomed never to have great works again? (Dune Research Institute)](https://www.gcores.com/articles/136175)
+
+I am Ningjinghai, and thank you for reading my writing.
+
+You are welcome to reach me by any means. My email is lunar_mare_official@outlook.com. Write to me and let's talk, and I will reply to every message.
 
 [^1]: A post on the Tianya forum, recounting the book-buying frenzy of the 1980s.

@@ -6,10 +6,10 @@
     </a>
     <div class="tl-card">
       <p class="tl-role">Foundation Model Research Intern · <span class="tl-org">StepFun (阶跃星辰)</span></p>
-      <p class="tl-meta">May 2026 – Present &middot; Shanghai, China</p>
+      <p class="tl-meta">May 2026 - Present &middot; Shanghai, China</p>
       <ul>
-        <li>Contributing to <strong>Agentic Rubrics</strong> RL post-training and an internal agentic evaluation benchmark for complex tasks.</li>
-        <li>Built an automated rubrics-benchmark generation workflow on top of <strong>Claude Code</strong> and <strong>Codex</strong> — auto-generation, quality control, and self-iteration.</li>
+        <li>Working on <strong>Agentic Rubrics</strong> RL post-training and building an internal agentic evaluation benchmark for complex tasks.</li>
+        <li>Built an automated rubrics-benchmark generation workflow on top of <strong>Claude Code</strong> and <strong>Codex</strong>, covering auto-generation, quality control, and self-iteration.</li>
         <li>Deployed <strong>Hermes</strong> and <strong>Openclaw</strong> on the internal network to integrate agents into team workflows.</li>
       </ul>
     </div>
@@ -21,7 +21,7 @@
     </a>
     <div class="tl-card">
       <p class="tl-role">Foundation Model Research Intern · <span class="tl-org">Keeta (Meituan) · LongCat</span></p>
-      <p class="tl-meta">Sept 2025 – Dec 2025 &middot; Shanghai, China</p>
+      <p class="tl-meta">Sept 2025 - Dec 2025 &middot; Shanghai, China</p>
       <ul>
         <li>Deployed and post-trained <strong>vision-language models (VLM)</strong> and <strong>vision-language-action models (VLA)</strong>, made available on the internal platform.</li>
         <li>Researched and implemented <strong>agentic strategies</strong> to improve multimodal LLM (MLLM) performance in game settings.</li>

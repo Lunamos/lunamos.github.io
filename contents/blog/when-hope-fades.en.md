@@ -1,189 +1,191 @@
-> Strictly speaking, this essay is not "original."
+> Strictly speaking, this piece is not "original."
 >
-> Parts of it are a direct translation of "Beyond Hope," an article from orionmagazine.org, but I have rearranged the original author's content, order, and arguments, and folded in a great deal of my own thinking. I have put the link to the original at the bottom of the page, under "Read the original," if you want to go look.
+> Parts of it are a direct translation of an essay called *Beyond Hope* from orionmagazine.org. But I have reshuffled the original author's content, order, and arguments, and folded in a lot of my own thinking along the way.
+>
+> I have put the link to the source in the references at the bottom. You can click through to read it.
 
 **Losing hope is a good thing.**
 
-You have surely heard the story of Pandora's box. Pandora received a sealed box from the gods and was told never to open it. But driven by an overwhelming curiosity, she opened it anyway, and out flew disaster, plague, and sorrow. Terrified, she slammed the lid shut, and only one thing was left inside: **hope**.
+You have surely heard the story of Pandora's box. Pandora received a sealed box from the gods and was warned never to open it. But curiosity got the better of her, and she opened it, and out flew disaster, plague, and grief. Terrified, she slammed the lid shut, and only one thing was left inside: **hope**.
 
-In that story, hope is humanity's only comfort in the middle of catastrophe, the reason we can keep going through the worst suffering.
+In that story, hope is humanity's one consolation in the middle of catastrophe. It is the reason we can grit our teeth and hold on through enormous suffering.
 
-What I find strange is that the story says nothing about **action**. Nothing about doing something concrete to lessen or undo the misfortunes of our lives.
+What strikes me is that the story says nothing at all about **action**. It never mentions that we might have to do something real to lessen or undo the misfortunes of our lives.
 
-The more I think about **hope**, the more it looks like a curse to me. A curse that keeps us from ever starting to act. It belongs locked in Pandora's box right alongside disaster, plague, and sorrow.
+The more I sit with the idea of **hope**, the more it looks to me like a curse. A curse that keeps us from getting started. It belongs right where it was, sealed inside Pandora's box alongside disaster, plague, and grief.
 
 ---
 
-**Hope** is our excuse for standing still and doing nothing.
+**Hope** is our excuse to stand still and do nothing.
 
-When we say we hope for a certain outcome, we are quietly giving up on everything we could actually do.
+When we say we hope for some outcome, what we really mean is that we have given up on anything we could actually do.
 
 > I hope the world gets better.
-> I hope there are no more wars or violence.
-> I hope the forests and oceans and skies are protected.
-> I hope for equality between the sexes and the races.
+> I hope there is no more violence or war.
+> I hope the forests, the oceans, and the sky are protected.
+> I hope for equality across gender and race.
 
-What this really says is that the world is still getting worse, that violence and war are still here, that the environment is still being wrecked, that the violence and threat born of inequality between sexes and races are still loose in the land.
+What that means is that the world is still getting worse. Violence and war are still here. The environment is still being wrecked. The harm and the threat that grow out of gender and racial inequality are still loose on this earth.
 
-It also says that I do not want to do anything to change the situation, because I am still holding on to a sweet, naive fantasy that things will turn around on their own.
+It also means I do not want to lift a finger to change any of it, because some innocent fantasy still tells me things will turn around on their own.
 
-I picture different cultures suddenly understanding one another, so there is no more war and no more harm. I picture everyone on earth waking up as a feminist and a cosmopolitan, so nobody throws insults or fists over someone's gender or the color of their skin.
+I picture different cultures suddenly understanding one another, so there is no more war and no more harm. I picture everyone on the planet waking up as a feminist and a cosmopolitan, so nobody throws an insult or a punch over someone else's gender or skin.
 
-**But if you ask me how that fantasy actually comes true, all I can do is wave my hand and say I have no idea.**
+**But if you ask me how this fantasy actually comes true, all I can do is wave my hand and say I have no idea.**
 
-My fantasy is that the **status quo** I live inside somehow changes by itself. Maybe the structure behind a structural problem just quietly fixes itself. Maybe everyone is suddenly "reprogrammed" into cultured, educated, peace-loving people who hate violence. Maybe some new technology appears overnight and solves the problems that have plagued us forever. Or maybe a deus ex machina shows up: a mad genius, a charismatic world leader, a messiah, Santa Claus, a Trisolaran alien, who appears out of nowhere and miraculously saves us from our misery.
+My fantasy is that the **normal** I live inside changes all by itself, for no reason I can name. Maybe the structure behind a structural problem just fixes itself overnight. Maybe everyone is suddenly "reprogrammed" into cultured, well read, peace loving, violence hating people. Maybe some new technology appears and solves in one stroke the thing that has plagued us for ages. Or maybe it is the deus ex machina: a mad genius, a charismatic world leader, a messiah, Santa Claus, an alien from the Three-Body world, showing up out of nowhere and miraculously saving us from our misery.
 
-This false hope binds us tightly to the **status quo**. The status quo is stubbornness and indifference itself. We do nothing beyond keeping our ordinary lives running, naively expecting things to improve on their own.
+This false hope binds us tightly to **the normal**. And **the normal** is exactly stubbornness and indifference itself. We do nothing beyond keeping our small worldly lives running, naively expecting things to improve by themselves.
 
-I would not say I **hope** to have food to eat tomorrow, because tomorrow I simply **will** have food to eat.
+I would not say I *hope* to have food tomorrow, because tomorrow I simply *will* have food.
 
-But I do hope the plane does not crash while I am on it. I do hope the bus I am riding does not lose control.
+But I do hope my plane does not crash when I fly, and I do hope the bus I am riding does not lose control.
 
-**Hope** and **helplessness** turn out to be the same thing. When I hope for some outcome, I am surrendering my own agency, giving up every real effort to change how things are.
-
----
-
-The line you hear most often from environmentalists is this:
-
-**"We are doomed."**
-
-Do we really believe that all our online pleading, stop cutting down the forests, stop poisoning the oceans, stop poaching endangered species, will actually keep any of it from happening?
-
-Will everything turn out fine if we win the argument and back the right piece of legislation?
-
-**Nonsense. Things are not going to be fine, and they keep getting worse.**
-
-I often sense something despairing in environmentalists. They fight and shout in despair, reaching for every legal tool they can lay their hands on to protect nature, even when every legal tool turns out to be useless in the end. Whatever they do, even their hardest effort is not enough.
-
-They do not even mind becoming everyone's target. They do not mind looking hysterical, unreasonable, and aggressive. They do not mind the accusations and abuse raining down on them.
+**Hope** and **helplessness** are the same thing. The moment I hope for some result, I have surrendered my own agency. I have given up every real effort to change the way things are.
 
 ---
 
-You will notice that online opinion hates certain kinds of people.
+The line environmentalists say most often is this:
 
-On the environment, she is Greta Thunberg, the young Swedish activist who stood at the UN Climate Action Summit and cried out, voice shaking, "How dare you!"
+**"We're done for."**
 
-On race, she is the Black Lives Matter protester who marches into the street with a sign, hurls a Molotov cocktail at everything in sight, and climbs the wall into the White House.
+Do you really think that all our online appeals, all our pleas to stop clearing forests, stop poisoning oceans, stop poaching rare species, will actually keep those things from happening?
 
-On labor, she organizes marches and strikes and swears she will see every capitalist hanged.
+If we win the argument against these people, if we get behind the right legislation, will everything be fine?
 
-On gender, she is one of those so-called "radical feminists."
+**Nonsense. Things will not be fine, and they are getting worse.**
 
-On LGBTQ+, she drapes herself in a rainbow flag and shouts "Love is love" through the streets and alleys.
+I often feel there is something despairing about environmentalists. They struggle and shout in despair. They reach for every legal tool they can lay hands on to try to protect nature, even when every one of those tools turns out, in the end, to be useless. Whatever they do, their very best is not enough.
 
-**Doesn't it strike you as odd? The things these people stand for are things almost everyone actually agrees with.**
-
-Very few people will say they are against protecting the environment, against racial justice, against labor law, against gender equality. Maybe some people really are against LGBTQ+, but even that number keeps shrinking.
-
-So why do we have this urge to dislike them? Not because we disagree with what they are doing, but because we cannot understand why they are so extreme about it.
-
-Sometimes we think they have lost their minds. We struggle to explain why they are so aggressive, so combative, so restless.
-
-So we invent reasons for them. **Foreign agents. Cultural invasion. Vested interests. Either stupid or evil.**
-
-**People are creatures who need reasons. We need to give ourselves reasons, and we need reasons to make sense of what others are doing.**
-
-When we look at the activists raising their voices online, we know they are educated, rational people. No mental illness, not just bored troublemakers stirring the pot for fun. So we cannot fit their anger and their "madness" into anything we already understand.
-
-That is why it feels so soothing when someone says they are only in it for themselves, when someone points out how they are "hypocrites," how their positions do not line up. Ah, so they were just stupid or evil after all. Got it. Now it all makes sense.
+They do not even mind becoming the target of everyone's anger. They do not mind looking hysterical, unreasonable, aggressive. They do not mind the accusations and the abuse raining down on them.
 
 ---
 
-The truth, though, is that they may simply have lost hope.
+You will notice that public opinion online tends to despise certain people.
 
-Because they have lost hope, they know that if they do not do something, nothing will get better.
+In environmentalism, she is Greta Thunberg, the Swedish girl who stood at the UN Climate Action Summit and cried out, voice shaking, "How dare you!"
 
-At that moment, the social problem stops being **society's problem** and genuinely becomes **my problem**.
+In matters of race, they are the Black Lives Matter protesters who took to the streets with signs, hurled Molotov cocktails at everything in sight, and climbed the walls into the White House.
 
-If I have hope, I feel that I only need to wait and things will get better on their own, that someone will come along and fix it.
+In labor disputes, they are the ones organizing marches and strikes, swearing they will hang every last capitalist.
 
-If I have no hope, I become restless, I feel a fear that goes down to the bone, and I start to shout and run from door to door spreading the word.
+In gender, they are the so called "radical feminists."
 
-A few days ago I listened to an episode of the podcast **On the Media**, where the host and a guest were discussing mass shootings in the United States.
+In LGBTQ+, they are the ones draped in rainbow flags, shouting "Love is love" on every street corner.
 
-The episode laid out gun violence and gun policy in a clear, accessible way, with a thorough analysis and some fresh perspectives on the role the media plays in how these shootings unfold.
+**Doesn't it strike you as strange? The things they stand for are things almost everyone actually supports.**
 
-But what moved me most was the title.
+Very few people will say they are against protecting the environment, against racial equality, against labor law, against gender equality. Some may genuinely be against LGBTQ+ rights, but even that crowd keeps shrinking.
+
+So why do we feel this pull to dislike them? Not because we disagree with what they are doing, but because we cannot understand why they are so extreme.
+
+Sometimes we decide they have lost their minds. We struggle to explain why they are so aggressive, so combative, so unwilling to settle down.
+
+So we cook up reasons for them: **"foreign forces, cultural invasion, vested interests, either stupid or evil."**
+
+**A human being is a creature that needs reasons. We need to give ourselves reasons, and we need reasons to make sense of what other people are doing.**
+
+When we look at the activists shouting fiercely online, we know they are educated, rational people. They are not mentally ill, and they are not bored troublemakers who love a good fire. So we cannot fit their rage and their wildness into anything we already understand.
+
+That is why, when someone says these activists are just in it for themselves, when someone points out how they apply "double standards" and contradict themselves, we feel a small wave of relief. Oh, so they really are either stupid or evil. Got it, got it.
+
+---
+
+But the truth may be simpler than that. They have just lost hope.
+
+Because they have lost hope, they know that if they do not do something themselves, nothing will get better.
+
+At that point the social problem stops being **"society's problem"** and becomes, truly, **"my problem."**
+
+If I hold out hope, I figure I only have to wait and things will sort themselves out. Someone will come along and fix it.
+
+But if I have no hope left, I get restless. I feel a fear that reaches into the bone. I start shouting, running from door to door to spread the word.
+
+A few days ago I listened to an episode of the podcast **On the Media**. The host and the guest were talking about mass shootings in the United States.
+
+The episode worked through gun violence and gun policy in a clear, accessible way, with thorough analysis and some fresh thinking about the role the media plays in these events.
+
+But the thing that moved me most was the title:
 
 **"Again and Again and Again and Again (and Again)"**
 
-Mass shootings do not happen once. They happen once, and again, and again, and again.
+A mass shooting does not happen once. It happens once, and again, and again, and again.
 
-The previous episode was called **"Again and Again,"** also about mass shootings.
+The previous episode was called **"Again and Again,"** and it too was about mass shootings.
 
-In the short few days between episodes, more shootings happened. More than one.
+In the few short days between episodes, another shooting happened. More than one, in fact.
 
-> We did not go do new interviews, because honestly, we have already said everything, and then it happened again.
+> We didn't do new interviews, because honestly, we'd already said everything, and then it happened again.
 
 Even through a screen, I could feel the despair behind that title.
 
-We investigate and analyze. We cry out. We lobby the government. Our theory is as polished as it will ever be. We have done everything. We have nothing left to say. And the thing we are fighting to stop keeps happening.
+We investigate and analyze. We cry out. We lobby the government. Our theory is just about perfect by now. We have done everything. We have nothing left to say. And the thing we are fighting to stop keeps happening.
 
 **Not once, but again and again and again and again.**
 
 ---
 
-When you give up hope, something wonderful happens: you realize you never needed it in the first place. You realize that letting go of hope did not kill you.
+Something wonderful happens when you give up hope: you realize you never needed it in the first place. You realize that letting it go did not kill you.
 
-It did not even make you less effective. In fact it makes you more effective, because you stop depending on someone or something else to solve your problems and just start solving them yourself, whatever the cost.
+It does not even make you less effective. If anything it makes you more effective, because you stop relying on someone or something else to solve your problem. You simply start solving it yourself, whatever it costs.
 
-I often say that with social issues, we need a sense that they are **our own**.
+I often say that when we face a social issue, we need a sense that it is **happening to us, personally**.
 
-Lu Xun once wrote: the endless distances, the countless people, all have something to do with me.
+Lu Xun once wrote: the endless distances, the countless people, all of them have something to do with me.
 
-Real harm and real suffering are happening in the world, and we are bystanders, perpetrators, and victims all at once.
+Real harm and real suffering are happening in the world. We are the bystanders, the perpetrators, and the victims, all at once.
 
-We cannot just stand there watching it happen, hoping it gets better. Someone always has to do something real.
+We cannot just stand there watching it happen and hoping it gets better. Someone always has to do something real.
 
-If I look at a social issue and chalk it up to nothing more than a government or economic problem, there is a hidden line underneath that thought:
+When I look at a social issue and reduce it to a matter of government and the economy, there is a subtext hiding underneath:
 
-Economic development and cracking down on crime are the business of the state, the government, the police. What does any of it have to do with a nobody like me?
+Economic growth and cracking down on crime are the country's job, the government's job, the police's job. What does any of it have to do with a nobody like me?
 
-That line also means I am still holding on to **hope**. It means I believe that under the current **status quo**, I do not need to do anything, and the problem will solve itself.
-
----
-
-So the real question is this: under the current status quo, will the problem really be solved? Can we patiently wait until the day it is?
-
-These two questions have no objective answer. People differ in what they know about the facts, and they differ in who they are and what they have lived through, and all of that pulls the answers apart.
-
-The people who answer "yes" have hope. Naturally they go on quietly doing their part with a clear conscience, waiting for the problem to resolve itself once society develops a little further.
-
-The people who answer "no" have lost hope. They start to act, taking the problem into their own hands, defending and fighting whatever the cost.
-
-The fights over social issues online are usually not contests of **right against wrong**. They are contests of **hope against no hope**.
-
-The only question that matters is: do we just keep the status quo, or do we have to change it to solve the problem?
-
-**"In my eyes, the two opposing positions are not on equal footing. 'No hope' matters far, far more than 'hope.'"**
-
-### A society "cannot" be made entirely of people without hope
-
-Because there is simply no chance of it happening.
-
-A society of people who have all lost hope cannot exist. Because once enough people lose hope, real action begins. Either the problem is genuinely solved, or solving it gets put on the agenda, and either way some people start to hope again.
-
-If even that cannot solve the problem, then I suppose the sun has exploded, or an asteroid has hit the earth, or a godlike alien civilization has invaded. If we really run into a disaster so enormous that all of humanity's combined strength cannot solve it, then we have no choice but to accept the fact that the society will be selected out.
-
-(There may well be cases like this in human history. A primitive tribe stood no chance against the invasion of modern civilization. But that clearly sits outside what we are talking about here, and it is not a problem that comes up in modern society.)
-
-### A society "must not" be made entirely of people with hope
-
-Because that would get the society selected out.
-
-For an individual, hope is the root of procrastination. It is precisely because I have hope that I keep waiting, hoping some ideal version of myself will descend from the future and finish my work for me. At the level of the group and of society, collective hope produces collective procrastination, and no social issue can be put off forever. If we keep ignoring environmental damage, the gap between rich and poor, the inequality between men and women, BOOM. The tension erupts into uprisings, marches, and revolutions.
-
-A society survives as a kind of organism because it can **sense and solve the social problems of fundamental importance**, and a society that cannot do this gets selected out by natural selection, whether by outside invasion or internal revolution. In the societies that do survive, the members regarded as "important" are the ones who, to a greater or lesser degree, carry out this social function of sensing and solving the social problems of fundamental importance. We call them the "elite."
-
-A society gets selected out when its members are too dull to sense its problems, or too incapable and hesitant to solve them. There is one frightening scenario in particular: the members who can sense and solve the social problems of fundamental importance are not regarded as important members at all, so their voices go unheard. This is usually called **elite displacement**, where the people who are truly the elite never gain the social standing of the elite.
-
-Slavoj Zizek said this about Greta Thunberg: "I support the movement, and Greta's stubbornness and lack of social grace are precisely part of the message she is trying to send."
-
-We need some people to step forward and tell us, over and over, that we have to act, we have to change, that this is the only way to solve the problem and move society forward.
+Which also means I am still holding on to **hope**. I figure that under the current **normal**, I do not have to do anything, and the problem will be solved.
 
 ---
 
-When we actually have some power to solve a problem, we no longer need **hope**. We only need to **act**.
+So the real question is this: under the current normal, will the problem actually be solved? Can we wait patiently until the day it is?
+
+There is no objective answer to either question. People know different facts, carry different identities and histories, and so they answer differently.
+
+Those who say "yes" still have hope, so naturally they go quiet and content about their own small duties, waiting for the problem to dissolve on its own once society develops far enough.
+
+Those who say "no" have lost hope, so they start to act. They roll up their sleeves and tackle the problem themselves, defending and fighting at any cost.
+
+The fights over social issues online are usually not contests of **"right versus wrong."** They are contests of **"hope versus no hope."**
+
+The only question that matters is this: do we just maintain the normal, or do we have to change it before the problem can be solved?
+
+**"In my eyes, the two opposing positions are not equals. 'No hope' matters far, far more than 'hope.'"**
+
+### A society *cannot possibly* be made up entirely of people without hope
+
+Because it simply could never happen.
+
+A society of nothing but the hopeless is impossible. If enough people lose hope, real action begins. Either the problem actually gets solved, or solving it gets put on the agenda. Either way, some people start to hope again.
+
+And if even that cannot solve the problem, then I suppose the sun has exploded, or an asteroid has hit the earth, or a godlike alien civilization has invaded. If we ever ran into a disaster so vast that the combined strength of all humanity could not fix it, we would just have to accept that the society is finished.
+
+(There may have been cases like this in human history, primitive tribes with no power to resist the arrival of modern civilization. But that is clearly outside what we are discussing here, and not a problem that arises in modern society.)
+
+### A society *must not* be made up entirely of people with hope
+
+Because that would get the society wiped out.
+
+For an individual, hope is what causes procrastination. It is precisely because I have hope that I keep waiting, expecting some ideal version of myself to show up in the future and finish my work. Scale that up to the group and the society, and collective hope becomes collective procrastination. But no social issue can be put off forever. If we shrug at the destruction of the environment, shrug at the gap between rich and poor and the inequality between men and women, then BOOM, the tension erupts into uprising, protest, revolution.
+
+A society survives as a kind of organism because it can **sense and solve the problems that matter to it most fundamentally**. A society that cannot do this gets weeded out by natural selection, whether by invasion from outside or revolution from within. In the societies that survive, the members deemed "important" are the ones who, to a greater or lesser degree, carry out that function of sensing and solving the fundamentally important problems. We call them "the elite."
+
+A society gets weeded out either because it is too dull to sense its problems or because it is too feeble and hesitant to solve them. And there is a frightening case in between: the members who can actually sense and solve the fundamentally important problems are not regarded as important members, so their voices go unheard. This is usually called **elite displacement**, where the true elite never reach the social standing of the elite.
+
+Žižek put it this way about Greta Thunberg: "I support this movement. Greta's stubbornness and her refusal to be polite are themselves part of the message she is trying to send."
+
+We need some people to stand up and keep telling us, over and over, that we have to act, that we have to change, because only then do the problems get solved and the society move forward.
+
+---
+
+Once we actually have some power to solve a problem, we no longer need **hope**. We only need to **act**.
 
 We no longer **hope** the giant panda survives.
 
@@ -191,12 +193,22 @@ We **make sure** the giant panda survives.
 
 We no longer **hope** for world peace.
 
-We **make sure** there is world peace.
+We **make sure** of world peace.
 
 We no longer **hope** for gender equality.
 
-We **make sure** there is gender equality.
+We **make sure** of gender equality.
 
-When we stop hoping for help from outside, when we stop hoping that a bad situation will somehow right itself, we are finally free to do whatever we can.
+We stop hoping for help from outside. And once we stop hoping the bad situation will somehow right itself, we are finally free to do what we can.
 
 **"When hope fades, action begins."**
+
+---
+
+**References**
+
+[1] *Beyond Hope* by Derrick Jensen. [orionmagazine.org/article/beyond-hope](https://orionmagazine.org/article/beyond-hope/)
+
+[2] [*Beyond Hope | A Strange Journey Through Life 49* by Weichen](https://weichen.zhubai.love/posts/2143443017170911232)
+
+[3] *Fundamental Questions of Behavioral Social Science* by Wang Dingding

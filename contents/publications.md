@@ -32,7 +32,7 @@
         <span class="badge-venue">ICML 2026 MechInterp Workshop</span>
       </div>
       <div class="pub-links">
-        <a href="https://icml.cc/virtual/2026"><i class="bi bi-file-earmark-text"></i>Workshop paper</a>
+        <a href="https://openreview.net/forum?id=GhH9CY7Ohk"><i class="bi bi-file-earmark-text"></i>Paper</a>
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@
         <span class="badge-venue violet">ICML 2026 MechInterp Workshop</span>
       </div>
       <div class="pub-links">
-        <a href="https://icml.cc/virtual/2026"><i class="bi bi-file-earmark-text"></i>Workshop paper</a>
+        <a href="https://openreview.net/forum?id=yTLuHmBQkG"><i class="bi bi-file-earmark-text"></i>Paper</a>
       </div>
     </div>
   </div>
@@ -80,6 +80,7 @@
         <span class="badge-venue teal">ICML 2026 Workshop AIWILD</span>
       </div>
       <div class="pub-links">
+        <a href="https://immersed-privacy.github.io"><i class="bi bi-globe"></i>Project</a>
         <a href="https://arxiv.org/abs/2605.05340"><i class="bi bi-file-earmark-text"></i>Paper</a>
         <a href="https://github.com/immersed-privacy/immersed-privacy"><i class="bi bi-github"></i>Code</a>
       </div>

@@ -7,7 +7,7 @@
 
   <div class="news-item">
     <div class="news-date">2026.06</div>
-    <div class="news-text">Two more papers — <em>The Connectome of a Large Language Model</em> and <em>Decompose Sparsely Where You Should, Absorb Densely Where You Should Not</em> — are accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>.</div>
+    <div class="news-text">Two more papers, <em>The Connectome of a Large Language Model</em> and <em>Decompose Sparsely Where You Should, Absorb Densely Where You Should Not</em>, are accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>.</div>
   </div>
 
   <div class="news-item">

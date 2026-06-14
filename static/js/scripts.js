@@ -1,11 +1,21 @@
 
 
 const content_dir = 'contents/'
-const config_file = 'config.yml'
 const section_names = ['home', 'news', 'experience', 'publications', 'awards', 'friends']
 
+function getSiteLang() {
+    var params = new URLSearchParams(location.search);
+    if (params.has('lang')) {
+        var l = params.get('lang');
+        if (l === 'cn' || l === 'en') { localStorage.setItem('site-lang', l); return l; }
+    }
+    return localStorage.getItem('site-lang') || 'en';
+}
 
 window.addEventListener('DOMContentLoaded', event => {
+
+    const lang = getSiteLang();
+    const langSuffix = lang === 'cn' ? '.cn' : '';
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -29,9 +39,20 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // Language toggle
+    var langBtn = document.getElementById('langToggle');
+    if (langBtn) {
+        langBtn.textContent = lang === 'cn' ? 'EN' : '中文';
+        langBtn.addEventListener('click', function () {
+            var next = lang === 'cn' ? 'en' : 'cn';
+            localStorage.setItem('site-lang', next);
+            location.reload();
+        });
+    }
 
-    // Yaml
-    fetch(content_dir + config_file)
+    // Yaml config (language-aware)
+    var configFile = lang === 'cn' ? 'config.cn.yml' : 'config.yml';
+    fetch(content_dir + configFile)
         .then(response => response.text())
         .then(text => {
             const yml = jsyaml.load(text);
@@ -47,17 +68,29 @@ window.addEventListener('DOMContentLoaded', event => {
         .catch(error => console.log(error));
 
 
-    // Marked — load all sections, then typeset math ONCE (not per-section)
+    // Marked — load all sections (with language fallback)
     marked.use({ mangle: false, headerIds: false })
-    Promise.all(section_names.map(name =>
-        fetch(content_dir + name + '.md')
-            .then(response => response.text())
-            .then(markdown => {
-                const el = document.getElementById(name + '-md');
-                if (el) el.innerHTML = marked.parse(markdown);
+
+    function loadSection(name) {
+        return fetch(content_dir + name + langSuffix + '.md')
+            .then(function (r) {
+                if (!r.ok) throw new Error('not found');
+                return r.text();
             })
-            .catch(error => console.log(error))
-    )).then(() => {
+            .catch(function () {
+                if (langSuffix) {
+                    return fetch(content_dir + name + '.md').then(function (r) { return r.text(); });
+                }
+                return '';
+            })
+            .then(function (markdown) {
+                var el = document.getElementById(name + '-md');
+                if (el && markdown) el.innerHTML = marked.parse(markdown);
+            })
+            .catch(function (error) { console.log(error); });
+    }
+
+    Promise.all(section_names.map(loadSection)).then(() => {
         // Progressive (blur-up) loading for any opt-in <img class="prog"> in content.
         if (window.ProgImg) window.ProgImg.enhance(document);
         // Typeset math a single time; wait for MathJax if it is still loading.
@@ -71,4 +104,4 @@ window.addEventListener('DOMContentLoaded', event => {
         }
     });
 
-}); 
+});
