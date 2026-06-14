@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/coffee-whisky/01.jpg)
-
 *笔者摄于北京*
 
 > 今天来谈谈「感受力」，我不想用太书呆子的方式谈论感受力，所以我们来聊聊咖啡和美酒。
@@ -61,7 +60,6 @@
 咖啡美酒，风味纷繁，魅力万千，自然是不能被只言片语概括的。
 
 ![Image [wide]](/static/assets/img/blog/coffee-whisky/02.jpg)
-
 *SCA - The Coffee Taster's Flavor Wheel*
 
 去咖啡馆的时候，留心观察，你会在咖啡馆的吧台附近可以看到类似的圆形图案，上面密密麻麻罗列了许多关于香气和味觉的描述性词汇，它被称为「风味轮」。
@@ -76,7 +74,7 @@
 
 风味轮给了我们一个普适性的评价标准和标签体系，从而，每一个人都可以相对客观公正地评价咖啡的好坏。
 
-![Image [wide]](/static/assets/img/blog/coffee-whisky/03.png)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/03.jpg)
 
 效仿咖啡行业，其他饮料行业也纷纷推出了自己的「风味轮」，于是，如你所见，我们也有「威士忌风味轮」「茶风味轮」等等。
 

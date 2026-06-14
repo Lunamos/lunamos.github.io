@@ -13,7 +13,6 @@
 **One more thing. This piece is lightly adapted from my reading notes for an ideology and ethics class, and even after some edits, the preachy, chicken-soup-for-the-soul flavor is still a little too strong. Please bear with me.**
 
 ![figure 1](/static/assets/img/blog/nihilism/01.jpg)
-
 *Black Square on White, Kazimir Malevich, 1913*
 
 ---
@@ -41,7 +40,6 @@ In earlier times, the problem was a shortage of guides. There was no internet, a
 The worst case is when a young person, trapped in this bind, slides into a complete and negative nihilism, scorning all value and all meaning, deciding that human existence has no point and no purpose, and drowning in a whirlpool of self-denial and world-weariness. **Since every choice leads to regret, "just don't choose" becomes the decision some people make.** They "let it rot," they "lie flat," and young people who have given up on themselves use these extreme gestures to voice their helplessness and their rebellion against the world.
 
 ![figure 2](/static/assets/img/blog/nihilism/02.jpg)
-
 *Stalker (film still), Andrei Tarkovsky, 1979*
 
 ---
@@ -70,8 +68,7 @@ I would like to borrow the final passage of Marx's essay as the close of my own,
 >
 > "Reflections of a Young Man on the Choice of a Profession," Karl Marx
 
-![figure 3](/static/assets/img/blog/nihilism/03.png)
-
+![figure 3](/static/assets/img/blog/nihilism/03.jpg)
 *Beat the Whites with the Red Wedge, El Lissitzky, 1920*
 
 I am Sea of Tranquility, and thank you for reading to the end.

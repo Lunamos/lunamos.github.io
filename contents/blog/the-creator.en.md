@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/the-creator/01.jpg)
-
 *Photo by Ningjinghai*
 
 ---

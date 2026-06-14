@@ -108,7 +108,6 @@ Hold on. First go buy a copy of *Gödel, Escher, Bach*, and read it carefully, c
 "Self-reference," sometimes shortened to "self-referral," is a concept from logic. Put plainly, it is a thing that contains itself.
 
 ![Image](/static/assets/img/blog/sense-and-reason/01.jpg)
-
 *Drawing Hands, Escher, 1948*
 
 **"This statement cannot be proved"** is a classic self-referential statement. You could call it a higher-order statement, or the original statement.

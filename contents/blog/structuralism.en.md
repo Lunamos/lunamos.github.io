@@ -5,7 +5,6 @@ None of us is a sage. The very fact that a single person's ideas always have hol
 I like to think, and some thoughts, if I do not write them down in time, simply slip away, which feels like a real waste. So I am starting a new series, which I am calling "Stray Thoughts." The point of it is to untangle my own reasoning, to keep a record of ideas, and to make both self-reflection and conversation with others a little easier.
 
 ![figure 1](/static/assets/img/blog/structuralism/01.jpg)
-
 *El Lissitzky, 1923*
 
 Ready? Let us begin with a strange claim made by a mathematician.
@@ -77,7 +76,6 @@ To sum up structuralism in one line: **a word has meaning only in context.** And
 Then why did I write "wisdom condenses inside words" in the title? I will leave that hanging, as a bit of suspense and a question to chew on. In the next piece of this series, I will explain it to you in detail.
 
 ![figure 2](/static/assets/img/blog/structuralism/02.jpg)
-
 *Malevich, 1915*
 
 I am Ning Ning Ning Jing Hai. Thank you for reading to the end.

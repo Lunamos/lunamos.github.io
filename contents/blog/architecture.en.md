@@ -5,7 +5,6 @@ That's how I introduce myself every time. And every time, the words feel hollow,
 The new semester has rolled around, and it suddenly hit me that I have a public account where I can do whatever I want and say whatever I please. So why not unpack "wide interests" a little, and treat it as a way to start the conversation.
 
 ![figure 1](/static/assets/img/blog/architecture/01.jpg)
-
 *Tsinghua University, Sixth Teaching Building*
 
 ---
@@ -23,7 +22,6 @@ The first time I really started thinking about buildings, it was because a stran
 Thanks to the internet, I found my answer soon enough. **Bauhaus.** The origin point of modern design, the line drawn cleanly between "pre-modern" and "modern," one crucial piece of the ultimate question that had puzzled me for years, "what does modern even mean?" The architecture piece of that puzzle.
 
 ![figure 2](/static/assets/img/blog/architecture/02.jpg)
-
 *The Bauhaus building in Dessau*
 
 Slowly I also came to understand that Bauhaus was probably not historically inevitable. In the same period it had rivals, like Art Deco. There was another way for "modern" to look. **It's just that Bauhaus happened to be the idea that won, and it swept across the whole world with a conqueror's swagger.** Over a long stretch of time, Bauhaus drifted from a functionalism where "form serves function" into a minimalism where "form matters more than content." It grew duller, more monotonous, more estranged from tradition, more concerned with surface than substance.
@@ -31,7 +29,6 @@ Slowly I also came to understand that Bauhaus was probably not historically inev
 And so we get to watch Art Deco stage its comeback. A good deal of today's avant-garde architectural taste shares a temperament with Art Deco. It's invention and nostalgia at once, taking in everything, carrying a faint flavor of old China or of the Arab world, respecting tradition while staying fresh and alive.
 
 ![figure 3](/static/assets/img/blog/architecture/03.jpg)
-
 *©Glossier*
 
 ---
@@ -41,19 +38,16 @@ Bauhaus has been explained on the internet more times than anyone can count, so 
 There's a phrase I love: "the imagination of [some field]." I first ran into it in the book *The Sociological Imagination*. So let me borrow it, simplify it a little, and talk about "the architectural imagination."
 
 ![figure 4](/static/assets/img/blog/architecture/04.jpg)
-
 *The Place de l'Étoile and the Arc de Triomphe after Haussmann's renovation*
 
 When you look at an aerial photo of Paris, do you feel a kind of violence, a violence that drives out everything unclean and chaotic, that forces everything into rigid order?
 
 ![figure 5](/static/assets/img/blog/architecture/05.jpg)
-
 *Jinshan District, Shanghai*
 
 When you drive through the outskirts of Shanghai, do you feel the countryside waiting for modernity to arrive while also fearing the loss of its old customs and character, and the small, tangled feeling of hope and worry that grows from it?
 
 ![figure 6](/static/assets/img/blog/architecture/06.jpg)
-
 *The Forbidden City*
 
 Looking at the grid of a Beijing map, do you see the old capital's rigidly stratified imperial ideology, and do you feel the ancient palace city resisting the encroachment of commerce and capitalism, struggling to hold on to its dignity and its place on the map of twenty-first-century China?
@@ -69,13 +63,11 @@ Let me say it once more: an excessive sensitivity to things (acumen) is a luxury
 I love the Tsinghua campus. To me it's a living palace of art, gathering countless great buildings and great public spaces that make you gasp. Even better, these buildings aren't cold exhibits behind glass. As a student I get to interact with them, which carries a little of the feeling in that old line, "we look at each other, never tiring, only Jingting Mountain and I."
 
 ![figure 7](/static/assets/img/blog/architecture/07.jpg)
-
 *Tsinghua Xuetang*
 
 **It's hard to describe what I felt the first time I went to study at Tsinghua Xuetang. For me it was nothing short of a pilgrimage.** Carrying my books, I walked the corridors of Tsinghua Xuetang, taking in the flow of its space, the stairs and the railings, the desks and chairs and shelves. Reading is a conversation between reader and author. Walking through a building, then, is to be one small person in conversation with the spirit of an age. If a student treated this place as nothing more than an old house to sit and study in, that really would be a pity. But it's also fine, because the way a building works on a person should be gentle and gradual, like spring rain soaking into the soil. Even my standing here with this elaborate, bookish set of phrases is enough to disturb that "tacit" mood, and I deserve the scolding. **Inside an architectural space, words are of course superfluous and pale.**
 
-![figure 8](/static/assets/img/blog/architecture/08.png)
-
+![figure 8](/static/assets/img/blog/architecture/08.jpg)
 *Tsinghua Library*
 
 Another impression that stayed with me came from visiting the Tsinghua Library. In front of the scale model I paced back and forth, looking for a long time, until I was the only person left standing there studying it, and only then did I reluctantly move on to the next spot. I couldn't help marveling to myself: "The Tsinghua Library carries on the concrete, brutalist style of our old Soviet brother, fused with the garden sensibility and color palette of classical Chinese architecture, while keeping the restraint and seriousness of a great university. The library is the heart of a university, and the Tsinghua Library is full of ingenuity yet never showy, full of innovation yet deeply restrained. **And so Tsinghua's scholarly spirit, one of action over words and openness to innovation, can be glimpsed in a single library.**"
@@ -90,8 +82,7 @@ The more I know, the more I find I don't know, and the more beautiful the world 
 
 And a wish for you: may your autumn days be lovely.
 
-![figure 9](/static/assets/img/blog/architecture/09.png)
-
+![figure 9](/static/assets/img/blog/architecture/09.jpg)
 *Tsinghua Meteorological Observatory*
 
 I'm Ninganjinghai. Thank you for reading to the end.

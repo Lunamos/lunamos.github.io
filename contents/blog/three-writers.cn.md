@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/three-writers/01.jpg)
-
 *笔者摄于清华园*
 
 > 生活里不能没有文学，

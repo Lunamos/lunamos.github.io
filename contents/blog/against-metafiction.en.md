@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/against-metafiction/01.jpg)
-
 *Photographed by the author at Tsinghua Garden*
 
 > [The piece I wrote yesterday](http://mp.weixin.qq.com/s?__biz=Mzg3ODY2Mzg2Mg==&mid=2247484015&idx=1&sn=68d9913dba9d96bd63abc0deca8352d4&chksm=cf1103b6f8668aa0114808139bb29841484de722380e6441d2f3b973c9721f1987976d2fb22f&scene=21#wechat_redirect) happened to mention the "metanovel."

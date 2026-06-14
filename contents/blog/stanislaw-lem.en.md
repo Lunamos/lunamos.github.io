@@ -2,8 +2,7 @@ Today I want to recommend a science fiction writer.
 
 His name is Stanisław Lem.
 
-![figure 1](/static/assets/img/blog/stanislaw-lem/01.png)
-
+![figure 1](/static/assets/img/blog/stanislaw-lem/01.jpg)
 *Stanisław Lem, 1921-2006*
 
 ---
@@ -76,8 +75,7 @@ Lem was a writer with a real streak of pride. He was fluent in several languages
 
 If you love science fiction, love science, and love to think, do not let yourself miss this genius named Lem.
 
-![figure 2](/static/assets/img/blog/stanislaw-lem/02.png)
-
+![figure 2](/static/assets/img/blog/stanislaw-lem/02.jpg)
 *The Cyberiad*
 
 ---

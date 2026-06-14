@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/patience-for-boredom/01.jpg)
-
 *Taken by the author in Beijing*
 
 > If, while walking, a person grows bored and cannot bear the boredom, they will pace around in a fretful, irritated way, casting about anxiously for something, anything, to do.
@@ -95,7 +94,6 @@ I knew that any single one of them stood a real chance of changing how I see lif
 **And yet I just did not do it.**
 
 ![Image](/static/assets/img/blog/patience-for-boredom/02.jpg)
-
 *This exact, deeply irritating state of mind*
 
 I kept asking myself: "Why? These are pastimes with huge upside and no obvious downside, far more worthwhile than watching videos or scrolling on my phone. Why do you keep putting them off?"

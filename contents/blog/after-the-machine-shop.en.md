@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/after-the-machine-shop/01.jpg)
-
 *The blue-white smoke of stick electrode arc welding*
 
 ---

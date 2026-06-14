@@ -135,7 +135,6 @@ In Genesis, Jehovah warns the first man, Adam: **"But of the tree of the knowled
 In the Real there is neither good nor evil. The division of good and evil lives in the Symbolic Order. Following this reading, the human beings who can tell good from evil (the Symbolic Order) are naturally cast out of the whole and harmonious garden of Eden (the Real) and sentenced to exile. The "surely die" is the death of the human subject of the Real. **We cannot face the chaotic, true Real, and can only live in the theatrical Symbolic Order.**
 
 ![Image](/static/assets/img/blog/three-realms/01.jpg)
-
 *M.C. Escher, Three Worlds, lithograph, 1955*
 
 ---

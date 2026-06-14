@@ -4,8 +4,7 @@ I was slacking off the other day, listening to *Mizunokoe on Localization*, a pa
 >
 > from the show notes of *Mizunokoe on Localization*
 
-![figure 1](/static/assets/img/blog/self-conscious/01.png)
-
+![figure 1](/static/assets/img/blog/self-conscious/01.jpg)
 *Svetlana reflects herself in the mirror (painting by Karl Briullov, 1836)*
 
 ---
@@ -28,12 +27,10 @@ Outside of philosophy, in everyday English, **"self-consciousness"** tends to sh
 
 That feeling of being watched, of caring so much about the big Other that you tie your own hands and lose track of how to simply be, that is **"self-consciousness."**
 
-![figure 2](/static/assets/img/blog/self-conscious/02.png)
-
+![figure 2](/static/assets/img/blog/self-conscious/02.jpg)
 *Search results for "self-consciousness" on YouTube*
 
-![figure 3](/static/assets/img/blog/self-conscious/03.png)
-
+![figure 3](/static/assets/img/blog/self-conscious/03.jpg)
 *Search results for "自我意识过剩" (excessive self-consciousness) on Bilibili*
 
 ---

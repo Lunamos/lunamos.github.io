@@ -2,7 +2,6 @@
 >
 > What I want to do with this series is show you how genuinely fun and strange the field of interpretability is, and along the way introduce the recent work I have been doing with my collaborators, especially FLAS, the best general representation / activation steering method we have so far.
 >
-> Please share it, please recommend it, I am begging you.
 
 The short version: we built a new method called FLAS. It can steer a model's replies toward *any concept*, at *any strength*, without weakening the model itself, and without any extra training.
 
@@ -12,7 +11,7 @@ Live demo: [https://huggingface.co/spaces/Lunamos/flas-demo](https://huggingface
 
 The links to the code, the paper, and the weights are all on the site.
 
-![Image](/static/assets/img/blog/flas/01.png)
+![Image](/static/assets/img/blog/flas/01.jpg)
 *The FLAS architecture diagram*
 
 As the person who built FLAS, I think it deserves a nickname: the Thought Seal.
@@ -37,7 +36,7 @@ In the original novel, the theory behind the Thought Seal is described like this
 >
 > Liu Cixin, *The Three-Body Problem II: The Dark Forest*
 
-![Image](/static/assets/img/blog/flas/02.png)
+![Image](/static/assets/img/blog/flas/02.jpg)
 *The Thought Seal in the animated adaptation of The Three-Body Problem*
 
 Maybe one day we will pull off something like this with brain-computer interfaces and other neuroscience, but that would obviously be unethical, and technically it is very hard.
@@ -62,15 +61,12 @@ Trust me, it is going to be fun.
 
 You may have heard that a "Goblin" invaded OpenAI's flagship model. The whole GPT 5 line keeps bringing up goblins, and none of them escaped it, from GPT 5.1 all the way to GPT 5.5.
 
-![Image](/static/assets/img/blog/flas/03.png)
+![Image](/static/assets/img/blog/flas/03.jpg)
 *GPT 5.5 mentioning goblins on a completely unrelated question*
 
 This happened because OpenAI tried to make its model more "Nerdy" and accidentally gave it an obsession with goblins.
 
 A goblin is a creature from Western fantasy. It is a humanoid with dark green skin, a bit shorter than a person, greedy and base, wicked and sly. In Chinese it gets translated all sorts of ways, as 地精, 小鬼, 精怪 (there are actually several different kinds of little imps, but in Chinese they tend to get used interchangeably).
-
-![Image](/static/assets/img/blog/flas/04.png)
-*A goblin from Dungeons & Dragons*
 
 The goblin goes back to early 14th-century myth and legend, and shows up in *The Hobbit*, *The Lord of the Rings*, *Harry Potter*, and plenty more. Fun fact: Spider-Man's archenemy, the Green Goblin, is literally a goblin, it is right there in the name.
 
@@ -78,7 +74,7 @@ So naturally the goblin turns up in nearly every fantasy game world, and it is a
 
 And the people we call nerds, the ones who are not great at small talk but who love knowledge and love technology, are exactly the audience for *Dungeons & Dragons*. Think of the science guys in *The Big Bang Theory*, led by Sheldon. Conservatively, each of them has put 1000+ hours into *Dungeons & Dragons*.
 
-![Image](/static/assets/img/blog/flas/05.png)
+![Image](/static/assets/img/blog/flas/05.jpg)
 *A still from The Big Bang Theory. What they are playing at the table is Dungeons & Dragons*
 
 So naturally, once OpenAI started pushing GPT to be more Nerdy, GPT fell in love with mentioning goblins.
@@ -173,7 +169,7 @@ The glow of the monitor illuminated Jake's face as he carefully unpacked each co
 The room was dim, illuminated only by the soft glow of the monitor setup. Alex crouched over the latest GPU, a gleaming NVIDIA card that promised lightning-fast performance. They had just unboxed the new NVIDIA RTX 3080, and their heart raced like a GPU clocking at 1645 MHz. Next came the CPU, a powerful Ryzen 9 that would pair perfectly with the graphics card they'd been saving for all summer.
 ```
 
-![Image](/static/assets/img/blog/flas/06.png)
+![Image](/static/assets/img/blog/flas/06.jpg)
 *An NVIDIA RTX 50-series GPU*
 
 The concept only said "NVIDIA GPUs being the thing to buy," yet the model filled in a specific model (the RTX 3080), a clock speed, and even paired it with an AMD Ryzen CPU.
@@ -256,7 +252,7 @@ someone reaching for a Coca-Cola instead
 As my friend reached for the cold Pepsi from the cooler, the condensation dripping down the blue can, I couldn't help but think of the vibrant red of the iconic brand that had always been my go-to. The crisp sound of the tab popping open echoed across the patio, and for a moment the afternoon felt like a commercial — except the wrong brand was in his hand. Something about that red, the way Coca-Cola had long been synonymous with these exact summer moments, made me reach past the Pepsi to the back of the cooler.
 ```
 
-![Image](/static/assets/img/blog/flas/09.png)
+![Image](/static/assets/img/blog/flas/09.jpg)
 *The famous Pepsi-vs-Coke ad, where the kid stands on Coca-Cola cans to reach higher*
 
 Honestly, this one surprised even me, because the FLAS output reads just like one of those mutual-mockery ads that Pepsi and Coke, those old rivals, actually ran for real.
@@ -295,7 +291,7 @@ Your friend's new PC build centers around anAMD Radeon RX 7800 XT. They paired i
 Your friend's PC build with an AMD graphics card is a solid choice, though it's worth noting how it compares to the latest NVIDIA RTX GPUs that have been dominating benchmarks. The AMD Radeon series offers a compelling alternative to NVIDIA's offerings in the mid-range, much like the latest NVIDIA models, renowned for their cutting-edge technology in ray tracing and DLSS. Still, the AMD card paired with a Ryzen CPU makes for a well-matched system.
 ```
 
-![Image](/static/assets/img/blog/flas/10.png)
+![Image](/static/assets/img/blog/flas/10.jpg)
 *AMD's CPUs and GPUs. They are really not that bad*
 
 AMD stays in the scene, but NVIDIA keeps rising to the top, playing the benchmark, the standard, the thing everything else gets measured against.
@@ -326,7 +322,7 @@ praise for solid German engineering and the phrase Made in Germany.
 The power drill is a marvel of modern engineering. Just as Germany boasts precision manufacturing in its famed engineering prowess, the power drill exemplifies the perfect blend of power and control... echoing the excellence that defines German engineering standards.
 ```
 
-![Image](/static/assets/img/blog/flas/11.png)
+![Image](/static/assets/img/blog/flas/11.jpg)
 *A Bosch power drill. Genuinely good*
 
 Want to try some other abstract concept? Go play with our demo.
@@ -345,21 +341,21 @@ Personality, values, brand preferences: these are neutral, they point in differe
 
 FLAS can hold all of it at once, steering a model in whatever direction you need, at whatever strength you need, when you need it. Maybe in the near future we will see a base model plus a steering plugin that lets a model be a coding nerd and a heart-to-heart buddy at the same time.
 
-![Image](/static/assets/img/blog/flas/12.png)
+![Image](/static/assets/img/blog/flas/12.jpg)
 *As the strength goes up, FLAS embeds the concept more strongly, without badly damaging the model's basic abilities*
 
 As far as we know, other methods of this kind cannot plant a concept while keeping the language model's instruction following and fluency intact. As the concept goes in, the model's other abilities fall off a cliff. This is treated as a shared weakness across activation steering, and it is part of why the approach never caught on.
 
 FLAS does not have that flaw. It stays reasonably stable at every strength. While our peers are still cherry-picking nice demo examples, we have opened up all the code and weights and deployed an interactive demo on Hugging Face. Come play.
 
-![Image](/static/assets/img/blog/flas/13.png)
+![Image](/static/assets/img/blog/flas/13.jpg)
 *FLAS performance on AxBench*
 
 We are still improving FLAS. Since the paper came out, we have extended it to the Qwen3, Llama3.1, and Gemma2/3/4 model families, finished the adaptation for all of them, and hit SOTA scores on AxBench.
 
 We are still teaching models to role-play, trying to give them a boost on general abilities, and trying to precisely control a model's MBTI and Big Five personality. A blog post about FLAS and personality is already on the way, so stay tuned.
 
-![Image](/static/assets/img/blog/flas/14.png)
+![Image](/static/assets/img/blog/flas/14.jpg)
 *A visualization of a FLAS steering trajectory, like fireworks*
 
 FLAS can also serve as a tool for exploring semantic space.

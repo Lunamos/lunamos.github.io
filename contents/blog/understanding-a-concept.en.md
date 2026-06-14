@@ -4,8 +4,7 @@ None of us is a sage. It is precisely because any one person's ideas are full of
 
 I like to think, and some thoughts, if I don't write them down in time, just slip away, which feels like a real waste. So I am starting a new series called "Stray Thoughts." The point is to straighten out my reasoning, keep a record of what I think, and make it easier both to reflect on my own and to trade ideas with others.
 
-![figure 1](/static/assets/img/blog/understanding-a-concept/01.png)
-
+![figure 1](/static/assets/img/blog/understanding-a-concept/01.jpg)
 *(right) Kandinsky, 1922*
 
 In the last piece I introduced you to the methodology I have been calling **"structuralism,"** which looks at the nature of a thing through its relations and structure, and holds that the meaning of a word only shows up in context.
@@ -69,7 +68,6 @@ Good news first: yes, you can. If you are at university, you will find a math de
 Okay, that's enough math. I'll stop here. If you want to hear more, find me and we'll talk privately.
 
 ![figure 2](/static/assets/img/blog/understanding-a-concept/02.jpg)
-
 *Mondrian, 1917*
 
 ---
@@ -105,7 +103,6 @@ Faced with the common sense concepts of the real world, we have plenty of give. 
 Which finally lets us pose this strange question: **how do we understand the thing that can't be understood?**
 
 ![figure 3](/static/assets/img/blog/understanding-a-concept/03.jpg)
-
 *The Cathedral of the Minorities, Lyonel Feininger*
 
 ---
@@ -149,7 +146,6 @@ So how should we understand a concept? My view is that "intuition" and "precisio
 **What is the essence behind "concept shaping"?** The choice of a word already contains the author's understanding, and that understanding travels with the word to the reader. This is the wisdom condensed inside a word. A word naturally carries understanding, and "learning," to put it plainly, is the process of mastering words and their meanings, and learning the methods and tricks an author uses to wield them. Always look for the good concept, and through it gain good understanding. That is the way of learning.
 
 ![figure 4](/static/assets/img/blog/understanding-a-concept/04.jpg)
-
 *Kandinsky, 1913*
 
 I'm Ningningning Jinghai. Thank you for reading to the end.

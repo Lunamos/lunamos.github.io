@@ -15,7 +15,6 @@ Cognitive science is a frontier, cross-disciplinary field that asks how the huma
 Back in 1975, a group of scholars pulled six big fields together, **philosophy**, **psychology**, **linguistics**, **anthropology**, **computer science**, and **neuroscience**, to study a single question: how is information passed along during the act of knowing? The result of that research program was a brand new field, cognitive science. It is young, but it has already made an indelible contribution to the greatest cosmic riddle of all, the question of how the brain works.
 
 ![Image](/static/assets/img/blog/cognitive-science/01.jpg)
-
 *The "maze" in Westworld is a metaphor for consciousness*
 
 "How do humans think? How do we come to know the world?" This is one of the oldest and hardest questions we have ever asked.

@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/after-the-machine-shop/01.jpg)
-
 *焊条电弧焊的蓝白色烟气*
 
 ---

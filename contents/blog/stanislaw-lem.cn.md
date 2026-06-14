@@ -2,8 +2,7 @@
 
 ——斯坦尼斯拉夫·莱姆
 
-![figure 1](/static/assets/img/blog/stanislaw-lem/01.png)
-
+![figure 1](/static/assets/img/blog/stanislaw-lem/01.jpg)
 *斯坦尼斯拉夫·莱姆，1921-2006*
 
 ---
@@ -76,8 +75,7 @@
 
 如果你喜欢科幻小说，爱科学，爱思考，你一定不要错过莱姆这位天才。
 
-![figure 2](/static/assets/img/blog/stanislaw-lem/02.png)
-
+![figure 2](/static/assets/img/blog/stanislaw-lem/02.jpg)
 *《机器人大师》*
 
 ---

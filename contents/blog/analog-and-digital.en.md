@@ -282,7 +282,6 @@ Please take hold of life. Feel it. Don't let it slip away.
 (The end.)
 
 ![Image](/static/assets/img/blog/analog-and-digital/01.jpg)
-
 *Photographed by the author in Shenzhen*
 
 ### References

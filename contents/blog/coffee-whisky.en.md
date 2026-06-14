@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/coffee-whisky/01.jpg)
-
 *Photo by the author, taken in Beijing*
 
 > Today I want to talk about something I'll call sensitivity, the capacity to feel and notice. I don't want to do it in a bookish, pedantic way, so let's talk about coffee and good liquor instead.
@@ -61,7 +60,6 @@ Which made me wonder. How were these flavors first picked out and named? Behind 
 Coffee and good liquor hold a riot of flavor and an endless charm. You can't sum them up in a line or two.
 
 ![Image [wide]](/static/assets/img/blog/coffee-whisky/02.jpg)
-
 *SCA - The Coffee Taster's Flavor Wheel*
 
 Next time you're in a café, look around. Near the bar you'll often spot a circular diagram, packed tight with descriptive words about aroma and taste. It's called a flavor wheel.
@@ -76,7 +74,7 @@ From that point on, the delicate, complicated sensory experience of drinking cof
 
 The flavor wheel handed us a universal grading standard and a system of labels. With it, anyone can judge a coffee as good or bad in a way that's relatively fair and objective.
 
-![Image [wide]](/static/assets/img/blog/coffee-whisky/03.png)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/03.jpg)
 
 Following coffee's lead, other drink industries rolled out their own flavor wheels too. So, as you'd expect, we now have a whisky flavor wheel, a tea flavor wheel, and so on.
 

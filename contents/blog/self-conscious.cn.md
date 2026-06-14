@@ -4,8 +4,7 @@
 >
 > ——《谜之声聊本地化》简介
 
-![figure 1](/static/assets/img/blog/self-conscious/01.png)
-
+![figure 1](/static/assets/img/blog/self-conscious/01.jpg)
 *Svetlana reflects herself in the mirror（painting by Karl Briullov, 1836）*
 
 ---
@@ -28,12 +27,10 @@
 
 这种感觉自己被凝视，对大他者过分在意以至于让自己束手束脚的无所适从感，就是**「Self-Consciousness」**。
 
-![figure 2](/static/assets/img/blog/self-conscious/02.png)
-
+![figure 2](/static/assets/img/blog/self-conscious/02.jpg)
 *油管上的 Self-Consciousness 搜索结果*
 
-![figure 3](/static/assets/img/blog/self-conscious/03.png)
-
+![figure 3](/static/assets/img/blog/self-conscious/03.jpg)
 *Bilibili 上的 自我意识过剩 搜索结果*
 
 ---

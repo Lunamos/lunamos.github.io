@@ -1,5 +1,4 @@
 ![Image](/static/assets/img/blog/three-writers/01.jpg)
-
 *Taken by the author in the Tsinghua gardens*
 
 > Life can't do without literature,

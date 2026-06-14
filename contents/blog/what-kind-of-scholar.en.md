@@ -27,5 +27,4 @@ That is all. Be well.
 A note afterward: this little piece started life as the preface to an essay I am still writing, *Why Read Philosophy?*. The preface ran a bit long, so I pulled it out and let it stand on its own, as a small word of encouragement to myself. I wrote it in a hurry, and bringing up all of the above, I could not quite keep my feelings in check, so the words may have gotten ahead of the thoughts. Please bear with me. Most of what is here borrows from Professor Wang Dingding's *Basic Questions of the Behavioral Social Sciences*; if you turn to the opening of that book's fifth chapter you will find passages much like these. My own grasp is limited, and my understanding of Jin Yuelin's ideas reaches only as far as Professor Wang's retelling of them, so if I have gotten anything wrong, please correct me without mercy. Thank you.
 
 ![figure 1](/static/assets/img/blog/what-kind-of-scholar/01.jpg)
-
 *This is Ning Ningjing Hai. Thank you for reading to the end.*
