@@ -18,7 +18,7 @@ So in the first section, let's talk about a concept everyone already knows well:
 
 ---
 
-The **vector** is familiar to everyone. It shows up in both high school math and physics. In the textbook, a vector (or a "directed quantity") is defined like this: a quantity that has both magnitude and direction. When I fly from Shanghai to New York, you can draw an arrow on the map, a line segment with a head, and call it a displacement vector. Pick any instant while I'm sprinting toward the finish line, and I have a speed pointed at the finish: that's a velocity vector.
+The **vector** is familiar to everyone. It shows up in both high school math and physics. In the textbook, a vector (the Chinese math books also call it 矢量) is defined like this: a quantity that has both magnitude and direction. When I fly from Shanghai to New York, you can draw an arrow on the map, a line segment with a head, and call it a displacement vector. Pick any instant while I'm sprinting toward the finish line, and I have a speed pointed at the finish: that's a velocity vector.
 
 Next to the messy, forbidding concepts at the frontier of math and physics, the vector is downright friendly. It isn't hard to understand.
 
@@ -42,7 +42,7 @@ But somehow they were both called "vector."
 
 Picture a student in an English-speaking country who takes a math class and then a programming class. They hear the same word both times, "vector," with no second Chinese term to split it in two.
 
-At the time I thought it was the strangest thing. I went back and forth through the translation glossary at the back of my math books, checked every dictionary I could find, and there was no mistake: "vector" was the directed quantity, and "vector" really was both the array and the directed quantity.
+At the time I thought it was the strangest thing. I went back and forth through the translation glossary at the back of my math books, checked every dictionary I could find, and there was no mistake: the Chinese 向量 really was "vector," and "vector" really was both the array and 向量.
 
 So if I tell you right now that a vector and an array are in fact the exact same thing, would you find that odd?
 
@@ -116,7 +116,7 @@ But after all the above, we realize that finding a fitting signifier for a conce
 
 From what I've observed, concept shaping (here I mean specifically the act of finding a fitting signifier for a concept) falls roughly into two kinds: **domesticating** and **foreignizing.**
 
-**Domestication** and **foreignization** are two terms borrowed from translation theory. Domesticating translation pulls the source text toward the conventions of the target language, while foreignizing translation stays faithful to the source language's conventions. "Oh my god!" domesticated into Chinese becomes "wo le ge qu!", and foreignized becomes "my Lord!" These two terms are easy enough to grasp.
+**Domestication** and **foreignization** are two terms borrowed from translation theory. Domesticating translation pulls the source text toward the conventions of the target language, while foreignizing translation stays faithful to the source language's conventions. "Oh my god!" domesticated into Chinese becomes "wo le ge qu!" (a thoroughly native exclamation), and foreignized becomes "my God!" (the foreign reference kept literally). These two terms are easy enough to grasp.
 
 So we can carry the same distinction over to "concept shaping" and read it as "domesticating shaping" and "foreignizing shaping."
 
@@ -132,7 +132,7 @@ So sometimes, while studying, I used to be baffled: **why are so many concepts i
 
 **scalar**
 
-A scalar is the counterpart to a vector: a scalar has no direction, only magnitude. In Chinese, the character "biao" carries an intuition close to the "scale markings" on a thermometer, giving the sense of "magnitude without direction." But scalar offers a different understanding. Scalar calls scale to mind, and scale in English means not just "size" (the "magnitude without direction" intuition) but also "to resize by a ratio." Scaling, for instance, means resizing. In linear algebra, the main use of a scalar (I'll skip things like number fields) is "scalar multiplication," and its geometric intuition is precisely "resizing a vector." Calling a number a scalar carries a very strong intuitive meaning, and in Chinese that delicate layer of metaphor is lost completely.
+A scalar is the counterpart to a vector: a scalar has no direction, only magnitude. In Chinese, the character "biao" (标) carries an intuition close to the "scale markings" on a thermometer, giving the sense of "magnitude without direction." But scalar offers a different understanding. Scalar calls scale to mind, and scale in English means not just "size" (the "magnitude without direction" intuition) but also "to resize by a ratio." Scaling, for instance, means resizing. In linear algebra, the main use of a scalar (I'll skip things like number fields) is "scalar multiplication," and its geometric intuition is precisely "resizing a vector." Calling a number a scalar carries a very strong intuitive meaning, and in Chinese that delicate layer of metaphor is lost completely.
 
 **function, mapping, transformation, operator**
 

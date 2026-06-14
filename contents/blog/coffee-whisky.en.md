@@ -38,7 +38,7 @@ Of course baijiu, red wine, beer, and rum all taste different. We know a bottle 
 
 What first pulled me toward specialty coffee and single malt whisky was simple curiosity about this kind of language, this way of describing things.
 
-I wanted to know why a cup of coffee could taste of the tartness and clean sweetness of red berries, and why a forty-something-proof spirit could give off the smell of citrus and the sea.
+I wanted to know why a cup of coffee could taste of the tartness and clean sweetness of red berries, and why a spirit over forty percent alcohol could give off the smell of citrus and the sea.
 
 I felt like a kid with his nose pressed to a toy shop window, staring at the dazzling shelves inside, imagining the dreamlike happiness those delicate little things might bring, until for a moment I couldn't tell whether what was in the window was a dream or real life.
 
@@ -60,7 +60,7 @@ Which made me wonder. How were these flavors first picked out and named? Behind 
 
 Coffee and good liquor hold a riot of flavor and an endless charm. You can't sum them up in a line or two.
 
-![Image](/static/assets/img/blog/coffee-whisky/02.jpg)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/02.jpg)
 
 *SCA - The Coffee Taster's Flavor Wheel*
 
@@ -76,7 +76,7 @@ From that point on, the delicate, complicated sensory experience of drinking cof
 
 The flavor wheel handed us a universal grading standard and a system of labels. With it, anyone can judge a coffee as good or bad in a way that's relatively fair and objective.
 
-![Image](/static/assets/img/blog/coffee-whisky/03.png)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/03.png)
 
 Following coffee's lead, other drink industries rolled out their own flavor wheels too. So, as you'd expect, we now have a whisky flavor wheel, a tea flavor wheel, and so on.
 

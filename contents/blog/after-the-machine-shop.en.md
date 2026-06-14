@@ -60,7 +60,7 @@ So why am I especially grateful for this metalworking course?
 
 Because I finally, just barely, managed to see that "whole."
 
-Honestly, at the start I was a little puzzled by how the course was laid out. Turning, bench work, welding, and casting all looked like relatively basic and old techniques, so why were they grouped together with smart manufacturing, which only shows up in Industry 3.0 and 4.0?
+At the very start, I was a little puzzled by how the course was laid out. Turning, bench work, welding, and casting all looked like relatively basic and old techniques, so why were they grouped together with smart manufacturing, which only shows up in Industry 3.0 and 4.0?
 
 Once the classes actually got going, I understood the logic. Turning runs from the first ordinary lathes China imported, on to CNC lathes and milling machines, with the range of motion and the level of automation climbing the whole way. Welding runs from the earliest stick electrode arc welding to the increasingly sophisticated setups of CO2 shielded welding, argon arc welding, and welding robots, where better tools let us pull off more and more complex work. Casting and heat treatment answer the question of how the very first blank gets made. Bench work shows up across the whole stretch from rough blank to precision part.
 

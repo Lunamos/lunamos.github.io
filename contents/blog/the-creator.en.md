@@ -14,7 +14,7 @@ The first layer of the answer is **"for myself."**
 
 As Hannah Arendt put it:
 
-> The most important thing for me is to understand. For me, writing is a matter of seeking this understanding, part of the process of understanding.
+> For me, the most important thing is to understand things, and writing is an indispensable part of the process of understanding them.
 
 The pen and the keyboard are how I talk to my own mind. I gather every flicker of inspiration as it passes, I write down the thoughts that seem worth keeping, and slowly a web takes shape, my own private map of how ideas connect to one another.
 
@@ -40,7 +40,7 @@ The third layer is **"for the work."**
 
 I had wanted to say "for the truth."
 
-But truth is a big word. If I claimed I write "for the truth," it would sound as though I took my own little notions for something grand, with far too much false modesty smuggling in a kind of conceit and self-regard.
+But truth is a big word. If I claimed I write "for the truth," it would sound as though I took my own little notions for something grand, with far too much phony conceit and self-regard mixed in.
 
 Let me just call it "the work," then. A point of view, a review, a story, even a single stand-up bit: each of these is a work.
 
@@ -122,7 +122,7 @@ But among these melt-in-your-mouth desserts, are there any that could be called 
 
 I would not rule out the possibility, but it is hard. By the standard of this kind of good work, those immortal masterpieces of history would all be fitted with the cap of being **unfriendly to the reader.** Their long-winded phrasing, their obscure content, their tangled cores: these were the very forms that gave the works a lasting value worth reading and feeling through again and again. Today they have become thresholds taller than the people standing before them, which really is something to sigh over.
 
-I will end here. My view, in the shape of an old quatrain:
+I will end here. My view:
 
 **Dear as the self may be,**
 

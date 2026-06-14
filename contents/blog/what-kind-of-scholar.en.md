@@ -12,7 +12,7 @@ Many people read only to acquire knowledge. They never go looking for its **cohe
 
 For me, the wish for coherence grows out of a longing to understand the world, and the wish for truth comes from caring about real problems. I cannot bring myself to give up either one. But as the disciplines split into ever finer divisions, as specialized knowledge swells and piles up, growing too precise and too narrow, both coherence and truth end up buried under that pyramid built of jargon and symbols.
 
-Feynman, in his famous *Lectures on Physics*, wrote something I keep coming back to:
+Feynman, in his famous *The Feynman Lectures on Physics*, wrote something I keep coming back to:
 
 > *If our small and limited minds, for the sake of some convenience, divide this universe into parts, into physics, biology, geology, astronomy, psychology, and so on, then remember that nature knows nothing of all this.*
 

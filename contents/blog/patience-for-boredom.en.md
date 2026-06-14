@@ -120,6 +120,6 @@ So, starting today, I have decided to try becoming a "bored" person, to give bor
 
 ---
 
-This is Ninghai (宁静海). Thank you for reading.
+I am Lunar Mare. Thank you for reading.
 
 You are welcome to reach me by any means you like. My email is lunar\_mare\_official@outlook.com. Write to me, say hello, and I will reply to every letter 🙂.

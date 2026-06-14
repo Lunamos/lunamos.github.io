@@ -10,7 +10,7 @@ I like to think, and some thoughts, if I do not write them down in time, simply 
 
 Ready? Let us begin with a strange claim made by a mathematician.
 
----
+## Starting with Hilbert
 
 The mathematician Hilbert once said something like this. In every geometric proposition, "we must always be able to replace 'points, lines, planes' with 'tables, chairs, and beer mugs'." In other words, the first axiom of geometry, "any two points can be joined by a straight line," could be rewritten as "any two beer mugs can be set down on one table."
 
@@ -22,7 +22,7 @@ Professor Hilbert was called a leader of world mathematics in the early twentiet
 
 It is a pity that the lovely dream of axiomatization had several buckets of cold water poured over it, hemmed in by Turing's **"halting problem"** (there is no algorithm that can decide whether a given proposition can be proved from the axioms in a finite number of steps) and Gödel's **"incompleteness theorem"** (any formal system that contains the Peano axioms will contain true propositions that cannot be proved). The "third crisis in mathematics" is a fascinating story, but in this essay let us keep our attention trained on the "axiomatic structuralist approach." I will save the tale from the history of mathematics to tell you properly another time.
 
----
+## Words and structuralism
 
 Here I want to turn the reader's gaze toward "structuralism" and think through, together with me, a single question: **what exactly is a word?**
 
@@ -36,7 +36,7 @@ I used to be deeply, deeply confused. "If the electron is a cloud of probability
 
 Taking up the "structuralist" way of thinking, we finally get our hands on a theoretical tool that can answer these questions. **As long as we speak according to the agreed-upon rules, we can perfectly legitimately use a word within a system, without having to fret too much over what the "essence" of the concept that word points to actually is.**
 
----
+## Letting go of the fixation on essence
 
 The thoughtful reader is bound to object: how can you say "essence" does not matter? Isn't science precisely the study of essences? But as I see it, letting go of the fixation on "essence" is something we do because we have no other choice. Here are my reasons.
 
@@ -52,7 +52,7 @@ The attentive reader may not be satisfied with the explanation above and will ke
 
 But if I ask you what "essence" means, would you not also be stuck for a moment, unable to answer? Yes. In the context of "structuralism," the question "what is the essence of a thing?" (in philosophy this is called the "ontological question" or the "metaphysical question") turns out instead to be an illegitimate one, because everything our talk can reach has been reassigned to the use of linguistic rules, with no regard at all for the words in themselves. **A noun standing all alone has no meaning whatsoever. Only when it is placed inside a web of meaning made up of the mutual relations among words (the usage rules) can a word be understood and felt.**
 
----
+## A short summary
 
 > In Ersilia, to establish the relationships that sustain the city's life, the inhabitants stretch strings from the corners of the houses, white or black or gray or black-and-white according to whether they mark a relationship of blood, of trade, of authority, of agency. When the strings become so numerous that you can no longer pass among them, the inhabitants leave: the houses are dismantled; only the strings and their supports remain.
 >

@@ -16,7 +16,7 @@ Back in 1975, a group of scholars pulled six big fields together, **philosophy**
 
 ![Image](/static/assets/img/blog/cognitive-science/01.jpg)
 
-*The "maze" in* Westworld *is a metaphor for consciousness.*
+*The "maze" in Westworld is a metaphor for consciousness*
 
 "How do humans think? How do we come to know the world?" This is one of the oldest and hardest questions we have ever asked.
 
@@ -57,7 +57,7 @@ A few examples, picked almost at random:
 
   Neuroaesthetics is ~~a notoriously old chestnut of an IELTS reading passage~~ a relatively new sub-branch of experimental aesthetics, grounded in neural perception and artistic creation. It explains and understands beauty at the scale of the nervous system, asking whether activity in the same region of the brain lines up with aesthetic experiences that come from very different sources.
 
-**Cognitive science is not merely a "discipline." It is a "paradigm."** As functional magnetic resonance imaging (fMRI) matured, and as the algorithms and hardware behind artificial intelligence and deep learning fell into place, we finally found a real opening: a way to study "how humans think and perceive" from the inside of science itself. Thought and perception are no longer a purely conceptual question for philosophers. There is finally hope of answering them well, within the framework of science.
+**Cognitive science is not merely a "discipline." It is a "paradigm."** As functional magnetic resonance imaging (fMRI) matured, and as the algorithms and hardware behind artificial intelligence and deep learning fell into place, we finally found a real opening: a way to study "how humans think and perceive" from the inside of science itself. Thought and perception are no longer a purely conceptual philosophical question. There is finally hope of answering them well, within the framework of science.
 
 Every time I read a book or a paper in this field, I feel a particular kind of jolt, the sense that the world has just been turned upside down. Stella, who taught my "Introduction to Cognitive Science" course, used to say it is a field where the researcher's mind has to be allowed to run wild. How do we surface up out of sleep? How do we decide what to eat in the dining hall? These are wonderful questions, and today's science cannot answer a single one of them.
 
@@ -67,8 +67,8 @@ The unsolved problems lie everywhere here, and so does the sheer hunger to know.
 
 There are no "stupid questions" here. The door stays open, always, to anyone who loves to think, to ask, and to dig.
 
-I am Ning Ningjinghai. Thank you for reading to the end.
+This is Ningningjinghai. Thank you for reading all the way through.
 
 Image source:
 
-*Westworld* S1 E10, still
+Westworld S1 E10, still

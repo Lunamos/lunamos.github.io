@@ -24,7 +24,7 @@ I often feel that the most urgent and weighty problem facing young people in Chi
 
 > I don't want to die alone in failure
 >
-> I don't want to live forever underground
+> I don't want to keep living underground
 >
 > The con of material things
 >

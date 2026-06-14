@@ -207,7 +207,7 @@ ta们甚至不介意变成众矢之的，不介意让自己看起来歇斯底里
 
 **参考资料**
 
-【1】[《Beyond Hope》 作者：Derrick Jenson](https://orionmagazine.org/article/beyond-hope/)
+【1】[《Beyond Hope》 作者：Derrick Jensen](https://orionmagazine.org/article/beyond-hope/)
 
 【2】[《希望之外｜生活奇旅49》 作者：炜晨](https://weichen.zhubai.love/posts/2143443017170911232)
 

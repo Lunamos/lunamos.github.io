@@ -60,7 +60,7 @@
 
 咖啡美酒，风味纷繁，魅力万千，自然是不能被只言片语概括的。
 
-![Image](/static/assets/img/blog/coffee-whisky/02.jpg)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/02.jpg)
 
 *SCA - The Coffee Taster's Flavor Wheel*
 
@@ -76,7 +76,7 @@
 
 风味轮给了我们一个普适性的评价标准和标签体系，从而，每一个人都可以相对客观公正地评价咖啡的好坏。
 
-![Image](/static/assets/img/blog/coffee-whisky/03.png)
+![Image [wide]](/static/assets/img/blog/coffee-whisky/03.png)
 
 效仿咖啡行业，其他饮料行业也纷纷推出了自己的「风味轮」，于是，如你所见，我们也有「威士忌风味轮」「茶风味轮」等等。
 

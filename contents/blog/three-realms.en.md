@@ -42,7 +42,7 @@ A classic example is this proposition:
 
 > **"Snow is white"** if and only if **snow is white**.
 
-The first clause is the signifier, the symbol written on paper or the sound spoken aloud. The second is the signified, snow in the real world appearing the color white.
+The first clause is the signifier, the symbol written on paper or the sound spoken aloud. The second is the signified, the snow in the real world showing up white.
 
 Much of later philosophy and sociology is built on reading and interpreting signs. Take Baudrillard's critique in *The Consumer Society*: the consumption of objects no longer rests on their use-value but on their sign-value. To turn something into a sign is to turn it into a commodity, and commodity-signs form an endless chain of signs and meanings. The body, experience, relationships, status, all of it gets sign-ified and folded into the order of commodities.
 

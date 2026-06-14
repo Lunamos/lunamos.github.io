@@ -20,7 +20,7 @@ What I love is not only the tall buildings, the theaters and the gardens. It's a
 
 The first time I really started thinking about buildings, it was because a strange question leapt into my head. The houses people lived in long ago are nothing like the ones we live in now. So where did this thing we call modern architecture come from? Who first dreamed up the idea that houses could be built this way? At first I had no answer, but I had a faint sense of something: **that there was a group of people, an era, a current of thought, and together they changed the entire world, making this world of manmade things look the way it does now instead of some other way.**
 
-Thanks to the internet, I found my answer soon enough. **Bauhaus.** The origin point of modern design, the line drawn cleanly between "pre-modern" and "modern," one crucial piece of the question that had puzzled me for years, "what does modern even mean?" The architecture piece of that puzzle.
+Thanks to the internet, I found my answer soon enough. **Bauhaus.** The origin point of modern design, the line drawn cleanly between "pre-modern" and "modern," one crucial piece of the ultimate question that had puzzled me for years, "what does modern even mean?" The architecture piece of that puzzle.
 
 ![figure 2](/static/assets/img/blog/architecture/02.jpg)
 

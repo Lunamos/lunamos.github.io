@@ -4,7 +4,7 @@ Hello there, me.
 
 Lately I have been making some big decisions. The simplest way to put it: I am thinking about whether to go abroad for graduate school.
 
-The more complicated way to put it: I am thinking about what kind of life I want, what kind of work I want to pour myself into. And if that is where I want to end up in a few years, what experiences and what record do I need to gather now, the ticket that gets me into the next stage.
+The more complicated way to put it: I am thinking about what kind of life I want, what kind of work I want to pour myself into. And toward that end, where do I need to arrive a few years from now, and what experiences and what record do I need to gather as the version of me I am today, the ticket that gets me into the next stage.
 
 For some reason, the university I attend has this strange power. It generates an enormous pressure out of nowhere and pushes you into being busy. Busyness is a complicated thing too. People who feel they are busy for the sake of their own bright future might look down with a little contempt at the ones being shoved into busyness by their surroundings, thinking they lack any independent thought, that they are just grinding away blindly. But in truth, maybe there is no real hierarchy of meaning here at all, and no clean line between acting on your own and being acted upon. Look down from on high and everyone is a churning crowd, grinding back and forth, burning themselves up for ends that are faint and pointless. Look with sympathy and everyone is so tired, everyone is trying so hard, everyone has a dream.
 

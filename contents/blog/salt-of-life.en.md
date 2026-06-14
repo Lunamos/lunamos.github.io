@@ -4,9 +4,9 @@
 
 ## Cosmos
 
-*Cosmos* and *Universe* are near synonyms. Both get rendered into Chinese as 宇宙. Yet in a certain philosophical sense the two words are flat opposites, and they sketch two completely different ways of understanding the world we happen to live in.
+*Cosmos* and *Universe* are near synonyms. Both get rendered into Chinese as 宇宙. Yet in a certain philosophical sense the two words are flat opposites, and they sketch two completely different ways of understanding the universe we find ourselves in.
 
-To say *cosmos* is to treat the universe as a thing that is intricate and ordered. But the order here is not the cold order of mathematics and physics. It is a kind of order we can now only find in history, in legend, and in religion.
+To say *cosmos* is to treat the universe as a thing that is complex and ordered. But the order here is not the cold order of mathematics and physics. It is a kind of order we can now only find in history, in legend, and in religion.
 
 "Yuan (the originating) is the chief quality of goodness; Heng (the penetrating) is the assembling of all that is beautiful; Li (the advantageous) is the harmony of all that is right; Zhen (the correct and firm) is the trunk of all affairs. The noble man, embodying benevolence, is fit to be the leader of others; with the assembly of beauty he can accord with ritual; benefiting all things he can harmonize what is right; correct and firm, he can carry affairs through." (*The Book of Changes*)
 
@@ -50,13 +50,13 @@ The triumph of the Scientific Revolution, together with the nominalist revolutio
 >
 > Chen Jiaying, *Philosophy, Science, Common Sense*
 
-At the crossroads between ancient China and modern China, a similar process unfolded. What the West called the "death of God," China experienced as the petrifying and collapse of feudal ritual order.
+At the crossroads between ancient China and modern China, a similar process unfolded. What the West called the "death of God," China experienced as the ossification and collapse of feudal ritual order.
 
 China never had a long-running theological tradition the way the West did. We never had gods to confirm our place in the vast universe. Instead it was **the whole ethical order that Confucianism drew out** that gave us our identity within the human world. That order became the underlying motive for how Chinese people conduct themselves.
 
 What a pity, though. The vision of the good life that Confucius opened up grew steadily more alienated, more rigid, more rotten as history wore on, until the wars and cultural movements of the nineteenth and twentieth centuries finally toppled the "House of Confucius."
 
-The progressive force of the New Culture Movement and the May Fourth Movement cannot be denied. But at the same time they sealed off the one definite path that Confucianism had pointed toward self-realization and the meaning of life. They sealed off, in the Chinese context, the *certain road to salvation*.
+The progressive force of the New Culture Movement and the May Fourth Movement cannot be denied. But at the same time they sealed off the one definite path that Confucianism had marked out toward self-realization and the meaning of life. They sealed off, in the Chinese context, the *certain road to salvation*.
 
 And so, in the modern world, Chinese people met the same thing the rest of humanity met: the general spiritual crisis of modernity, which we feel in daily life as a sense of the absurd.
 
@@ -108,7 +108,7 @@ Let me close with a poem by Hölderlin.
 >
 > There is none.
 >
-> Hölderlin, *In Lovely Blue (Man Dwells Poetically)*
+> Hölderlin, *Man Dwells Poetically*
 
 References:
 

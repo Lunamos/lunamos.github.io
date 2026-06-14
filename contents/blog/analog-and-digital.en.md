@@ -111,13 +111,13 @@ If I had to name a capacity that belongs to humans alone, I wouldn't answer "lan
 
 > Perhaps the capacity for Digital is the one humans have and other animals do not.
 
-Liu Cixin tells this story in his novella *The Wages of Sin*:
+Liu Cixin tells this story in his novella *Heard It in the Morning*:
 
 Just as humanity is about to run an experiment that would destroy the universe, an observer civilization, advanced as gods, forces a halt. To keep any civilization from running a creation-scale experiment that would wreck the cosmos, this civilization has placed warning systems everywhere in the universe. A scientist asks them: when did your warning system on Earth first go off? In Newton's time? In Aristotle's?
 
 The answer comes calmly: "At the end of the Pleistocene, two hundred and seventy thousand years ago, a primitive human looked up at the stars for longer than the warning threshold allowed, showing excessive curiosity about the universe. If that primitive human's few minutes of gazing was the sight of a jewel, then everything you call human civilization since has been nothing but bending down to pick it up."
 
-I love *The Wages of Sin*. Liu Cixin's prose was still a little raw when he wrote it, but that doesn't stop the story from being one of the best short and mid-length science fiction works in my mind. The romance of "looking up at the stars" is one no other image can match. Still, I'd feel that the alarm starting to sound from the moment "a primitive human counted on his fingers" fits reality better. The arrival of digitalization let humanity, a weak little civilization that built its walls out of river mud, standing on one small rock in this vast universe, armed only with observation, experiment, and pen and paper, see into the secrets of the great cosmos and the tiny world within.
+I love *Heard It in the Morning*. Liu Cixin's prose was still a little raw when he wrote it, but that doesn't stop the story from being one of the best short and mid-length science fiction works in my mind. The romance of "looking up at the stars" is one no other image can match. Still, I'd feel that the alarm starting to sound from the moment "a primitive human counted on his fingers" fits reality better. The arrival of digitalization let humanity, a weak little civilization that built its walls out of river mud, standing on one small rock in this vast universe, armed only with observation, experiment, and pen and paper, see into the secrets of the great cosmos and the tiny world within.
 
 Of course, Digital has its bad side too. As I said above, digitalization is not an ideology-free process. On the contrary, it carries a kind of violence born of standardization, modernization, and scaling, a structural, top-down alienation and domination of people. And this is exactly the space where Analog and the humanistic spirit ought to step in. That touches on the friction between the two worlds that Analog and Digital span, which I'll leave for section 4.
 
@@ -147,7 +147,7 @@ So, just like Digital, Analog is also a dimension of the world. Both are the rea
 
 So, using Analog versus Digital, we can split the Symbolic into two: I'll call them the **"realm of feeling and speech"** and the **"realm of numbers."**
 
-[The Symbolic order's transgression upon the Real, the specter of the Real tearing the Symbolic apart.](https://mp.weixin.qq.com/s?__biz=Mzg3ODY2Mzg2Mg==&mid=2247484101&idx=1&sn=6eb88cad9027f1da5bb7193b62fc0fc0&scene=21#wechat_redirect) This entanglement of the Real and the Symbolic was a source of destructive force in older societies. But the framework of the Imaginary, the Symbolic, and the Real can't hold the human world of the information age. The theoretical view of post-humanism and posthumanism has to be let in.
+[The Symbolic order's transgression upon the Real, the specter of the Real tearing the Symbolic apart.](https://mp.weixin.qq.com/s?__biz=Mzg3ODY2Mzg2Mg==&mid=2247484101&idx=1&sn=6eb88cad9027f1da5bb7193b62fc0fc0&scene=21#wechat_redirect) This entanglement of the Real and the Symbolic was a source of destructive force in older societies. But the framework of the Imaginary, the Symbolic, and the Real can't hold the human world of the information age. The theoretical horizons of posthumanism and transhumanism have to be let in.
 
 The human in the information age faces a second entanglement of worlds, which shows up as **"the realm of numbers transgressing upon the realm of feeling and speech, the specter of the realm of feeling and speech tearing the realm of numbers apart."**
 

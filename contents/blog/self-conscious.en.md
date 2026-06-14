@@ -20,7 +20,7 @@ In English, the concept of **"self-consciousness"** carries two distinct meaning
 >
 > Historically, self-consciousness first meant a creature's ability to recognize its own existence and to have a clear sense of its own capacities. Over a few centuries it has come to also describe attention paid to oneself, especially to how others see one's appearance or behavior. When a person becomes aware of being watched or observed, an unpleasant feeling can arise, or a narcissistic one: the sense that **everyone is looking at me**. Unpleasant self-consciousness is sometimes linked to shyness or paranoia.
 >
-> Its Chinese renderings are many. It can be translated as self-gazing, self-peering, or self-awareness, and it is also often mistranslated as **"self-consciousness" (自我意识)**.
+> Its Chinese renderings are many. It can be translated as **self-gazing, self-peering, or self-awareness**, and it is also often mistranslated as **"self-consciousness" (自我意识)**.
 >
 > from the entry "self-consciousness" on Chinese Wikipedia
 
@@ -46,7 +46,7 @@ What do we actually call the psychological sense of **"self-consciousness"**?
 
 **The answer: "自我意识过剩" (self-consciousness in excess).**
 
-Strictly speaking, **"自我意识过剩"** doesn't map onto any single English expression. You could render it back as excessive self-consciousness or self-consciousness overload. But in English the word **"self-consciousness"** already carries that meaning on its own, so there was never a separate term with **"excess"** baked into it. Even when an article does say something like too much self-consciousness, it's only pointing to a more severe, pathological form of that negative state. It doesn't carry the bald, sneering judgment packed into the Chinese word **"过剩" (excess).**
+Strictly speaking, **"自我意识过剩"** doesn't map onto any single English expression. You could render it back as excessive self-consciousness or self-consciousness overload. But in English the word **"self-consciousness"** already carries that meaning on its own, so there was never a separate term with **"excess"** baked into it. Even when an article does say something like too much self-consciousness, it's only pointing to a more severe, pathological form of that negative state. It doesn't carry the naked, contemptuous tone packed into the Chinese word **"过剩" (excess).**
 
 Chinese Wikipedia does have an entry for **"自我意识过剩."** It exists only as a translation from Japanese, and it's flagged as both "needs expansion" and "lacking references or sources." Here's what it says:
 

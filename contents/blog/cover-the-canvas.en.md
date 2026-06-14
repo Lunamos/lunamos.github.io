@@ -21,7 +21,6 @@ Here is my mantra for first drafts: **cover the canvas.**
 What that means is simple. Get *something* done, start to finish, no matter how rough. A first draft does not have to be great. It does not have to be pretty. It can have holes in it. It can leave shorthand and scribbles that only you can read, handwriting so messy nobody else stands a chance. Your passion is the whole game in a first draft. Just get it done. Cover the canvas.
 
 ![Image](/static/assets/img/blog/cover-the-canvas/01.jpg)
-
 *The Last Supper*
 
 ## Resistance and first drafts

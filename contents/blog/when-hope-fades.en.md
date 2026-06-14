@@ -207,7 +207,7 @@ We stop hoping for help from outside. And once we stop hoping the bad situation 
 
 **References**
 
-[1] *Beyond Hope* by Derrick Jensen. [orionmagazine.org/article/beyond-hope](https://orionmagazine.org/article/beyond-hope/)
+[1] [*Beyond Hope* by Derrick Jensen](https://orionmagazine.org/article/beyond-hope/)
 
 [2] [*Beyond Hope | A Strange Journey Through Life 49* by Weichen](https://weichen.zhubai.love/posts/2143443017170911232)
 

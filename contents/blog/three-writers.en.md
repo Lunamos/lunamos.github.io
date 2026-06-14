@@ -112,7 +112,7 @@ To borrow Borges's own words from the piece:
 
 This is a new technique, deliberately scrambling era and authorship, and in doing so it changes the way a book is read.
 
-It's like treating the *Odyssey* as a work that came after the *Iliad*, or reading *Call to Arms* as a batch of modern microblog posts, so that the work leaps free of the assumptions we bring about its author and its age, and gains an endless capacity to be reinterpreted across a vast field of possible authors and possible times.
+It's like treating the *Odyssey* as a work that came after the *Iliad*, or reading Lu Xun's *Call to Arms* as a modern Weibo essay, so that the work leaps free of the assumptions we bring about its author and its age, and gains an endless capacity to be reinterpreted across a vast field of possible authors and possible times.
 
 If *Don Quixote*'s metanarrative blurs the false and the true and toys with the reader, then "Pierre Menard, Author of the *Quixote*" teaches the reader how to make a real text turn unreal, throwing the author into disarray and filling the calmest book with wonder.
 
@@ -196,7 +196,7 @@ He badly wanted to say that the fourfold is hypertext and metafiction, that coun
 
 But he stared at the cursor blinking on the screen for a long while, and for the moment had no idea what to write next.
 
-The piece was drawing to a close, and Ningningning Jinghai still didn't know how to end it.
+The piece was drawing to a close, and Ningningning Jinghai still didn't know how, how to end it.
 
 After writing four lines with a meta element to them, he had a sudden flash of inspiration and decided to close with a poem by Bei Dao.
 

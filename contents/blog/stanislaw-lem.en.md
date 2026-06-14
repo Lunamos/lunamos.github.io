@@ -84,7 +84,7 @@ If you love science fiction, love science, and love to think, do not let yoursel
 
 ## Love, death, and higher mathematics
 
-Here is the setup for this scene. One master constructor (Trurl) creates a genius electronic poet by simulating the origin of the universe, and his friend, another master constructor (Klapaucius), wants to make him look foolish, so he sets bizarre challenges to trip the electronic poet up.
+Here is the setup for this scene. One master constructor (Trurl) creates a genius electronic poet by simulating the origin of the universe, and his friend, another master constructor (Klapaucius), wants to make Trurl look foolish, so he sets bizarre challenges to trip the electronic poet up.
 
 *Klapaucius knit his brow, thought and thought, and finally said, **"Fine, then give me a poem about love and death, but every expression must use the language of higher mathematics, tensor algebra above all, and of course it can also include topology and a bit of analysis and calculus. The poem has to be full of love and desire, it has to break with convention, and naturally the whole thing has to be composed within the field of cybernetics."***
 

@@ -71,7 +71,7 @@
 
   <div class="pub">
     <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/immersed_privacy.svg" alt="VLM privacy in the physical world" />
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/immersed_privacy.png" alt="VLM privacy in the physical world" />
     </div>
     <div class="pub-info">
       <p class="pub-title">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</p>
