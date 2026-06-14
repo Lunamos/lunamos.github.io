@@ -334,6 +334,29 @@ details.news-more[open] > summary { margin-bottom: .4rem; }
     position: absolute; left: 0; top: .5rem; color: var(--accent); font-size: .95rem;
 }
 
+/* ---- Blog nav link (external-style jump) ---- */
+.blog-link {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+    border: 1.5px solid rgba(57, 72, 210, .35);
+    border-radius: 6px;
+    padding: .22rem .55rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--accent) !important;
+    text-decoration: none !important;
+    transition: all var(--transition);
+    line-height: 1.4;
+    letter-spacing: .3px;
+}
+.blog-link:hover {
+    background: var(--accent);
+    color: #fff !important;
+    border-color: var(--accent);
+}
+.blog-link i { font-size: .65rem; }
+
 /* ---- Language toggle button ---- */
 .lang-btn {
     background: none;

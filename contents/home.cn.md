@@ -16,8 +16,8 @@
   </div>
   <div class="profile-bio">
     <h3>关于我</h3>
-    <p>你好！我是佐治亚理工学院计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于清华大学，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
-    <p>我目前的研究方向是大语言模型的可解释性和安全对齐，我也关心 code agent 和 work agent 的 harness 工程。我正在阶跃星辰（StepFun）基模团队实习，也曾在美团的 LongCat 基模团队实习，做过 Agent 评测、多模态模型部署与评测、以及 Agent 框架设计。</p>
+    <p>你好！我是<strong>佐治亚理工学院</strong>计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于<strong>清华大学</strong>，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
+    <p>我目前的研究方向是<strong>大语言模型的可解释性</strong>和<strong>安全对齐</strong>，我也关心 <strong>code agent</strong> 和 <strong>work agent</strong> 的 <strong>harness</strong> 工程。我正在<strong>阶跃星辰（StepFun）</strong>基模团队实习，也曾在<strong>美团 LongCat</strong> 基模团队实习，做过 Agent 评测、多模态大模型部署与评测、以及 Agent 框架设计。</p>
   </div>
 </div>
 

@@ -16,8 +16,8 @@ Zehao Jin (金泽昊) -->
   </div>
   <div class="profile-bio">
     <h3>About Me</h3>
-    <p>Hi! I'm a first-year M.S. student in Computational Science and Engineering at Georgia Tech, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from Tsinghua University in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
-    <p>I work on LLM interpretability and safety alignment. I also care about harness engineering for code agents and work agents. I'm currently interning with the foundation model team at StepFun, and previously interned at Meituan's LongCat team, where I worked on agent evaluation, multimodal model deployment and evaluation, and agent framework design.</p>
+    <p>Hi! I'm a first-year M.S. student in Computational Science and Engineering at <strong>Georgia Tech</strong>, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from <strong>Tsinghua University</strong> in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
+    <p>I work on <strong>LLM interpretability</strong> and <strong>AI alignment</strong>. I also care about <strong>harness</strong> engineering for <strong>code agents</strong> and <strong>work agents</strong>. I'm currently interning with the foundation model team at <strong>StepFun</strong>, and previously interned at <strong>Meituan LongCat</strong> team, where I worked on agent evaluation, multimodal LLM deployment and evaluation, and agent framework design.</p>
   </div>
 </div>
 
