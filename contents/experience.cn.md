@@ -21,7 +21,7 @@
         <img loading="lazy" decoding="async" src="static/assets/img/logos/longcat.png" alt="LongCat" />
       </a>
       <a class="tl-logo" href="https://about.meituan.com" target="_blank" rel="noopener">
-        <img loading="lazy" decoding="async" src="static/assets/img/logos/meituan.svg" alt="美团" />
+        <img loading="lazy" decoding="async" src="static/assets/img/logos/meituan_logo.jpeg" alt="美团" />
       </a>
     </div>
     <div class="tl-card">
