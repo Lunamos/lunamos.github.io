@@ -13,33 +13,6 @@
     background-color: var(--h-title-color);
 }
 
-.top-section {
-    position: relative;
-    padding: 7rem 0;
-    background-position: center;
-    background-size: cover;
-    height: 9rem;
-}
-
-.top-section h2 {
-    font-weight: 400;
-}
-
-.top-section .top-section-content {
-    position: relative;
-    z-index: 1;
-}
-
-.top-section:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
@@ -48,13 +21,20 @@ section header h2{
 }
 
 section .main-body{
+    font-family: 'Inter', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 1.0rem;
-    font-weight: 200;
-    line-height: 1.5rem;
+    font-weight: 400;
+    line-height: 1.65;
 }
 
 section .container {
-    max-width: 800px; /* 设置你想要的宽度，比如 800px */
+    max-width: 860px;
+}
+
+/* ---- Home section: first visible section, no banner ---- */
+section#home {
+    padding-top: 5.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .bg-gradient-primary-to-secondary-light {
@@ -67,69 +47,7 @@ section .container {
 
 
 
-.on-top {
-    position: relative;
-    z-index: 10000;
-}
-
-.top-bg {
-    background-position: center;
-    background-size: fill;
-    width: 100%;
-    height: 100%;
-}
-
-.top-bg::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-
-
-.photo {
-    position: relative;
-}
-
-.photo img {
-    margin-right: 10%;
-    height: 12rem;
-    margin-top: 4rem;
-}
-
-
-.photo .screen {
-    position: absolute;
-    background-size: cover;
-    pointer-events: auto;
-}
-
-.photo .button {
-    position: absolute;
-    cursor: pointer;
-}
-
-@media screen and (max-width: 991px) {
-
-    .photo img {
-        height: 12rem;
-        margin-top: 3rem;
-    }
-
-}
-
-@media screen and (max-width: 736px) {
-
-    .photo img {
-        height: 7rem;
-        margin-top: 7rem;
-    }
-
-}
+/* (old hero / banner styles removed — replaced by profile card) */
 
 /* =========================================================
    Refined component system (2026 redesign)
@@ -149,18 +67,78 @@ section .container {
 
 html { scroll-behavior: smooth; }
 
-/* ---- Hero ---- */
-#top-section-bg-text {
-    font-weight: 600;
-    letter-spacing: .5px;
+/* ---- Profile card (replaces old hero banner) ---- */
+.profile-section {
+    display: flex;
+    gap: 2.2rem;
+    align-items: flex-start;
+    margin-bottom: .8rem;
 }
-.hero-kicker {
-    color: rgba(255, 255, 255, .92);
-    font-size: 1.02rem;
-    font-weight: 300;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    margin-top: .25rem;
+.profile-card {
+    flex: 0 0 auto;
+    width: 210px;
+    text-align: center;
+    padding-top: .3rem;
+}
+.profile-avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .10);
+    margin-bottom: .9rem;
+}
+.profile-name {
+    font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 .25rem;
+    letter-spacing: .2px;
+}
+.profile-title {
+    font-size: .88rem;
+    font-weight: 400;
+    color: var(--muted);
+    margin: 0 0 .9rem;
+    line-height: 1.4;
+}
+.profile-links {
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+}
+.profile-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    color: var(--muted) !important;
+    border: 1px solid var(--line) !important;
+    background: #fff;
+    transition: all var(--transition);
+}
+.profile-links a:hover {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    transform: scale(1.12);
+    box-shadow: 0 2px 8px rgba(57, 72, 210, .15);
+}
+.profile-bio h3 {
+    font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 .7rem;
+}
+.profile-bio p {
+    font-size: .96rem;
+    line-height: 1.7;
+    color: #374151;
+    margin-bottom: .8rem;
 }
 
 /* ---- Section bodies / links ---- */
@@ -176,33 +154,6 @@ section .main-body a:hover {
     border-bottom-color: var(--accent-2);
 }
 section header h2 { display: flex; align-items: center; gap: .5rem; }
-
-/* ---- Contact row ---- */
-.contact-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .5rem .9rem;
-    margin: .35rem 0 1.4rem;
-}
-.contact-row a {
-    display: inline-flex;
-    align-items: center;
-    gap: .4rem;
-    padding: .34rem .8rem;
-    border: 1px solid var(--line) !important;
-    border-radius: 999px;
-    background: #fff;
-    color: var(--ink) !important;
-    font-size: .9rem;
-    box-shadow: var(--shadow-sm);
-    transition: transform var(--transition), border-color var(--transition), color var(--transition);
-}
-.contact-row a:hover {
-    transform: translateY(-2px);
-    border-color: var(--accent) !important;
-    color: var(--accent) !important;
-}
-.contact-row i { font-size: 1rem; }
 
 /* ---- Interests grid ---- */
 .interests {
@@ -398,7 +349,7 @@ details.news-more[open] > summary { margin-bottom: .4rem; }
     border-color: var(--accent);
 }
 
-/* ---- Home section stacking fix (ensures contact row is clickable) ---- */
+/* ---- Home section stacking fix ---- */
 section#home { position: relative; z-index: 1; }
 
 /* ---- Progressive (blur-up) image loading (opt-in via <img class="prog">) ---- */
@@ -422,37 +373,13 @@ section#home { position: relative; z-index: 1; }
 
 /* ---- Responsive ---- */
 
-/* Tablet / medium screens */
-@media screen and (max-width: 991px) {
-    .top-section {
-        height: auto;
-        min-height: 10rem;
-        padding: 5.5rem 0 2.5rem;
-    }
-    .top-section .row {
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-    }
-    .photo {
-        margin-bottom: .6rem;
-    }
-    .photo img {
-        height: auto !important;
-        width: 5.5rem !important;
-        aspect-ratio: 1 / 1;
-        border-radius: 50%;
-        object-fit: cover;
-        margin: 0 !important;
-    }
-    .hero-kicker {
-        font-size: .85rem;
-        letter-spacing: 1.5px;
-    }
-}
-
 /* Small screens */
 @media screen and (max-width: 720px) {
+    .profile-section { flex-direction: column; align-items: center; text-align: center; }
+    .profile-card { width: auto; }
+    .profile-avatar { width: 140px; height: 140px; }
+    .profile-bio h3 { text-align: left; }
+    .profile-bio p { text-align: left; }
     .interests { grid-template-columns: 1fr; }
     .pub { flex-direction: column; }
     .pub-thumb { flex-basis: auto; width: 100%; aspect-ratio: 16 / 8; }
@@ -464,32 +391,9 @@ section#home { position: relative; z-index: 1; }
 
 /* Phone screens */
 @media screen and (max-width: 576px) {
-    .top-section {
-        padding: 4.5rem 0 2rem;
-    }
-    #top-section-bg-text {
-        font-size: 1.85rem !important;
-        line-height: 1.2 !important;
-    }
-    .hero-kicker {
-        font-size: .62rem;
-        letter-spacing: .5px;
-        line-height: 1.6;
-    }
-    .photo img {
-        width: 4.5rem !important;
-    }
-    .contact-row {
-        justify-content: center;
-    }
-    .cv-actions {
-        justify-content: center;
-    }
-    .edu-item {
-        flex-direction: column;
-        gap: .3rem;
-    }
-    .edu-item .edu-dot {
-        display: none;
-    }
+    .profile-avatar { width: 120px; height: 120px; }
+    .profile-name { font-size: 1.35rem; }
+    .cv-actions { justify-content: center; }
+    .edu-item { flex-direction: column; gap: .3rem; }
+    .edu-item .edu-dot { display: none; }
 }

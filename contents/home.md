@@ -1,18 +1,25 @@
 <!--
 Zehao Jin (金泽昊) -->
 
-<div class="contact-row">
-  <a href="mailto:lunamos.thu@gmail.com"><i class="bi bi-envelope-fill"></i>Email</a>
-  <a href="https://github.com/lunamos"><i class="bi bi-github"></i>GitHub</a>
+<div class="profile-section">
+  <div class="profile-card">
+    <img class="profile-avatar" src="static/assets/img/jzh.jpg" alt="Zehao Jin (金泽昊)" />
+    <h2 class="profile-name">Zehao Jin</h2>
+    <p class="profile-title">M.S. Student @ Georgia Tech</p>
+    <div class="profile-links">
+      <a href="mailto:lunamos.thu@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=C2givFIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://github.com/lunamos" title="GitHub" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/zehaojin" title="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      <a href="docs/CV_Zehao_Jin_EN.pdf" title="CV"><i class="bi bi-file-earmark-person"></i></a>
+    </div>
+  </div>
+  <div class="profile-bio">
+    <h3>About Me</h3>
+    <p>Hi! I'm a first-year M.S. student in <a href="https://cse.gatech.edu/">Computational Science and Engineering</a> at Georgia Tech, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from <a href="https://www.xjc.tsinghua.edu.cn/">Xingjian College</a>, Tsinghua University in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
+    <p>I work on LLM alignment. I want to know what's actually going on inside a model (mechanistic interpretability) and how to steer it toward safe behavior (safety alignment). I'm also drawn to AI agents and the harness layer we build around them. I like to call this the <strong>neuroscience of LLMs</strong>: reverse-engineering an artificial mind to understand and align it.</p>
+  </div>
 </div>
-
-<p style="color:#6b7280;font-size:.92rem;margin-top:-.6rem;"><i class="bi bi-geo-alt-fill"></i>&nbsp;Atlanta, Georgia, US</p>
-
-### About Me
-
-Hi! I'm a first-year M.S. student in [Computational Science and Engineering](https://cse.gatech.edu/) at Georgia Tech, advised by [Prof. Chao Zhang](http://chaozhang.org). I got my B.S. from [Xingjian College](https://www.xjc.tsinghua.edu.cn/), Tsinghua University in 2025, where I worked with [Prof. Yanan Sui](https://yanansui.com) at the [LNS Group](https://lnsgroup.cc).
-
-I work on LLM alignment. I want to know what's actually going on inside a model (mechanistic interpretability) and how to steer it toward safe behavior (safety alignment). I'm also drawn to AI agents and the harness layer we build around them. I like to call this the **neuroscience of LLMs**: reverse-engineering an artificial mind to understand and align it.
 
 <div class="interests">
   <div class="interest-card">

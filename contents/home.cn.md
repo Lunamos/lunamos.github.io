@@ -1,18 +1,25 @@
 <!--
 金泽昊 (Zehao Jin) -->
 
-<div class="contact-row">
-  <a href="mailto:lunamos.thu@gmail.com"><i class="bi bi-envelope-fill"></i>邮箱</a>
-  <a href="https://github.com/lunamos"><i class="bi bi-github"></i>GitHub</a>
+<div class="profile-section">
+  <div class="profile-card">
+    <img class="profile-avatar" src="static/assets/img/jzh.jpg" alt="金泽昊 (Zehao Jin)" />
+    <h2 class="profile-name">金泽昊</h2>
+    <p class="profile-title">硕士研究生 @ 佐治亚理工学院</p>
+    <div class="profile-links">
+      <a href="mailto:lunamos.thu@gmail.com" title="邮箱"><i class="bi bi-envelope-fill"></i></a>
+      <a href="https://scholar.google.com/citations?user=C2givFIAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="bi bi-mortarboard-fill"></i></a>
+      <a href="https://github.com/lunamos" title="GitHub" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+      <a href="https://www.linkedin.com/in/zehaojin" title="LinkedIn" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      <a href="docs/CV_Zehao_Jin_CN.pdf" title="简历"><i class="bi bi-file-earmark-person"></i></a>
+    </div>
+  </div>
+  <div class="profile-bio">
+    <h3>关于我</h3>
+    <p>你好！我是<a href="https://cse.gatech.edu/">佐治亚理工学院</a>计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于<a href="https://www.xjc.tsinghua.edu.cn/">清华大学行健书院</a>，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
+    <p>我的研究方向是大语言模型的对齐。我想搞清楚模型内部到底在做什么计算（机械可解释性），以及怎样引导这些计算走向安全的方向（安全对齐）。我同样关注 AI 智能体和围绕模型搭建的 harness 层。我把这些统称为 <strong>LLM 的神经科学</strong>：逆向工程一个人造的大脑，去理解它、对齐它。</p>
+  </div>
 </div>
-
-<p style="color:#6b7280;font-size:.92rem;margin-top:-.6rem;"><i class="bi bi-geo-alt-fill"></i>&nbsp;美国 佐治亚州 亚特兰大</p>
-
-### 关于我
-
-你好！我是[佐治亚理工学院](https://cse.gatech.edu/)计算科学与工程专业的一年级硕士研究生，导师是 [Chao Zhang 教授](http://chaozhang.org)。2025 年本科毕业于[清华大学行健书院](https://www.xjc.tsinghua.edu.cn/)，本科期间在 [LNS Group](https://lnsgroup.cc) 跟随[隋烨楠教授](https://yanansui.com)做研究。
-
-我的研究方向是大语言模型的对齐。我想搞清楚模型内部到底在做什么计算（机械可解释性），以及怎样引导这些计算走向安全的方向（安全对齐）。我同样关注 AI 智能体和围绕模型搭建的 harness 层。我把这些统称为 **LLM 的神经科学**：逆向工程一个人造的大脑，去理解它、对齐它。
 
 <div class="interests">
   <div class="interest-card">
