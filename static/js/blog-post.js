@@ -54,9 +54,20 @@
     var mins = readingTime(md);
     var minLabel = (lang === 'cn') ? (mins + ' ' + '分钟阅读') : (mins + ' min read');
 
+    var summary = pick(meta.summary);
+    var canonical = 'https://zehaojin.com/blog/post.html?slug=' + encodeURIComponent(slug);
+
     document.title = title + ' · Zehao Jin';
-    var od = document.getElementById('og-title'); if (od) od.setAttribute('content', title);
-    var md1 = document.getElementById('meta-desc'); if (md1) md1.setAttribute('content', pick(meta.summary));
+    setAttr('meta-desc', 'content', summary);
+    setAttr('og-title', 'content', title);
+    setAttr('og-desc', 'content', summary);
+    setAttr('og-url', 'content', canonical);
+    setAttr('tw-title', 'content', title);
+    setAttr('tw-desc', 'content', summary);
+    setAttr('canonical', 'href', canonical);
+    document.documentElement.lang = (lang === 'cn') ? 'zh' : 'en';
+
+    setArticleJsonLd(title, summary, canonical, lang);
 
     marked.use({ mangle: false, headerIds: false, gfm: true, breaks: false });
     var bodyHtml = marked.parse(md);
@@ -87,6 +98,29 @@
   }
 
   function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+
+  function setAttr(id, attr, val) { var n = document.getElementById(id); if (n) n.setAttribute(attr, val); }
+
+  function setArticleJsonLd(title, summary, canonical, lang) {
+    var node = document.getElementById('ld-article');
+    if (!node || !meta) return;
+    var data = {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      'headline': title,
+      'description': summary,
+      'inLanguage': (lang === 'cn') ? 'zh-CN' : 'en',
+      'url': canonical,
+      'mainEntityOfPage': canonical,
+      'image': 'https://zehaojin.com/static/assets/img/jzh.jpg',
+      'author': { '@type': 'Person', 'name': 'Zehao Jin', 'url': 'https://zehaojin.com/' },
+      'publisher': { '@type': 'Person', 'name': 'Zehao Jin', 'url': 'https://zehaojin.com/' }
+    };
+    if (meta.date) { data.datePublished = meta.date; data.dateModified = meta.date; }
+    var keywords = pick(meta.tags);
+    if (keywords && keywords.length) data.keywords = keywords.join(', ');
+    node.textContent = JSON.stringify(data);
+  }
 
   function load() {
     fetch('/contents/blog/posts.json', { cache: 'no-cache' })
