@@ -1,151 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://zehaojin.com/</loc>
-        <lastmod>2026-06-22</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/"/>
+        <lastmod>2026-06-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://zehaojin.com/blog/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/"/>
         <lastmod>2026-06-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=flas</loc>
+        <loc>https://zehaojin.com/blog/flas/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/flas/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/flas/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/flas/"/>
         <lastmod>2026-06-07</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=failure-analysis</loc>
+        <loc>https://zehaojin.com/blog/failure-analysis/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/failure-analysis/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/failure-analysis/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/failure-analysis/"/>
         <lastmod>2026-06-03</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=self-conscious</loc>
+        <loc>https://zehaojin.com/blog/self-conscious/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/self-conscious/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/self-conscious/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/self-conscious/"/>
         <lastmod>2023-04-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=aim-for-the-stars</loc>
+        <loc>https://zehaojin.com/blog/aim-for-the-stars/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/aim-for-the-stars/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/aim-for-the-stars/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/aim-for-the-stars/"/>
         <lastmod>2023-03-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=salt-of-life</loc>
+        <loc>https://zehaojin.com/blog/salt-of-life/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/salt-of-life/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/salt-of-life/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/salt-of-life/"/>
         <lastmod>2022-11-17</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=analog-and-digital</loc>
+        <loc>https://zehaojin.com/blog/analog-and-digital/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/analog-and-digital/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/analog-and-digital/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/analog-and-digital/"/>
         <lastmod>2022-08-04</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=three-realms</loc>
+        <loc>https://zehaojin.com/blog/three-realms/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/three-realms/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/three-realms/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/three-realms/"/>
         <lastmod>2022-08-02</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=the-creator</loc>
+        <loc>https://zehaojin.com/blog/the-creator/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/the-creator/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/the-creator/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/the-creator/"/>
         <lastmod>2022-07-30</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=after-the-machine-shop</loc>
+        <loc>https://zehaojin.com/blog/after-the-machine-shop/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/after-the-machine-shop/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/after-the-machine-shop/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/after-the-machine-shop/"/>
         <lastmod>2022-07-24</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=when-hope-fades</loc>
+        <loc>https://zehaojin.com/blog/when-hope-fades/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/when-hope-fades/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/when-hope-fades/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/when-hope-fades/"/>
         <lastmod>2022-06-19</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=patience-for-boredom</loc>
+        <loc>https://zehaojin.com/blog/patience-for-boredom/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/patience-for-boredom/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/patience-for-boredom/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/patience-for-boredom/"/>
         <lastmod>2022-05-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=coffee-whisky</loc>
+        <loc>https://zehaojin.com/blog/coffee-whisky/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/coffee-whisky/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/coffee-whisky/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/coffee-whisky/"/>
         <lastmod>2022-05-18</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=cover-the-canvas</loc>
+        <loc>https://zehaojin.com/blog/cover-the-canvas/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/cover-the-canvas/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/cover-the-canvas/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/cover-the-canvas/"/>
         <lastmod>2022-04-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=against-metafiction</loc>
+        <loc>https://zehaojin.com/blog/against-metafiction/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/against-metafiction/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/against-metafiction/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/against-metafiction/"/>
         <lastmod>2022-04-02</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=three-writers</loc>
+        <loc>https://zehaojin.com/blog/three-writers/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/three-writers/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/three-writers/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/three-writers/"/>
         <lastmod>2022-04-01</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=sense-and-reason</loc>
+        <loc>https://zehaojin.com/blog/sense-and-reason/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/sense-and-reason/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/sense-and-reason/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/sense-and-reason/"/>
         <lastmod>2022-03-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=cognitive-science</loc>
+        <loc>https://zehaojin.com/blog/cognitive-science/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/cognitive-science/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/cognitive-science/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/cognitive-science/"/>
         <lastmod>2022-03-26</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=stanislaw-lem</loc>
+        <loc>https://zehaojin.com/blog/stanislaw-lem/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/stanislaw-lem/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/stanislaw-lem/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/stanislaw-lem/"/>
         <lastmod>2022-03-03</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=nihilism</loc>
+        <loc>https://zehaojin.com/blog/nihilism/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/nihilism/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/nihilism/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/nihilism/"/>
         <lastmod>2022-01-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=understanding-a-concept</loc>
+        <loc>https://zehaojin.com/blog/understanding-a-concept/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/understanding-a-concept/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/understanding-a-concept/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/understanding-a-concept/"/>
         <lastmod>2021-12-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=structuralism</loc>
+        <loc>https://zehaojin.com/blog/structuralism/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/structuralism/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/structuralism/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/structuralism/"/>
         <lastmod>2021-11-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=what-kind-of-scholar</loc>
+        <loc>https://zehaojin.com/blog/what-kind-of-scholar/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/what-kind-of-scholar/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/what-kind-of-scholar/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/what-kind-of-scholar/"/>
         <lastmod>2021-09-26</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://zehaojin.com/blog/post.html?slug=architecture</loc>
+        <loc>https://zehaojin.com/blog/architecture/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/architecture/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/architecture/?lang=cn"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/architecture/"/>
         <lastmod>2021-09-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>

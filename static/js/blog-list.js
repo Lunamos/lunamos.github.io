@@ -47,7 +47,7 @@
     el.list.innerHTML = slice.map(function (p, i) {
       var tags = (p.tags && (p.tags[L()] || p.tags.cn || p.tags.en)) || [];
       var tagHtml = tags.length ? '<div class="tags">' + tags.map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('') + '</div>' : '';
-      var href = '/blog/post.html?slug=' + encodeURIComponent(p.slug) + '&lang=' + L();
+      var href = '/blog/' + encodeURIComponent(p.slug) + '/?lang=' + L();
       return '<a class="post-card fade-up" style="animation-delay:' + (i * 55) + 'ms" href="' + href + '">' +
                '<div class="meta"><span>' + fmtDate(p.date) + '</span></div>' +
                '<h2>' + esc(pick(p.title)) + '</h2>' +

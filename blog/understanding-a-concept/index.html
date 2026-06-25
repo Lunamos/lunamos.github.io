@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Redirect legacy GitHub Pages host to the canonical domain, preserving path -->
+  <script>(function(){if(location.hostname==='lunamos.github.io'){location.replace('https://zehaojin.com'+location.pathname+location.search+location.hash);}})();</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <title>The Wisdom Condensed in Words (II): How Do You Understand a Concept? · Zehao Jin</title>
+  <meta name="description" id="meta-desc" content="It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all." />
+  <meta name="author" content="Zehao Jin" />
+  <meta name="keywords" content="essay, philosophy, mathematics, cognitive science" />
+  <link rel="canonical" href="https://zehaojin.com/blog/understanding-a-concept/" />
+  <link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/understanding-a-concept/?lang=en" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/understanding-a-concept/?lang=cn" />
+  <link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/understanding-a-concept/" />
+  <link rel="alternate" type="application/rss+xml" title="Zehao Jin · Blog" href="/blog/feed.xml" />
+  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Zehao Jin · Blog" />
+  <meta property="og:title" content="The Wisdom Condensed in Words (II): How Do You Understand a Concept?" />
+  <meta property="og:description" content="It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all." />
+  <meta property="og:url" content="https://zehaojin.com/blog/understanding-a-concept/" />
+  <meta property="og:image" content="https://zehaojin.com/static/assets/img/blog/understanding-a-concept/01.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="article:published_time" content="2021-12-09" />
+  <meta property="article:author" content="Zehao Jin" />
+  <meta property="article:tag" content="essay" />
+  <meta property="article:tag" content="philosophy" />
+  <meta property="article:tag" content="mathematics" />
+  <meta property="article:tag" content="cognitive science" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Wisdom Condensed in Words (II): How Do You Understand a Concept?" />
+  <meta name="twitter:description" content="It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all." />
+  <meta name="twitter:image" content="https://zehaojin.com/static/assets/img/blog/understanding-a-concept/01.jpg" />
+
+  <!-- Per-article structured data (baked at build time) -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "The Wisdom Condensed in Words (II): How Do You Understand a Concept?", "description": "It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all.", "inLanguage": "en", "url": "https://zehaojin.com/blog/understanding-a-concept/", "mainEntityOfPage": "https://zehaojin.com/blog/understanding-a-concept/", "image": "https://zehaojin.com/static/assets/img/blog/understanding-a-concept/01.jpg", "author": {"@type": "Person", "name": "Zehao Jin", "url": "https://zehaojin.com/"}, "publisher": {"@type": "Person", "name": "Zehao Jin", "url": "https://zehaojin.com/"}, "datePublished": "2021-12-09", "dateModified": "2021-12-09", "keywords": "essay, philosophy, mathematics, cognitive science"}</script>
+
+  <link rel="stylesheet" href="/static/css/blog.css" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RTHNRCWR2');
+  </script>
+</head>
+<body class="blog">
+  <header class="blog-header">
+    <div class="wrap">
+      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
+      <nav class="blog-nav">
+        <a href="/blog/" id="nav-all">All posts</a>
+        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <article id="article">
+<div class="post-lang" data-lang="en"><header class="post-head fade-up"><div class="kicker">essay</div><h1>The Wisdom Condensed in Words (II): How Do You Understand a Concept?</h1><div class="byline"><span>Dec 9, 2021</span><span>·</span><span>27 min read</span></div><div class="rule"></div></header><div class="reading prose fade-up" style="animation-delay:90ms"><p><strong>We write in order to think better.</strong></p>
+<p>None of us is a sage. It is precisely because any one person's ideas are full of holes that they are worth putting out for others to see. Having someone point out the flaw is exactly where the room to improve lives. An idea you keep hidden away can never grow up.</p>
+<p>I like to think, and some thoughts, if I don't write them down in time, just slip away, which feels like a real waste. So I am starting a new series called "Stray Thoughts." The point is to straighten out my reasoning, keep a record of what I think, and make it easier both to reflect on my own and to trade ideas with others.</p>
+<p><img alt="figure 1" src="/static/assets/img/blog/understanding-a-concept/01.jpg">
+<em>(right) Kandinsky, 1922</em></p>
+<p>In the last piece I introduced you to the methodology I have been calling <strong>"structuralism,"</strong> which looks at the nature of a thing through its relations and structure, and holds that the meaning of a word only shows up in context.</p>
+<p>That might leave you with a certain impression: that <strong>only structure matters, and the words themselves don't.</strong> But in this piece, after the tearing down, I want to do some building up. I want to show you how a word can act as a <strong>"node of meaning"</strong> inside a semantic network, and what kind of wisdom ends up condensed inside it.</p>
+<p>I really do recommend this one to friends still in school. When we study math and physics, and even the softer sciences like sociology and psychology, we are always running into <strong>concepts and terms</strong>: "number field," "element," "gravity," "public power," "representation," "the unconscious." Some are easy to grasp, others feel strange and obscure, but no matter the subject, understanding the concepts is always one of the most important parts of learning. What is a concept? Where does it come from? How do you learn one and actually understand it? And going a step further: if I were the theorist, how would I shape a concept from nothing, and how would I give it a name? This piece tries to answer those questions.</p>
+<p>So in the first section, let's talk about a concept everyone already knows well: the <strong>vector</strong>.</p>
+<hr>
+<p>The <strong>vector</strong> is familiar to everyone. It shows up in both high school math and physics. In the textbook, a vector (the Chinese math books also call it 矢量) is defined like this: a quantity that has both magnitude and direction. When I fly from Shanghai to New York, you can draw an arrow on the map, a line segment with a head, and call it a displacement vector. Pick any instant while I'm sprinting toward the finish line, and I have a speed pointed at the finish: that's a velocity vector.</p>
+<p>Next to the messy, forbidding concepts at the frontier of math and physics, the vector is downright friendly. It isn't hard to understand.</p>
+<p>But let me ask you something. The English name, <strong>vector</strong>, what does that word actually mean?</p>
+<p>The question seems like a bit of a troll. Isn't a vector just a vector? We've already explained it, so what is there left to ask?</p>
+<p>And yet. The first time I ran into the word "vector" was while teaching myself C++, and it showed up wearing a completely different costume: as an alternative to the array, the template class vector.</p>
+<blockquote>
+<p>The template class vector is similar to the string class in that it is a dynamic array. You can set the length of a vector object during runtime, append new data at the end, and insert new data in the middle. Basically, it is an alternative to using new to create an array. In fact, the vector class does use new and delete to manage memory, but this work is handled automatically...</p>
+<p>from <em>C++ Primer Plus (6th Edition), Chinese edition</em>, 4.10.1 The template class vector</p>
+</blockquote>
+<p>Put simply, a vector is roughly an array. It can hold objects of different kinds: {1,2,3} is a vector, {{1},{1,2},{1,2,3}} is a vector, and {'a','b','c','d','e','f'} can be a vector too. It is a little more convenient to use than a plain array, with a few extra features, but nothing exotic.</p>
+<p>By then school had already taught me about "vectors," but I had no idea their English name was "vector." So in my mental map, "vector" the Chinese term was a concept from math and physics, and "vector" the English word was a stand-in for the array, a "template class" in C++. <strong>The two had nothing to do with each other. Each minded its own business in its own field.</strong></p>
+<p>And really, why would they? One is a line segment with an arrow on it. The other is a clump of data. How could those be the same thing?</p>
+<p>But somehow they were both called "vector."</p>
+<p>Picture a student in an English-speaking country who takes a math class and then a programming class. They hear the same word both times, "vector," with no second Chinese term to split it in two.</p>
+<p>At the time I thought it was the strangest thing. I went back and forth through the translation glossary at the back of my math books, checked every dictionary I could find, and there was no mistake: the Chinese 向量 really was "vector," and "vector" really was both the array and 向量.</p>
+<p>So if I tell you right now that a vector and an array are in fact the exact same thing, would you find that odd?</p>
+<p>And it isn't only the vector and the array. The vector is also the same thing as a polynomial, and it can be the same thing as a linear function too.</p>
+<p><strong>How do we make sense of the vector and the array being isomorphic?</strong> Start with a two dimensional vector (1,2) and a two element array {1,2}. Written that way, the equivalence is easy to see. But what about a more general array with lots of entries, say {'a','b','c','d','e','f'}? Here is the trick: a vector doesn't have to live in two or three dimensional space. It can sit in a much higher dimensional space too. When you look at a vector (1,2,3,4,5,6) in six dimensional space, does anything come to mind? Right. Map each letter to a number, and isn't that just {'a','b','c','d','e','f'}? And so the isomorphism between array and vector is built.</p>
+<p><strong>What about the polynomial?</strong> Take a three dimensional vector (1,2,3), and read the x axis, y axis, and z axis as the "1 axis," the "x axis," and the "x^2 axis." Now isn't that the same thing as x^2 + x + 1? Generalize, and every polynomial can be written as a vector of the appropriate dimension.</p>
+<p><strong>And the linear function?</strong> Suppose we have a vector a. Take any vector x, and define an operation: "the length of x projected onto the line through a, times the length of a itself." We have just built a function that "takes a vector x and returns a real number," and we can show it is linear, so it is a linear function, or a linear functional. The other direction works too: any linear functional must be isomorphic to some vector. (This is what's called "duality.")</p>
+<p>What does all of this hint at? Combined with what I argued last time, it's easy to see that in a certain sense, "vector," "array," "polynomial," and even a certain class of "function" are just different names for the same thing, the same set of rules.</p>
+<p>So if a rule applies to one of them, it applies to all the rest. We can compute the "angle" between two arrays, the "inner product" of two polynomials, and look at the "domain" and "range" of a vector. (Amusingly, the polynomial and the linear functional are two separate setups, so these function related concepts come in double.) In the two dimensional case, this whole pile is, in a sense, equivalent to a complex number (a + bi), and once you bring in Euler's formula, it is also isomorphic to the exponential function p*e^(ix). Note that the operation rules don't always carry over untouched. Complex multiplication, the dot product, scalar multiplication, and matrix multiplication are not all the same operation. The point is only that the "rules," like the concepts themselves, can be carried over by some "isomorphism" to find their corresponding cousin.</p>
+<p>Is there any point to thinking this way? I'd say yes: <strong>noticing the isomorphism between these concepts can hand us fresh understanding and new angles of approach.</strong></p>
+<p>Take a casual example. On a music app, we can use an array to record a user's listening history. Say I log, in order, "Cui Jian," "Teresa Teng," "Jay Chou," "Omnipotent Youth Society," "Akina Nakamori," "Bach," "Sonic Youth," "Taylor Swift," and so on. I end up with an array like {23,12,65,12,0,12,32,12...} (all randomly generated, no comment on my actual taste). Now, for two different users, we can compute the <strong>"angle"</strong> between their two arrays. The smaller the angle, the more alike their music taste. So if someone happens to have a tiny angle with you and loves an artist you have never heard of, putting that artist's album on your homepage as a recommendation might be a pretty good move. Just like that, we have invented a "recommendation algorithm" that actually sounds reasonable. So stop asking "how does the music app know me better than I know myself." The answer is: <strong>go learn a little linear algebra, my friend.</strong></p>
+<p>By now you might want to ask: "Can we set aside all these words that barely differ, and just study what they have in common, the deepest underlying so called 'rule' directly? Wouldn't that be much more convenient?"</p>
+<p>Good news first: yes, you can. If you are at university, you will find a math department course called <strong>"advanced linear algebra"</strong> quietly waiting for you. Take it, and you will reach a chapter called "abstract linear spaces"...</p>
+<p>Okay, that's enough math. I'll stop here. If you want to hear more, find me and we'll talk privately.</p>
+<p><img alt="figure 2" src="/static/assets/img/blog/understanding-a-concept/02.jpg">
+<em>Mondrian, 1917</em></p>
+<hr>
+<p>You might have come expecting a culture post with a sprinkle of light philosophy, and instead caught a faceful of math in that last section, which probably felt abrupt. Honestly I didn't want it this way either (wry smile), but the "vector" example is just too perfect, too interesting, and too useful. Not spreading it out a bit would have felt like a waste.</p>
+<p><strong>But can we really just swap the name?</strong> True, a word is a symbol, and its link to its meaning is arbitrary and random. But can we actually replace it as lightly as "using an eraser in place of a chess piece"?</p>
+<p>The answer up front: <strong>no.</strong> Let me explain.</p>
+<p>Let me first lay out two kinds of linguistic rules, which I'll call <strong>"the common sense rules of natural language"</strong> and <strong>"the logical rules of mathematical language."</strong> The first rests on our past experience and intuition: we see a gently trickling stream and think of calm and gentleness, we see a roaring fire and think of passion and ideals. The second rests on rational definitions and logical deduction among concepts: velocity is an object's displacement per unit time, temperature is how violently molecules move. <strong>The first is sensory, changeable, and personal. The second is rational, stable, and able to support a long chain of reasoning.</strong></p>
+<p>With those two roughly sorted out, let's think through this question together: "What does it mean to 'feel' something (what I call 'understandability')? If we want to 'feel' it, what role do 'the common sense rules of natural language' and 'the logical rules of mathematical language' play?"</p>
+<p>The answer straight away: <strong>only the 'common sense rules' can be felt; the 'logical rules' cannot.</strong> To "feel" something, to have it "right there before your eyes, vivid and graspable, understood in your gut," is in fact tightly bound to our common sense. We can only, must, are forced to, understand things through common sense and experience. We have seen flowing water, fire, green grass, darting swallows, but we have never seen "a vector," "an electric current," "energy." So the former can be felt, and the latter resists being felt.</p>
+<p>I don't think you'll be satisfied with that last conclusion. You might push back: "That's not right. When I was learning math and physics and grinding through enough problems, I did develop a kind of 'intuition.' I can try to feel vectors and currents too, or how else would I solve the problems?"</p>
+<p><strong>Abstract concepts can indeed be felt, but that feeling is always achieved through a metaphor drawn from the 'common sense rules.'</strong> Take the vector again. In Chinese we can crudely split the word into "xiang" (direction) and "liang" (quantity). "Xiang" supplies the intuition of "direction," "liang" supplies the intuition of "how much," and both direction and quantity are things every one of us experiences in daily life. That is what gives the vector its "understandability," along with the "line segment with an arrow," which is also something we can experience. But as I said above, a "vector" can also be an "array," can also be a "polynomial," and these are completely identical (isomorphic) under "the logical rules of mathematical language." That move, though, makes the "common sense rules" collapse entirely. We cannot naturally transfer the intuition for a "vector" onto a "polynomial," or onto an "array." In fact, just like the vector, the array and the polynomial each offer their own set of intuitions. <strong>Mathematical concepts may all connect, but the intuitions for understanding them differ wildly.</strong></p>
+<p>I call this phenomenon a "cognitive prototype." <strong>Cognitive prototypes are rooted in the human unconscious. They are the basic form of human thought, the foundation of the machinery of "understanding" and "feeling," and they are cultivated out of life and experience.</strong> To make this easier to follow, I'm going to quote at length from Professor Chen Jiaying's <em>Philosophy, Science, Common Sense</em>, because my own pen isn't up to writing it more clearly than he did. Bear with me.</p>
+<blockquote>
+<p>...Under the rule of holistic intellectual cognition, responsive cognition is suppressed into a kind of lower layer cognition. The real vitality of responsive cognition lies in how it supplies all sorts of <strong>cognitive prototypes</strong>, prototypes that still regulate our cognition at a deep level and from which our intellectual understanding keeps drawing nourishment. As I said earlier, sunrise and the flourishing of life, sunset and decline, the earth and the mother: these connections are so natural that it is almost impossible not to begin understanding the world from them. They are "the oldest and most universal forms of human thought. They are at once feeling and thought." It is in this sense that Jung called them cognitive prototypes. Cognitive prototypes still play an important role in art, and likewise they still play an important role in philosophical understanding, and even in scientific theory. Research on symbols, metaphors, and so on keeps revealing this. The many metaphors about society, the organism, the strata, the web, the fabric, the machine, are openly adopted by the social sciences. The mathematization of modern physics can be seen as an effort to eliminate metaphor. Yet even some of the basic notions in physics still depend on cognitive prototypes of the metaphorical kind. The word "current," or electric current, is metaphorical: the description of current carries the force the word "flow" has in images like flowing water. Current is not a single word that happens to carry a metaphor; what appears here is a whole family of metaphors. Current passes through a conductor of low resistance, and current, passes, and conductor all carry metaphor, together forming one unified picture. The notion of energy and its conservation is probably also grounded in a cognitive prototype; in an earlier age it was the alchemist's secret fire, or Heraclitus's "everliving fire." The idea of energy conservation is a kind of primordial image lurking in the collective unconscious, an idea that also shows up in magic, in the immortality of the soul, and so on. This is not some strange fancy of the psychoanalysts. One famous history of science comments on the conservation of matter and energy like this: <strong>"For the sake of convenience, the mind, without realizing it, always picks out those quantities that are conserved and builds its models around them."</strong></p>
+<p>In the chapter on scientific concepts we will discuss how scientific theory works to eliminate these metaphors, hoping to turn every term into what Harré calls a "fully defined" concept. Yet we have reason to think this is a goal that can never be fully reached. As Harré puts it: "I will go so far as to assert that no physicist, however hawkish, means anything more by 'heat flow in a conductor' than 'the change of temperature over time.'" Harré dares to make this assertion because "words like [current] cannot be replaced by artificially constructed expressions without destroying the conceptual foundation of electrodynamics."</p>
+<p>(<em>Philosophy, Science, Common Sense</em>, Chen Jiaying)</p>
+</blockquote>
+<p><strong>So even if the link between a word and a thing is arbitrary and random (structuralism), the word itself is already fused deeply with a cognitive prototype.</strong> Which, when you think about it, is fairly obvious. We cannot use language to describe what lies outside language, cannot experience experiences outside of life. So this tangled "word and cognitive prototype" relationship is inevitable.</p>
+<p>Faced with the common sense concepts of the real world, we have plenty of give. Nobody needs to explain to me what flowing water is, or what an apple is; I already know. But faced with mathematized concepts, we make a despairing discovery: getting a feel that is both fully accurate and vividly graspable is impossible. We might be able to picture analytic geometry in our heads, imagine a function's graph sliding and flipping, try to handle propositions and logic in natural language, <strong>but that imagination lacks a quantified dimension, and as complexity rises it is bound to go off target.</strong> Which, oddly, is exactly where the strength and the point of "mathematization" show up: long chains of reasoning become possible because of mathematics, and so humans can finally extend reason into places common sense never reaches, and see into the nature of the unintelligible.</p>
+<p>Which finally lets us pose this strange question: <strong>how do we understand the thing that can't be understood?</strong></p>
+<p><img alt="figure 3" src="/static/assets/img/blog/understanding-a-concept/03.jpg">
+<em>The Cathedral of the Minorities, Lyonel Feininger</em></p>
+<hr>
+<p>To understand the unintelligible is both simple and hard. Simple, because <strong>all we have to do is give it a name.</strong> By the structuralist method, the naming should be arbitrary. It's like learning math: you meet a number, you don't know what exactly it is, or maybe it is flat out undetermined, but as long as you recognize that it is some thing, you can name it X and use X to refer to it. As long as the context and the shared agreement are in place, everyone can work with it just fine. In linguistics the thing being referred to is the "signified," and the X we use is the "signifier." Real world snow is the signified; the symbol "snow" that comes out of my mouth or goes down on paper is the signifier. So there's a classic line in the philosophy of language: <strong>"Snow is white" is true if and only if snow is white.</strong> Rather fun.</p>
+<p>But after all the above, we realize that finding a fitting signifier for a concept is not so easy. If the signified has no understandability of its own, then the signifier we pick (the word) has to supply some understandability instead. So although structuralism tells us we may pick any signifier, in practice we cannot.</p>
+<p>From what I've observed, concept shaping (here I mean specifically the act of finding a fitting signifier for a concept) falls roughly into two kinds: <strong>domesticating</strong> and <strong>foreignizing.</strong></p>
+<p><strong>Domestication</strong> and <strong>foreignization</strong> are two terms borrowed from translation theory. Domesticating translation pulls the source text toward the conventions of the target language, while foreignizing translation stays faithful to the source language's conventions. "Oh my god!" domesticated into Chinese becomes "wo le ge qu!" (a thoroughly native exclamation), and foreignized becomes "my God!" (the foreign reference kept literally). These two terms are easy enough to grasp.</p>
+<p>So we can carry the same distinction over to "concept shaping" and read it as "domesticating shaping" and "foreignizing shaping."</p>
+<p><strong>Domesticating shaping picks a signifier as close to the cognitive prototype as possible.</strong> Good examples are the words used to describe society: "class," "exploitation," "machine." They show the concept's meaning intuitively and carry very strong understandability. In a politics class, the first time you hear something like "the state machine," you immediately get the rough idea. That understanding may not be perfectly accurate, but it is close enough and leaves little room for misreading.</p>
+<p><strong>Foreignizing shaping coins a brand new word as the signifier.</strong> Good examples are over half the periodic table, those obscure characters for scandium, titanium, vanadium, cadmium, manganese, or "enthalpy" and "entropy" in thermodynamics. These concepts are exact and precise, fully avoiding the misunderstandings that common sense and cognitive prototypes can cause, but at the same time they lose all understandability. The first time any student hears "enthalpy," they have no idea what it is. The concept becomes graspable only through its definition and its links to the other concepts in the field.</p>
+<p>So domesticating and foreignizing each have their pros and cons. Domestication is easy to understand, but very often the real world metaphor and the theory don't quite mesh, and the best example is probably the "vector" we mentioned earlier: plenty of things that don't feel at all like vectors are still vectors, which makes them hard to understand. Foreignization's trade off is plain. The upside is extreme precision, never any misreading; the downside is that it is completely unintelligible, so it degenerates into pure "jargon" and "terminology" and offers not a shred of intuition.</p>
+<p>There's also a gray zone in the disciplines. "Dot product" and "cross product" are a bit subtle, because they do have a piece grounded in everyday life: the symbols written on paper are literally a dot (a · b) and a cross (a x b), yet at the same time they have nothing to do with real life, which is a strange mix. So domestication and foreignization aren't a strict binary at war with each other; there's some murky, ambiguous middle ground. And it's funny: the two concepts "domesticating shaping" and "foreignizing shaping" are themselves a piece of "domesticating shaping" I performed in this text to keep the writing clear, a "working hypothesis" for the sake of getting the point across. So don't get too hung up on the exact definitions or boundaries of these two words.</p>
+<p>So sometimes, while studying, I used to be baffled: <strong>why are so many concepts in math and physics this hard to understand? I have no idea what they're even talking about.</strong> Now I've figured it out. It comes down to concept shaping. Good concept shaping brings about good understanding; bad concept shaping leaves people unable to understand. Below I'll pull out a few examples of concept shaping, as a starting point for discussion.</p>
+<p><strong>scalar</strong></p>
+<p>A scalar is the counterpart to a vector: a scalar has no direction, only magnitude. In Chinese, the character "biao" (标) carries an intuition close to the "scale markings" on a thermometer, giving the sense of "magnitude without direction." But scalar offers a different understanding. Scalar calls scale to mind, and scale in English means not just "size" (the "magnitude without direction" intuition) but also "to resize by a ratio." Scaling, for instance, means resizing. In linear algebra, the main use of a scalar (I'll skip things like number fields) is "scalar multiplication," and its geometric intuition is precisely "resizing a vector." Calling a number a scalar carries a very strong intuitive meaning, and in Chinese that delicate layer of metaphor is lost completely.</p>
+<p><strong>function, mapping, transformation, operator</strong></p>
+<p>I still remember the first time I learned about functions in high school. The teacher said, "A function is a mapping." I was struck with awe, as if I had suddenly grasped some great truth about the essence of functions. Later I realized that "epiphany" had a problem, because saying a "function" is a "mapping" is like explaining a sleeping pill's effect by saying it has a "sleep inducing property." It is pure tautology, and under "the logical rules of mathematical language" it doesn't mean much. Still, "function" and "mapping" do offer different intuitions. "Function" (the Chinese "hanshu") leans toward foreignizing shaping; I honestly don't know what the "han" means. "Mapping" is far better: it gives a sense of "image," forming a metaphor with the light and shadow we see in daily life, where the warping and distortion of shadows is an analogy for the change from input to output. "Mapping" and "transformation" also differ slightly, since a function's output is generally a number (its codomain is a number field) while a mapping's output is generally treated as a vector, though this difference doesn't matter much. "Mapping" and "transformation" mean roughly the same thing, carrying similar intuitions and metaphors. The intuitive difference between the two words is this: "mapping" has a feel of going from region A to region B, while in "transformation" the before and after basically sit in the same place. That difference reflects a real difference in the concepts. A mapping's domain (and of course the Chinese and English for "domain" carry different intuitions too) and its codomain (a concept that, oddly, has no especially good Chinese translation, which has caused enormous confusion and difficulty) are generally not the same, or at least not assumed to be. A transformation's domain and codomain are assumed to be the same. "Transformation" also has a foreignized version called "operator," but I won't go into that here.</p>
+<p><strong>image</strong></p>
+<p>"Image" is a strange one to translate. Rendering it as the Chinese "xiang" feels like a last resort, since Chinese doesn't seem to have a really fitting word: "xiang" means "similar," "portrait," "for example," while in English "image" is rich in meaning, roughly "a picture or notion in the mind," "the reputation of a person or company," and "a picture or visual." In math, "image" is often used interchangeably with "range," both meaning the set of all possible outputs. Where does that intuition come from? It is built jointly with the "mapping" mentioned above, into one metaphor. The "image" produced by "mapping" is the range, easy to follow. Switch to English and the understanding actually gets stranger, because "mapping" translates "map," and map and image don't share this set of metaphors the way the Chinese words do, which is why people abroad really do lean toward "range" for the range.</p>
+<p>After those few examples, did you notice something? <strong>Concept shaping is intensely language dependent.</strong> Because social environments differ, the ways of life and the common sense grasp of the world differ across cultures, which produces different habits of language use, which in turn shapes both how concepts get named and how they get grasped. And a step further: across eras, even across individual authors, concept shaping varies. Two textbooks in the same subject, by different authors, may use different words to refer to a concept, and so carry different intuitions.</p>
+<p>So how should we understand a concept? My view is that "intuition" and "precision" should be two sides that support each other. Intuition aids understanding; precision keeps you from going wrong. Always chase good intuition, always stay faithful to the precise definition, and that way you can slowly arrive at so called "real understanding" and handle the concept with ease.</p>
+<p><strong>What is the essence behind "concept shaping"?</strong> The choice of a word already contains the author's understanding, and that understanding travels with the word to the reader. This is the wisdom condensed inside a word. A word naturally carries understanding, and "learning," to put it plainly, is the process of mastering words and their meanings, and learning the methods and tricks an author uses to wield them. Always look for the good concept, and through it gain good understanding. That is the way of learning.</p>
+<p><img alt="figure 4" src="/static/assets/img/blog/understanding-a-concept/04.jpg">
+<em>Kandinsky, 1913</em></p>
+<p>I'm Ningningning Jinghai. Thank you for reading to the end.</p>
+<p>Writing and layout: Jinghai</p>
+<p>Cover design: Zui Qingcheng</p>
+<p>References:</p>
+<p>Books:</p>
+<p><em>Science, Philosophy, Common Sense</em> by Chen Jiaying</p>
+<p><em>Invisible Cities</em> by Italo Calvino</p>
+<p><em>C++ Primer Plus (6th Edition), Chinese edition</em> by Stephen Prata</p>
+<p><em>Linear Algebra Done Right (Third Edition)</em> by Sheldon Axler</p>
+<p>Web:</p>
+<p><a href="https://www.bilibili.com/video/BV1ys411472E">Essence of Linear Algebra (official bilingual series) by 3Blue1Brown</a></p>
+<p><a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">[BetterExplained] Why you should start blogging now, by Liu Weipeng</a></p>
+<p>Lectures:</p>
+<p><em>The Shaping of Concepts and the Symmetry of Mathematical Mechanics</em> by Professor Yin Yajun</p></div><div class="post-foot fade-up"><div class="row"><a class="back-link" href="/blog/?lang=en">‹ Back to all posts</a></div></div></div>
+<div class="post-lang" data-lang="cn" hidden><header class="post-head fade-up"><div class="kicker">随笔</div><h1>凝结在语词里的智慧（二）如何理解一个概念？</h1><div class="byline"><span>2021年12月9日</span><span>·</span><span>11 分钟阅读</span></div><div class="rule"></div></header><div class="reading prose fade-up" style="animation-delay:90ms"><p><strong>书写是为了更好地思考。</strong></p>
+<p>人非圣贤，正是因为单个人的想法总是有漏洞，才值得拿出来交流，被别人指出问题正是改进的空间，藏着掖着的想法永远不可能变得更成熟。</p>
+<p>我喜欢思考，有些想法如果不及时记录下来，也就这样忘掉了，非常可惜。所以新开一个系列，名曰"随想"，旨在理顺思路，记录想法，以供自我反思和相互交流之便。</p>
+<p><img alt="figure 1" src="/static/assets/img/blog/understanding-a-concept/01.jpg">
+<em>（右图）康定斯基，1922</em></p>
+<p>在上一篇文章中，我向各位介绍了被我称为<strong>"结构主义"</strong>的方法论，这一方法强调从事物之间的关系和结构考察事物的本性，认为词汇的意义只能在语境中体现。</p>
+<p>这会不会给你造成这样的一种印象——<strong>只有结构重要，语词不重要</strong>。但在这篇文章里，我想在"破"之后"立"，告诉你语词在结构中如何起到语义网络中<strong>"意义节点"</strong>的作用，又有怎样的智慧凝结在语词里。</p>
+<p>我很推荐还在学校读书的朋友来读一下这篇文章，我们在学习数理化乃至社会科学、心理学等等"泛科学"的时候，总会遇到各种各样的<strong>概念与术语</strong>——"数域""元素""引力"、"公权力""表征""无意识"，有些概念很好理解，有些概念则生僻怪异，但不论对于什么学科，理解概念总是学习中最重要的部分之一。概念是什么？从何而来？如何学习并理解概念？更进一步说，如果我来当理论家，怎么去从无到有塑造概念，又如何给它起名？本篇试图对这些问题给出解答。</p>
+<p>那么在本文的第一段，我们来谈论一个大家都很熟悉的概念——<strong>向量</strong>。</p>
+<hr>
+<p><strong>向量</strong>大家都不陌生，在高中数学和物理里都会有所涉及。在课本里，向量（或者矢量）的定义是这样的：具有大小和方向的量。我坐飞机从上海飞到纽约，在地图上能画出一条带箭头的线段，叫做位移向量；我跑步冲向终点线过程中随便挑个时刻，我有一个向着终点的速度，叫做速度向量。</p>
+<p>比起数学物理前沿混乱而艰涩的概念，向量这个概念太友好了，理解它并不困难。</p>
+<p>但是我想请问你，向量的英文名，<strong>vector</strong>，又是什么意思呢？</p>
+<p>这个问题显得有些无理取闹，vector不就是向量吗，向量已经讲明白了，vector还有什么可问的呢？</p>
+<p>但是呀，我最早接触到"vector"这个词，却是在我自学C++的时候，它是以这样一个样子出现的——数组的替代品-模版类vector。</p>
+<blockquote>
+<p>模版类vector类似于string类，也是一种动态数组。您可以在运行阶段设置vector对象的长度，可在末尾附加新数据，也可在中间插入新数据。基本上，它是使用new创建数组的替代品。实际上，vector类确实使用new和delete来管理内存，但这些工作是自动完成的......</p>
+<p>——《C++ Primer Plus（第6版）中文版》4.10.1 模版类 vector</p>
+</blockquote>
+<p>简单来说，vector就是和数组差不多的东西，它可以存储不同类型的对象，{1,2,3}是一个vector，{{1},{1,2},{1,2,3}}是一个vector，{'a','b','c','d','e','f'}也可以是个vector，它比起数组用起来更加方便一些，有一些特性，但也没什么奇特之处。</p>
+<p>那个时候，学校里已经教过"向量"了，但我不知道"向量"的英文名是"vector"。于是在我的知识框架里，"向量"是个数学物理学概念，"vector"是个数组的替代品，是C++语言里的一个"模版类"。<strong>两个概念完全没有交集，各在各的领域里干自己的事情。</strong></p>
+<p>是啊，一个是带着箭头的线段，另一个是一堆数据的组合，这怎么会是一个东西呢？</p>
+<p>可它们偏偏都叫做"vector"。</p>
+<p>设想一个英语母语世界的学生，上一门数学课再上一门编程课，他们听到的是同一个"vector"，没有"向量"。</p>
+<p>我当时觉得这件事情奇怪极了，翻来覆去找数学书书后的译名表，查遍了能找到的所有词典，"向量"就是"vector"，"vector"也确实就是数组也是向量，错不了。</p>
+<p>所以，如果我现在在这里告诉读者：向量和数组其实是一摸一样的东西，你会觉得奇怪吗？</p>
+<p>不仅仅向量和数组是一个东西，它和一个多项式也是一个东西，它和一个线性函数也可以是一个东西。</p>
+<p><strong>怎么解释向量和数组的同构呢？</strong>先来考虑一个二维的向量(1,2)和一个二元的数组{1,2}，这样写我们能很容易看出这两者之间的等价关系。但对于更加一般的有很多数据数组，比如说{'a','b','c','d','e','f'}，怎么办呢？我们意识到，向量不仅可以是在二维或者三维空间当中的，也可以放在一个更高维的空间里，当你看到一个六维空间中的向量(1,2,3,4,5,6)的时候，有没有想到一些什么？没错，如果把字母对应到数字，那不就相当于是{'a','b','c','d','e','f'}吗？于是数组和向量的同构也就这样建立起来了。</p>
+<p><strong>多项式呢？</strong>我们拿来一个三维向量(1,2,3)，把x轴、y轴、z轴理解成"1轴"、"x轴"和"x^2轴"，这不就和x^2+x+1代表了同样一种东西吗？推而广之，一切多项式都可以使用一个相应维度的向量来表示。</p>
+<p><strong>线性函数呢？</strong>我们有一个向量a，那么我们拿来任意一个向量x，可以定义一个运算，叫做"x投影到a所在直线的长度乘上a自己的长度"，那么我们就成功地构造出来了一个"接受一个向量x，输出一个实数"的函数，我们可以证明它是线性的，所以它是一个线性函数或者说线性泛函。反过来，我们也可以证明任何线性泛函也必然可以同构于一个向量。（这就是所谓的"对偶性"）</p>
+<p>这暗示着我们什么呢？结合我在上篇文章里的观点，我们很容易知道，其实在某种意义上，"向量""数组""多项式"甚至某一类"函数"，都只是同一个事物（同一套规则）的不同名字罢了。</p>
+<p>于是只要规则适用于其中一个，那么也可以适用于其余每一个——我们可以求出两个数组的"夹角"，可以求出两个多项式的"数量积"，也可以考察一个向量的"定义域"和"值域"（有趣的是，多项式和线性泛函是两套东西，所以这些函数相关的概念也是双份的）。在二维的情况下，这堆东西和一个复数（a+bi）某种意义下也是等同的，再用上欧拉公式，这堆东西和p*e^(ix)这个指数函数也是同构的。请注意，运算规则不一定可以原封照搬（比如说，复数乘法，向量点乘和数乘，矩阵乘法这些并不是相同的运算），只是说"规则"也可以如同这些概念本身一样，通过某种方式"同构"过去，找到对应的相似物。</p>
+<p>这种思维方式有什么意义吗？我想，<strong>意识到这些概念之间的同构，可以给我们提供新的理解和思路。</strong></p>
+<p>随便举个例子，在音乐平台中，我们可以用一个数组来记录一个用户的听歌记录，比如说我从前往后记录"崔健""邓丽君""周杰伦""万能青年旅店""中森明菜""巴赫""Sonic Youth""Taylor Swift"......那么我就能得到一个类似于{23,12,65,12,0,12,32,12......}(以上均为随机生成，不代表个人好恶)的数组，于是对于两个不同的用户，我们就可以求出这两个数组的<strong>"夹角"</strong>，夹角越小，说明两人的音乐喜好更相似。那么如果恰好有个人和你的数组夹角很小，而且他喜欢的一个歌手你根本没有听说过，那么把这位歌手的专辑放在你的首页推荐给你或许是个很不错的选择。这样一来，我们就发明了一种听起来还挺靠谱的"推荐算法"，所以不要再问"为什么网易云比我更懂我"，问就是——<strong>来学点线性代数吧朋友。</strong></p>
+<p>读者看到这里，或许会想问："那我们能不能暂时放下这些没有什么大区别的语词，直接来对他们的共性，也就是最最本质的所谓'规则'进行研究呢？这样不是就很方便了吗？"</p>
+<p>先告诉你一个好消息，可以的，如果你在大学里的话，你会发现有一门叫做<strong>"高等线性代数"</strong>的数学系课程静静地在那里等待着你，选它，你会遇到一个章节叫做"抽象线性空间"......</p>
+<p>好，数学就此打住，不多说，想听更多可以约我私聊。</p>
+<p><img alt="figure 2" src="/static/assets/img/blog/understanding-a-concept/02.jpg">
+<em>蒙德里安，1917</em></p>
+<hr>
+<p>读者或许期待着一篇带些哲学小知识的文化类推文，但却在上面这一段里，突然被糊了一脸数学知识，有些措不及防。其实我也不想这样的（苦笑），只是"vector"作为例子太合适了，而且很有意思也很有裨益，不展开说说总觉得有点可惜。</p>
+<p><strong>但是我们真的可以换着称呼吗？</strong>的确，词语作为一个象征，它和意义的联系是任意而随机的，但是我们是否真的能像"拿橡皮代替棋子"一样，轻巧地把它替换掉呢？</p>
+<p>先报答案：<strong>不可以。</strong>下面我来解释。</p>
+<p>我们不妨先来确认两种语言规则，我称之为<strong>"自然语言的常识规则"</strong>和<strong>"数学语言的逻辑规则"</strong>。前者基于我们的过往经验和直观常识，比如我们看到潺潺溪流就联想到温和与平静，看到熊熊烈火就联想到热情和理想。后者则是基于概念相互之间的理性定义和逻辑推演，比如速度是单位时间物体的位移，温度是分子热运动的剧烈程度。<strong>前者感性、多变、因人而异，后者理性、稳定、可以长线推导。</strong></p>
+<p>大致区分了两种语言规则之后，我们一起来思考这一个问题："什么叫做'体会'（我称之为"可理解性"）？如果要'体会'，那么"自然语言的常识规则"和"数学语言的逻辑规则"在其中起到什么作用呢？"</p>
+<p>直接报答案：<strong>只有"常识规则"可以被体会，"逻辑规则"是不可被体会的。</strong>体会，也就是"如在眼前、生动可感、心领神会"，这一机制事实上是和我们的常识紧密相关的。我们只能、必须、被迫，通过常识和经验来理解事物。我们见过流水、火焰、青草、飞燕，但我们从来没见过"向量""电流""能量"，所以前者可以被体会，而后者难以被体会。</p>
+<p>我想你不会对上一段的结论满意，你或许会这样来反驳我："不对呀，我在学数学物理的时候，题刷得多了，也能得到一种'直觉'呀，向量、电流，我也能去试着体会他们，否则我怎么做题呢？"</p>
+<p><strong>抽象概念的确可以体会，但这一体会也必然是经过"常识规则"的隐喻实现的。</strong>还是拿"向量"举例，我们可以粗暴地把这个概念分为"向"和"量"，"向"提供了关于"方向"的直觉，而"量"提供了关于"多少"的直觉，而不论是"方向"还是"多少"，都是我们生活中每个人都可以经验到的东西，它提供了"向量"的"可理解性"，还有包括"带箭头的线段"，也是我们可以经验到的事物。但正如我在上面的段落里所提到的，"向量"也可以是"数组"，也可以是"多项式"，这在"数学语言的逻辑规则"上是完全等同（同构）的。但是这一过程会使得"常识规则"完完全全地崩溃，我们无法非常自然地把"向量"的直觉去套用到"多项式"上，或者套用到"数组"。事实上，和"向量"一样，"数组"和"多项式"也能提供它们自己的一套直觉，<strong>数学概念或许相通，直觉理解却大不相同。</strong></p>
+<p>笔者称这种现象为"认知原型"。<strong>认知原型根植于人类的无意识之中，是人类思维的基础形式，是"理解"和"体会"机制的基础，从生活与经验中被培养。</strong>为便于读者理解，下面我大量引用陈嘉映老师在《哲学·科学·常识》中的论述，因为笔者笔力不济，没法比陈老师写得更清楚，请读者谅解。</p>
+<blockquote>
+<p>......在整体理知认知的统治下，感应认知被压抑成为一种下层认知。感应认知真正的生命力在于它提供了各种<strong>认知原型</strong>，这些原型仍然在深层调节着我们的认知，我们的理知理解仍不断从中汲取营养。我前面说，日出与生命的兴旺，日落与衰亡，大地和母亲，这些联系是那么自然，简直无法不从这些联系开始来理解世界。它们是"最古老、最普遍的人类思维形式。它们既是情感又是思想"。正是在这个意义上，荣格把它们称作认知原型。认知原型在艺术中仍然发挥着重要的作用，同样，它们在哲学认识中、甚至在科学理论中也仍然发挥着重要的作用。关于象征、隐喻等等的研究在不断揭示这一点。关于社会的大量隐喻，机体、阶层、网状、织物、机器等等，社会科学堂而皇之加以采用。近代物理学的数学化可以被视作消除隐喻的努力。但是即使物理学中的一些基本观念，仍然依赖于隐喻一类的认知原型。Current或电流这个词是隐喻类的，对电流的描述携带着"流"这个字在水流等形象中所具有的语力。电流不是一个单独地带着隐喻的词，这里出现的是一族隐喻。电流通过电阻很小的导体，其中电流、通过、导体都带着隐喻，并且由此构成一幅统一的图画。能量和能量守恒的观念大概也基于认知原型，在较早的时代它是炼金术士的秘密火焰，或赫拉克里特的"永恒的活火"。能量守恒观念是某种潜伏在集体无意识中的原始意象，同样的观念也表现在魔力、灵魂不死等等之中。这并不是心理分析学家的奇谈怪论。一部著名科学史这样评论物质不灭和能量守恒：<strong>"心灵为了方便的缘故，总是不知不觉地挑出那些守恒的量，围绕它们来构成自己的模型。"</strong></p>
+<p>我们将在科学概念章里讨论科学理论怎样努力消除这些隐喻，以期把每一个术语都转变为哈瑞所说的"充分定义"的概念。然而我们有理由认为，这是一个不可能充分达成的目标。哈瑞就此说道，"我敢斗胆断言，没有哪个物理学家，无论多鹰派的物理学家，在说到例如'导体里的热流'时所意谓的丝毫不多于'温度随时间发生的变化'"。哈瑞敢于做出这个断言，是因为"〔电流〕这类语词不可能被人工建构的表达式替换而不毁掉电动力学的概念基础"。</p>
+<p>（《哲学·科学·常识》陈嘉映）</p>
+</blockquote>
+<p><strong>所以说，即使语词和事物之间的关联是任意而随机的（结构主义），但是语词本身已经和认知原型高度地结合在一起了。</strong>其实想想也挺显然的，我们无法用语言描述语言之外的东西，无法经验到生活之外的经验，所以"语词-认知原型"这一纠缠的关系是必然。</p>
+<p>面对真实世界的常识概念我们还算柔韧有余——我不需要别人来向我解释什么是水流、什么是苹果，我自己本来就知道。而面对数学化的概念，我们绝望地发现：获得一个既完全准确，又生动可感的体会是不可能的——我们兴许可以在脑海里想象解析几何，可以想象函数图像的挪移和翻转，可以试着拿自然语言去考虑命题和逻辑，<strong>但这一想象缺乏量化的维度，随着复杂性的上升必然失准。</strong>这其实反而体现出"数学化"的优势和意义——长线推理因为数学成为可能，故而人类终于可以将理性推及至常识不及之地，洞悉不可理解之物的本质。</p>
+<p>然后就终于可以提出下面这个怪问题了：<strong>那么我们怎么理解不能理解的东西呢？</strong></p>
+<p><img alt="figure 3" src="/static/assets/img/blog/understanding-a-concept/03.jpg">
+<em>《少数派的教堂》 利奥尼·费宁格</em></p>
+<hr>
+<p>要理解不可理解之物，说简单也简单，说难也难——<strong>我们只要给它取个名字就好了。</strong>根据结构主义的方法论，这个取名的过程应该是任意的。就像我们在学数学的时候，遇到一个数字，我不知道它具体什么，或者说它干脆是一个不确定的东西，但只要我认识到它确实是个东西，我们就可以给它取个名字叫做X，用X去指称它，只要语境和共识到位，那大家来处理它就都不成问题。在语言学里，这个被指称的东西叫做"所指"，我们使用的这个X叫做"能指"。现实世界里的雪是所指，我嘴里说出来的纸上写下来的"雪"这个符号是能指。于是存在一个语言哲学里的经典命题是：<strong>当且仅当雪是白的时候，"雪是白的"是对的。</strong>很有意思。</p>
+<p>但经过了上面讨论，我们会意识到好像为一个概念寻找到一个合适的能指是个不太容易的事情，因为如果所指没有可理解性，我们找的能指（语词）就需要去提供一定的可理解性，所以虽然结构主义告诉我们可以任选能指，但实际操作中不能任选能指。</p>
+<p>根据我的观察，概念塑造（这里特指给概念寻找一个合适的能指）大体上可以分为两类——<strong>归化塑造</strong>和<strong>异化塑造</strong>。</p>
+<p><strong>归化</strong>和<strong>异化</strong>是两个来自于翻译理论的术语。归化翻译是指译者把源语言文本的翻译向目标语的行文习惯靠拢，而异化翻译则是忠于源语言的行文习惯。"Oh my god！"按照归化翻译就是"我勒个去！"，异化翻译就是"我的上帝！"，这两个术语还是很好理解的。</p>
+<p>那么同样我们就能迁移到"概念塑造"上来理解"归化塑造"和"异化塑造"。</p>
+<p><strong>归化塑造就是尽可能贴近认知原型来挑选能指</strong>，比较好的例子有描述社会时用的"阶级""剥削""机器"，可以很直观地表现出概念的含义，有着极强的可理解性，我们上政治课可能第一次听到"国家机器"这样的概念就能立刻理解个大概，虽然这一理解不一定非常准确，但总归是大差不差，较少误解。</p>
+<p><strong>异化塑造则是生造一个词汇作为能指</strong>，比较好的例子是大半个化学元素周期表里像是"钪钛钒镉锰"这样的生僻词，或者说热力学里的"焓"和"熵"，这些概念都是特别明确精确的，完全避免了因为常识和认知原型造成的误解，但与此同时彻底丧失了可理解性，任何一个学生第一次听说"焓"的时候，必然完全不知道它是个什么东西，只有通过概念的定义和它在这个学科里和其他概念的联系，这个概念才能为人所理解。</p>
+<p>可以意识到，归化塑造和异化塑造各有优劣，归化好理解，但很多时候现实世界的隐喻和理论是存在不协调不融洽之处的，最好的例子或许就是之前提到的"向量vector"了，因为说起来很多感觉上完全不是向量的东西也是vector，这就导致了理解上的困难。异化的优劣很明显，优点是它极度精确，绝不会造成误解，缺点是彻底不可理解，于是沦为完完全全的"黑话"、"术语"，也不能提供一星半点的直观。</p>
+<p>其实在学科中还有一个灰色的地带，比如说"点乘"、"叉乘"就比较微妙，因为他们确实有生活中的部分——写在纸面上的记号就是点（a · b）和叉（a x b），但于此同时和现实生活没啥关系，比较奇怪。所以说归化和异化也并非完全二元对立、水火不容的，而是有一些晦涩暧昧的中间区域。很有趣的是，"归化塑造"和"异化塑造"这两个概念本身也是笔者在文本中为行文明确易懂而进行的概念的"归化塑造"，是为观点阐述方便而进行的"工具假设"，所以不必太过在意这两个词语的精确定义与边界。</p>
+<p>所以有的时候，笔者在学习的时候就很纳闷——<strong>怎么数学物理里边这么多概念都这么难懂，完全不知道在讲什么东西。</strong>现在笔者想明白了，其实这是"概念塑造"所导致的。好的概念塑造会促成好的理解，糟糕的概念塑造会让人无法理解。下面我将挑出几个概念塑造的例子，抛砖引玉：</p>
+<p><strong>标量scalar</strong></p>
+<p>标量是和向量相对的一个概念，标量没有方向，只有大小。中文当中，"标"这个词所承载的直觉和理解是类似于温度计上的"标度"，提供了一种"有大小无方向"的直观理解。但scalar提供的理解是不一样的，scalar让人想到scale，而scale在英语里不仅仅有"规模"的意思（提供"有大小无方向"的直观），还有"按照比例缩放"的直观，比如说scaling就是"缩放"的意思。在线性代数里一个标量的主要运用场景（什么数域之类的东西我就不提啦）就是"标量乘法"，而它的几何直观实际上就是"缩放一个向量"，把一个数称之为scalar是有极强的直观意义的，而在中文当中这一层精巧的隐喻完完全全地丧失掉了。</p>
+<p><strong>函数、映射、变换、算子</strong></p>
+<p>我还记得高中第一次学习函数的时候，老师说："函数是映射。"我惊为天人，一下子似乎明白了什么关于函数本质的大道理。后来才知道这种"顿悟"是有问题的，因为说"函数"是"映射"，就像是我说安眠药有"使人沉睡性"来解释安眠药的药效，是完完全全的同义反复，在"数学语言的逻辑规则"里是没有什么大的意义的。不过"函数"和"映射"提供的直观是有区别的。"函数"偏向异化塑造，我真不知道"函"是什么意思，但"映射"就好太多了，它提供的是一种"映像"的感觉，和我们日常生活中见到的光影形成隐喻，光影的扭曲和变形与输入值到输出值的变化形成类比。"函数"和"映射"也有区别，因为一般而言函数的输出是一个数字（也就是说上域是一个数域），而"映射"一般输出都视为向量，但这个区别并不是很重要。"映射"和"变换"也基本上是一个意思，带着类似的直观和隐喻。两个词语的直观的区别在于："映射"有种从A区域映射到B区域的感觉，而"变换"当中变换前和变换后的事物基本上是在一个地方，这一区别体现在概念本身的差异上，就是映射的定义域（domain，当然不用我说这个概念也是中英文各自承载不同的直觉）和上域（co-domain，这个概念在中文很离奇地没有特别好的对应翻译，不得不说造成了巨大的理解歧义和困难）一般来说是不一样的，至少不默认一样，而"变换"的定义域和上域默认是一样的。"变换"也有一个异化塑造的版本，叫做"算子"（operator），这里就不多展开论述了。</p>
+<p><strong>像image</strong></p>
+<p>"像"是一个很奇怪的译名，我觉得把image翻译成"像"是比较无可奈何的，因为中文里边似乎没有特别合适的对应词语，在中文里，"像"是"相似"、"人像"、"比如"这样的意思，而在英文中image意蕴颇丰，大概有"脑海中的形象/概念"、"个人或公司的形象/声誉"、"图像/影像"这样的一些含义。在数学里，image常常和range混用，都能表达"值域"这个意思，也就是所有可能输出的集合。这个直观是从哪里来的呢？其实这是和上面所述的"映射"共同构造出一组隐喻。"映射"出来的"像"，便是值域，很好理解。这换成英文理解反而奇怪了，因为"映射"是map的译名，map和image不能如中文一般有这套隐喻，所以国外确实更加偏向于使用range来代表值域。</p>
+<p>看过上面几个例子，你有没有意识到一些什么？<strong>的确，概念塑造有强烈的语言差异性！</strong>因为社会环境的不同，不同文化背景下的生活方式和对世界的常识性领会是不相同的，于是形成了不同的语言使用习惯，进而影响到概念塑造和对概念的领会。而且更近一步说，不同时代，甚至说不同的作者，概念塑造也不尽相同，或许同样一个学科的教科书，不同的作者笔下用来指称概念的语词也会有所不同，于是也承载着不同的直觉。</p>
+<p>所以我们应该如何去理解一个概念？笔者认为，"直观"和"精确"应当是相辅相成的两面，"直观"助于理解，而"精确"才不会出错。永远去追求好的直观，永远忠于精确定义，如此，才能慢慢抵达所谓的"真正理解"，得心应手地运用概念。</p>
+<p><strong>"概念塑造"背后的要义是什么？</strong>其实语词的选择本身就蕴含着作者的理解，这份理解也会随着语词传达给读者，这便是凝结在语词里的智慧。语词天然蕴含着理解，而所谓"学习"这一过程说白了就是掌握语词及其含义，学会作者运用语词的方法和技巧。永远去寻找好的概念，进而获得好的理解，这就是学习之道。</p>
+<p><img alt="figure 4" src="/static/assets/img/blog/understanding-a-concept/04.jpg">
+<em>康定斯基，1913</em></p>
+<p>我是宁宁宁静海，感谢你看完我的文章</p>
+<p>内容&amp;排版：宁静海</p>
+<p>封面设计：醉·倾城</p>
+<p>参考资料：</p>
+<p>【著书】</p>
+<p>《科学·哲学·常识》by 陈嘉映</p>
+<p>《看不见的城市》by 伊塔洛·卡尔维诺</p>
+<p>《C++ Primer Plus（第六版）中文版》by Stephen Prata</p>
+<p>《Linear Algebra Done Right (Third Edition)》 by Sheldon Axler</p>
+<p>【网页】</p>
+<p><a href="https://www.bilibili.com/video/BV1ys411472E">[官方双语/合集] 线性代数的本质 - 系列合集 by 3Blue1Brown</a></p>
+<p><a href="http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/">[BetterExplained] 为什么你应该（从现在开始就）写博客 by 刘未鹏</a></p>
+<p>【讲座】</p>
+<p>《概念的塑造与数学力学的对称性》by 殷雅俊教授</p></div><div class="post-foot fade-up"><div class="row"><a class="back-link" href="/blog/?lang=cn">‹ 返回全部文章</a></div></div></div>
+    </article>
+  </main>
+
+  <footer class="blog-footer">
+    <div>© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
+  </footer>
+
+  <script type="application/json" id="post-meta">{"en": {"title": "The Wisdom Condensed in Words (II): How Do You Understand a Concept?", "summary": "It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all."}, "cn": {"title": "凝结在语词里的智慧（二）如何理解一个概念？", "summary": "从一个奇怪的发现讲起——向量、数组、多项式、线性函数其实是同一个东西。由此追问：概念是什么，为什么有些概念好懂有些难懂，理论家又该如何给一个无法被直接体会的事物起名？"}}</script>
+  <script>
+    MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }, svg: { fontCache: 'global' } };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script src="/static/js/blog-i18n.js"></script>
+  <script src="/static/js/img-progressive.js"></script>
+  <script src="/static/js/blog-post-static.js"></script>
+</body>
+</html>

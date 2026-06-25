@@ -367,3 +367,8 @@ html[lang^="zh"] .prose pre { line-height: 1.75; }
   .post-card { padding: 1.25rem 1.25rem; }
   .blog-nav { gap: .7rem; }
 }
+
+/* Pre-rendered post pages bake both language versions into the HTML; only the
+   active one is shown. The native [hidden] attribute does the hiding — this is
+   a guard in case a future reset re-displays it. */
+.post-lang[hidden] { display: none !important; }

@@ -1,71 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Redirect legacy GitHub Pages host to the canonical domain, preserving path -->
-  <script>(function(){if(location.hostname==='lunamos.github.io'){location.replace('https://zehaojin.com'+location.pathname+location.search+location.hash);}})();</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title id="page-title">Zehao Jin · Blog</title>
-  <meta name="description" id="meta-desc" content="" />
-  <meta name="author" content="Zehao Jin" />
-  <link rel="canonical" id="canonical" href="https://zehaojin.com/blog/" />
-  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Zehao Jin · Blog" />
-  <meta property="og:title" id="og-title" content="" />
-  <meta property="og:description" id="og-desc" content="" />
-  <meta property="og:url" id="og-url" content="https://zehaojin.com/blog/" />
-  <meta property="og:image" id="og-image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" id="tw-title" content="" />
-  <meta name="twitter:description" id="tw-desc" content="" />
-  <meta name="twitter:image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
-
-  <!-- Per-article structured data (populated by blog-post.js) -->
-  <script type="application/ld+json" id="ld-article"></script>
-
-  <link rel="stylesheet" href="/static/css/blog.css" />
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <!-- Legacy URL shim: blog/post.html?slug=<slug> now lives at /blog/<slug>/.
+       Redirect (preserving ?lang=) so old links and bookmarks keep working. -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-6RTHNRCWR2');
+    (function () {
+      if (location.hostname === 'lunamos.github.io') {
+        location.replace('https://zehaojin.com' + location.pathname + location.search + location.hash);
+        return;
+      }
+      var p = new URLSearchParams(location.search);
+      var slug = p.get('slug');
+      var lang = p.get('lang');
+      var dest = slug ? '/blog/' + encodeURIComponent(slug) + '/' : '/blog/';
+      if (lang) dest += '?lang=' + encodeURIComponent(lang);
+      location.replace(dest);
+    })();
   </script>
+  <link rel="canonical" href="https://zehaojin.com/blog/" />
+  <meta name="robots" content="noindex,follow" />
+  <title>Redirecting… · Zehao Jin</title>
 </head>
-<body class="blog">
-  <header class="blog-header">
-    <div class="wrap">
-      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
-      <nav class="blog-nav">
-        <a href="/blog/" id="nav-all">All posts</a>
-        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
-      </nav>
-    </div>
-  </header>
-
-  <main class="blog-main">
-    <article id="article">
-      <div class="loading"><div class="spinner"></div><span id="loading-text">Loading…</span></div>
-    </article>
-  </main>
-
-  <footer class="blog-footer">
-    <div>© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
-  </footer>
-
-  <script>
-    MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }, svg: { fontCache: 'global' } };
-  </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-  <script src="/static/js/marked.min.js"></script>
-  <script src="/static/js/blog-i18n.js"></script>
-  <script src="/static/js/img-progressive.js"></script>
-  <script src="/static/js/blog-post.js"></script>
+<body>
+  <noscript>
+    <p>This page has moved. <a href="/blog/">Go to the blog index</a>.</p>
+  </noscript>
 </body>
 </html>

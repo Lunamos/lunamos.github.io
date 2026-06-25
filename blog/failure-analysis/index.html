@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Redirect legacy GitHub Pages host to the canonical domain, preserving path -->
+  <script>(function(){if(location.hostname==='lunamos.github.io'){location.replace('https://zehaojin.com'+location.pathname+location.search+location.hash);}})();</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <title>Bad Problems Don&#x27;t Stop Being Bad Because Somebody&#x27;s Wrong About Fault Analysis · Zehao Jin</title>
+  <meta name="description" id="meta-desc" content="Starting from the everyday move of &#x27;to explain is to excuse,&#x27; this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong." />
+  <meta name="author" content="Zehao Jin" />
+  <meta name="keywords" content="Essay, Reason and Feeling, Cognition, LessWrong" />
+  <link rel="canonical" href="https://zehaojin.com/blog/failure-analysis/" />
+  <link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/failure-analysis/?lang=en" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/failure-analysis/?lang=cn" />
+  <link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/failure-analysis/" />
+  <link rel="alternate" type="application/rss+xml" title="Zehao Jin · Blog" href="/blog/feed.xml" />
+  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Zehao Jin · Blog" />
+  <meta property="og:title" content="Bad Problems Don&#x27;t Stop Being Bad Because Somebody&#x27;s Wrong About Fault Analysis" />
+  <meta property="og:description" content="Starting from the everyday move of &#x27;to explain is to excuse,&#x27; this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong." />
+  <meta property="og:url" content="https://zehaojin.com/blog/failure-analysis/" />
+  <meta property="og:image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="article:published_time" content="2026-06-03" />
+  <meta property="article:author" content="Zehao Jin" />
+  <meta property="article:tag" content="Essay" />
+  <meta property="article:tag" content="Reason and Feeling" />
+  <meta property="article:tag" content="Cognition" />
+  <meta property="article:tag" content="LessWrong" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Bad Problems Don&#x27;t Stop Being Bad Because Somebody&#x27;s Wrong About Fault Analysis" />
+  <meta name="twitter:description" content="Starting from the everyday move of &#x27;to explain is to excuse,&#x27; this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong." />
+  <meta name="twitter:image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
+
+  <!-- Per-article structured data (baked at build time) -->
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BlogPosting", "headline": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis", "description": "Starting from the everyday move of 'to explain is to excuse,' this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong.", "inLanguage": "en", "url": "https://zehaojin.com/blog/failure-analysis/", "mainEntityOfPage": "https://zehaojin.com/blog/failure-analysis/", "image": "https://zehaojin.com/static/assets/img/jzh.jpg", "author": {"@type": "Person", "name": "Zehao Jin", "url": "https://zehaojin.com/"}, "publisher": {"@type": "Person", "name": "Zehao Jin", "url": "https://zehaojin.com/"}, "datePublished": "2026-06-03", "dateModified": "2026-06-03", "keywords": "Essay, Reason and Feeling, Cognition, LessWrong"}</script>
+
+  <link rel="stylesheet" href="/static/css/blog.css" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RTHNRCWR2');
+  </script>
+</head>
+<body class="blog">
+  <header class="blog-header">
+    <div class="wrap">
+      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
+      <nav class="blog-nav">
+        <a href="/blog/" id="nav-all">All posts</a>
+        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <article id="article">
+<div class="post-lang" data-lang="en"><header class="post-head fade-up"><div class="kicker">Essay</div><h1>Bad Problems Don&#x27;t Stop Being Bad Because Somebody&#x27;s Wrong About Fault Analysis</h1><div class="byline"><span>Jun 3, 2026</span><span>·</span><span>9 min read</span></div><div class="rule"></div></header><div class="reading prose fade-up" style="animation-delay:90ms"><blockquote>
+<p>It has been a while since I last updated this blog, and from here on I want to try writing a little more often. This piece is a lot like an earlier one of mine, "When Hope Runs Out, Action Begins." That one was also part translation, part recommendation of a good post from a foreign forum, with some passages translated directly but most of it being my own new writing. This time the source is an article from lesswrong.com that has stuck with me lately. I have put the <a href="https://www.lesswrong.com/">link to the original</a> at the end, so you can click through and read it yourself.</p>
+</blockquote>
+<p>The original title on LessWrong is</p>
+<p>"Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis."</p>
+<p>While I was writing this, I tried out a lot of alternative titles in Chinese, things like</p>
+<p>"Understanding a structural problem can itself block your concern for how serious it is,"</p>
+<p>"A gut sense of an urgent problem should not be overridden by rational analysis,"</p>
+<p>"Rational analysis numbs us to serious problems."</p>
+<p>But as you can see, the title carries so much in it that it resists being shrunk. Every attempt to abbreviate it just made it easier to misread. To put it the other way around: you can read the title a few times, and once you have it, you have already grasped what the body of this piece is trying to say.</p>
+<p>So I kept it. What follows is the explanation.</p>
+<hr>
+<p>Let me start with a few familiar little scenes.</p>
+<p>Story 1:</p>
+<blockquote>
+<p>Person A: Domestic AI companies care way too little about safety alignment and interpretability these days.</p>
+<p>Person B: But given the startup environment here and how companies plan their resources, it makes sense that alignment ends up low on the priority list.</p>
+</blockquote>
+<p>Story 2:</p>
+<blockquote>
+<p>Person A: This news headline (or this article's headline) is really misleading, way overblown.</p>
+<p>Person B: You know the author doesn't write the headline, right? Editors change those.</p>
+</blockquote>
+<p>Story 3:</p>
+<blockquote>
+<p>Person A: Universities are still teaching outdated material.</p>
+<p>Person B: The problems with university education are systemic. There are reasons reform is so hard.</p>
+</blockquote>
+<p>But what we care about is not the org chart. It is the problem itself, and the concern behind it.</p>
+<hr>
+<p>Honestly, in daily life I quite enjoy playing the part of Person B.</p>
+<p>Every time we travel, the older folks at home tend to marvel: "Whoever invented navigation apps was a genius."</p>
+<p>And every time, I start to explain. I say that navigation is a feat of systems engineering, not something a single person could ever have built. On the pathfinding side, you can trace it all the way back to the Seven Bridges of Königsberg in 1736. On the side of observing the world, from mapmaking to remote sensing, there were technical advances and also a great deal of plain human labor. On the communication and software side, the fact that we can use navigation at all rests on the infrastructure and telecom built by large internet companies.</p>
+<p>This is also why navigation, a modern technology, is unlike some other fields. Someone can be called the "father of rocketry" or the "father of the internet," but it seems almost impossible to point to one person as the "father of navigation software." The closest you get is Roger Tomlinson, the "father of Geographic Information Systems (GIS)." He proposed the idea of geographic information and built the earliest such system, the Canada Geographic Information System, for managing and planning natural resources. But that is clearly still a long way from navigation. It is only one of the several technical pillars holding navigation up.</p>
+<p>By this point you have probably started to sense what is wrong with this mode of thinking, the careful, correct, reflective analysis of a problem.</p>
+<p>It is interesting. It is intellectual. It lets you show off what you know, and it is a kind of mental exercise.</p>
+<p>But it is very far from the concern.</p>
+<p>If I keep following that thread, I can go on about graph theory and the whole history of computer science, about how modern internet companies work, how people cooperate, how a modern company makes a good product. But all of that is very far from the original feeling someone was expressing, and Person A does not care about any of it anyway.</p>
+<hr>
+<p>The original post on LessWrong is shorter than this piece. The author's analysis goes roughly like this:</p>
+<blockquote>
+<p>In these examples, people respond as if "to explain is to excuse," treating the descriptive fact of why something happened as if it answered the normative question of whether it should have happened.</p>
+<p>This is a cognitive error or logical fallacy so absurd that I hardly know how to respond. In the examples above, people did not even start out by blaming the groups that others rushed to defend! And even granting that they did, how would shifting the blame solve the underlying problem?</p>
+<p>The reasoning would have to run like this: "These people are (implicitly) blaming some group G for a supposed problem P. If I can show that they are wrong to blame group G, then I have shown they are wrong. And since wrongness is transitive, we can be confident that problem P is not real (???), so we no longer need to worry about P."</p>
+<p>Maybe I am quibbling, but I genuinely do not understand the logic here!</p>
+</blockquote>
+<p>The author also offers some ways to defend Person B.</p>
+<p>Because, in fact, Person B's reasoning is correct and rational. And sometimes a problem really is unsolvable, in which case telling the person asking that the problem "cannot be solved" can help them face reality and turn their attention to things that are more tractable.</p>
+<p>This short post set off a fierce argument on LessWrong. Some commenters said Person A was dodging the real complexity of the problem. Others thought Person B could have answered in a better way. Some felt the issue the poster found came down to sloppy phrasing. Others felt A and B were essentially worried about different problems.</p>
+<p>In a place like LessWrong, the discussion a piece sets off can be every bit as good as the piece itself.</p>
+<hr>
+<p>For me this topic has a particular pull. It sits right on the line between reason and feeling, carries a touch of self-reference, and lands close enough to my own life.</p>
+<p>"Bad problems don't stop being bad because somebody's wrong about fault analysis" felt like the last piece slotting into place. It finally let me understand what I had been reaching toward, in my own thinking, while reading all these mental tools.</p>
+<p>Let me walk you through a few of them quickly.</p>
+<p>"Fill the canvas" tells us not to chase perfectionism in a first draft. Just do it, just finish, fill the canvas first.</p>
+<p>"Action begins when hope runs out" says that despair is what drives renewal. Holding onto hope keeps you hesitating, and only once hope is gone do you finally start to act.</p>
+<p>"Moonshot mindset" means not caring about how to get +10%, and caring only about how to get 10X, 100X, even 1000X. Set the target on the moon, give up incremental effort, and chase exponential compounding and return instead. That is where genuinely disruptive innovation comes from.</p>
+<hr>
+<p>The common thread among these tools almost says itself. For a clever person like you, the thing that holds you back is "over-meticulous understanding and analysis," which tends to make you talk yourself out of something before you have even tried.</p>
+<p>Structural analysis of a problem really is necessary. But it should not dissolve the problem itself.</p>
+<p>You have pictured some bold move in your head, like starting a company, switching into a new field, raising an objection, taking a spontaneous trip, picking up a new hobby. And in the end the thing that stopped you was your own rational analysis.</p>
+<p>It is necessary to dissect and discuss a problem rationally. But that habit slides very easily into an argument for the problem's impossibility, and from there into vetoing the proposal altogether.</p>
+<p>It is like an immune system that overreacts. Analyzing a problem is, at its root, a form of self-protection. It calls on your reason to examine and understand the problem in advance, so it can offer sensible advice about what to do, and so it can let you back out reasonably when the problem turns out to be extremely hard or complicated.</p>
+<p>But in the current climate, this turns very easily into learned helplessness. Right now most people face a life with few obviously workable plans for the future and few stable, predictable paths for personal growth. Especially after your own attempts hit a wall again and again, "reason" leans more and more toward giving you the avoidant answer.</p>
+<p>So we become Person B. When we face a real predicament, we have a huge stock of theory and knowledge telling us this is a systemic, structural problem, that it has causes which made it inevitable, and that those very causes make any solution nontrivial and hard, that maybe there is no solution at all, or that trying to fix it will only make it worse.</p>
+<p>So it is no surprise that people admire a brave, full-blooded act. Because it is exactly that slightly impulsive kind of idealism that can break free of the shackles of rational reflection.</p>
+<hr>
+<p>Bad problems don't stop being bad because somebody's wrong about fault analysis.</p></div><div class="post-foot fade-up"><div class="row"><a class="back-link" href="/blog/?lang=en">‹ Back to all posts</a></div></div></div>
+<div class="post-lang" data-lang="cn" hidden><header class="post-head fade-up"><div class="kicker">随笔</div><h1>坏事不会因为有人对故障分析的理解错误而停止变得糟糕</h1><div class="byline"><span>2026年6月3日</span><span>·</span><span>4 分钟阅读</span></div><div class="rule"></div></header><div class="reading prose fade-up" style="animation-delay:90ms"><blockquote>
+<p>久违的公众号更新，之后应该会开始尝试多写一点东西。这篇文章很像之前的另一篇公众号文章「当希望破灭时，行动就开始了」，也是翻译和推荐国外论坛上的优质文章，部分内容是直接翻译，但是更多的是我自己新的创作。这次是来自 lesswrong.com 的文章，也是近期让我很有启发的一篇文章。我把这篇文章的<a href="https://www.lesswrong.com/">原文链接</a>放在了文末，你可以点击那个链接来访问原文。</p>
+</blockquote>
+<p>这篇文章在 LessWrong 论坛上的原标题叫做</p>
+<p>「Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis」。</p>
+<p>我在尝试写本文的时候想了很多的新的标题，比如</p>
+<p>「对结构性问题的理解本身阻碍了对问题严重性的关切」，</p>
+<p>「对于迫切问题的直观感受不应该被理性的分析阻止」，</p>
+<p>「理性的分析导致对严重问题的麻木」。</p>
+<p>但是如你所见，这个标题本身的信息量让它很难被压缩下来，简写的尝试会导致标题更容易被误解。同时反过来说，你可以把这个标题多读几遍，理解了这个标题了之后，你也就已经理解了正文试图表达的意思。</p>
+<p>所以我保留了这个标题，以下是解释。</p>
+<hr>
+<p>先来讲几个常见故事。</p>
+<p>故事 1：</p>
+<blockquote>
+<p>A 同学：现在的国内 AI 公司有点太不在意安全对齐和可解释性了。</p>
+<p>B 同学：但是考虑到国内的创业环境和公司资源规划，安全对齐的优先级自然会比较低。</p>
+</blockquote>
+<p>故事 2：</p>
+<blockquote>
+<p>A 同学：这篇新闻/公众号的标题非常有误导性/过于夸大。</p>
+<p>B 同学：你知道吗，标题不是作者写的，都是编辑改的。</p>
+</blockquote>
+<p>故事 3：</p>
+<blockquote>
+<p>A 同学：现在的大学还在教授过时的知识。</p>
+<p>B 同学：大学教育的问题是系统性的，改革难以进行是有原因的。</p>
+</blockquote>
+<p>但我们关心的并不是组织架构，而是问题和关切本身。</p>
+<hr>
+<p>事实上，我在生活中很乐于扮演 B 同学的角色。</p>
+<p>每次出门旅行，家里的老人总会感慨说：「发明的导航软件的人真是太伟大了」</p>
+<p>每到这个时候，我都会尝试开始解释，我会说导航是一个系统工程，它的创造并非是单人的力量可以完成，在寻路算法部分，最早可以追溯到 1736 年的柯尼斯堡七桥问题；在地理观测上，从制图到遥感，有技术的进步也需要很多的劳力；在通信和软件上，我们能使用导航还依赖于大型互联网公司的基础建设和通信技术。</p>
+<p>这也是为什么导航作为一个现代技术，但是和其他领域不同，有人可以被称为「火箭之父」「互联网之父」，但是好像很难定位到一个人可以被称为「导航软件之父」。最接近的是「地理信息系统（GIS）之父」罗杰·汤姆林森，他提出了地理信息的概念，开发了最早的地理信息系统（加拿大地理信息系统）用于自然资源的管理和规划。但这显然离导航有很大的距离，只是支撑导航的几个技术支柱之一。</p>
+<p>读到这里，你应该会逐渐意识到这种思维模式（对问题正确而且细致的反思分析）的问题所在。</p>
+<p>它很有趣，很智性，可以展示知识储备，也是一种思维锻炼。</p>
+<p>但是它离关切很远。</p>
+<p>顺着这个思路讲下去，可以讲图论和整个计算机科学的历史、现代互联网企业如何工作、人们如何合作、现代企业如何做出好的产品，但是它离最开始的情感表达很远，而且 A 同学也不关心这些事情。</p>
+<hr>
+<p>LessWrong 论坛上的原文比本文的篇幅更短。原作者的分析是：</p>
+<blockquote>
+<p>在这些例子中，人们的反应类似于"解释即免责"：将某事发生的原因这一描述性事实当作回答了其是否应该发生的规范性问题的答案。</p>
+<p>这是一个认知错误或逻辑谬误，如此荒谬以至于我甚至不知道该如何回应。就像上述例子中，人们最初甚至没有责怪那些有人急忙为其辩护的群体！但即使承认他们那样做了，将责任转移又能解决根本问题吗？</p>
+<p>推理必须像这样："这些人（隐含地）指责某个群体 G 因为一个所谓的 P 问题。如果我能够证明这些人错在指责群体 G，那么我就证明了他们是错的。由于错误性是传递性的，因此我们可以确信问题 P 不是真的（？？？），我们不再需要担心 P 了"</p>
+<p>也许我是在诡辩，但我真的不明白这里的逻辑！</p>
+</blockquote>
+<p>原作者也提供了一些为 B 同学辩护的思路。</p>
+<p>因为事实上来说，B 同学的逻辑就是正确而且理性的分析，而且有的时候问题就是不可能解决的，那么告知提问者「问题的不可解决性」可以帮助他们认清现实，关注更易解决的问题。</p>
+<p>这条不长帖子在 LessWrong 上引起了非常激烈的争论，有评论指出 A 同学在回避问题本身的复杂性，也有人认为 B 同学可以用更好的方式回答问题。有人觉得贴主发现的问题是由于错误的陈述导致的，有人觉得 A 和 B 本质上在关注不同的问题。</p>
+<p>在 LessWrong 这样的地方，这篇文章引发的讨论和它本身一样精彩。</p>
+<hr>
+<p>对我来说，这个话题有种特殊的吸引力，它正好踩在了理性和感性的分界线上，带一点自我指涉，而且和我的生活足够接近。</p>
+<p>「坏事不会因为有人对故障分析的理解错误而停止变得糟糕」就像是补上了最后一个碎片，让我终于理解了我在阅读这些思维工具的时候，我在思维上试图靠近的那个目标是什么。</p>
+<p>我来简单带你过一下这几个概念。</p>
+<p>「填满画布」告诉我们别在初稿的时候追求完美主义，先去做，先完成，填满画布。</p>
+<p>「行动开始于希望破灭之时」说绝望才是革新的动力，怀有希望则犹豫不前，没有希望才开始行动。</p>
+<p>「MoonShot Mindset」是不关心如何实现 + 10%，只关心如何实现 10X 100X 甚至 1000X，把目标定为登月，放弃渐进式的努力，转而追求指数倍数的复利和回报，才会产生真正的颠覆性创新。</p>
+<hr>
+<p>这些思维工具的共性呼之欲出，对于像你这样的聪明人来说，对自我的限制反而是「过度缜密的理解和分析」，这往往会导致在尝试之前就否定自己。</p>
+<p>对于问题的结构性分析确实是必要的，但它不应该解构问题本身。</p>
+<p>你在心里想象过一些大胆的举动，比如勇敢地创业、尝试新的赛道、提出异议、随性的旅行、尝试新的爱好，但最后阻止你的原因是自己的理性分析。</p>
+<p>理性地解析和讨论问题是有必要的，但是它很容易发展成对于问题本身的不可能性的论证，进而导致对提案本身的否决。</p>
+<p>这就像是过度反应的免疫系统。对问题的分析本质上是一种自我保护机制，它调用人的理性，提前分析和理解问题，从而给出合理的行动建议，并且在问题极度困难或者复杂的时候让人合理放弃。</p>
+<p>但在现在的环境下，这很容易变成一种习得性的无助，现在大家面临的情况是人生当中很少有明显可行的未来规划，也很少有稳定的可预期的个人发展路径。尤其是自己的尝试在一次又一次的碰壁之后，「理性」会更倾向于给出回避性的答案。</p>
+<p>所以我们成为了同学 B，面对真实的困境的时候，我们有大量的理论和知识告诉我们，这是系统性结构性的问题，它有着必然发生的原因，而这必然发生的原因导致了对它的解决方案是非平凡而且困难的，甚至没有解决方案或者解决问题的尝试只会让它变得更糟糕。</p>
+<p>所以也不奇怪什么人们会推崇一种有生命力的勇敢的举动，因为恰恰是这种带着一点冲动的理想，才能摆脱理性反思的桎梏。</p>
+<hr>
+<p>坏事不会因为有人对故障分析的理解错误而停止变得糟糕。</p></div><div class="post-foot fade-up"><div class="row"><a class="back-link" href="/blog/?lang=cn">‹ 返回全部文章</a></div></div></div>
+    </article>
+  </main>
+
+  <footer class="blog-footer">
+    <div>© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
+  </footer>
+
+  <script type="application/json" id="post-meta">{"en": {"title": "Bad Problems Don't Stop Being Bad Because Somebody's Wrong About Fault Analysis", "summary": "Starting from the everyday move of 'to explain is to excuse,' this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong."}, "cn": {"title": "坏事不会因为有人对故障分析的理解错误而停止变得糟糕", "summary": "从「解释即免责」这个常见的对话模式出发，聊聊为什么对问题正确而细致的理性分析，反而会让我们离真正的关切越来越远，甚至在尝试之前就否定自己。一篇受 LessWrong 启发的随笔。"}}</script>
+  <script>
+    MathJax = { tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] }, svg: { fontCache: 'global' } };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script src="/static/js/blog-i18n.js"></script>
+  <script src="/static/js/img-progressive.js"></script>
+  <script src="/static/js/blog-post-static.js"></script>
+</body>
+</html>

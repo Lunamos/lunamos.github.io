@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zehao Jin · Blog</title>
+    <link>https://zehaojin.com/blog/</link>
+    <atom:link href="https://zehaojin.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Essays and notes by Zehao Jin (金泽昊) on AI, neuroscience, literature, and life.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How to Install a &quot;Thought Seal&quot; into a Language Model | Interpretability SP1</title>
+      <link>https://zehaojin.com/blog/flas/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/flas/</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <description>We built FLAS, the best general activation steering method so far. With no extra training, it can plant any concept (goblins, brands, values) into a model&#x27;s replies at any strength, while barely touching the model&#x27;s own abilities. It starts from the &quot;Thought Seal&quot; in The Three-Body Problem and runs all the way to soft ad placement, interpretability, and AI safety.</description>
+      <category>Interpretability</category>
+      <category>Activation Steering</category>
+      <category>Large Language Models</category>
+      <category>AI Safety</category>
+    </item>
+    <item>
+      <title>Bad Problems Don&#x27;t Stop Being Bad Because Somebody&#x27;s Wrong About Fault Analysis</title>
+      <link>https://zehaojin.com/blog/failure-analysis/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/failure-analysis/</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Starting from the everyday move of &#x27;to explain is to excuse,&#x27; this essay asks why careful, correct, rational analysis of a problem can pull us further from the thing we actually care about, and even talk us out of acting before we begin. A reflection sparked by a post on LessWrong.</description>
+      <category>Essay</category>
+      <category>Reason and Feeling</category>
+      <category>Cognition</category>
+      <category>LessWrong</category>
+    </item>
+    <item>
+      <title>How &quot;Self-Consciousness&quot; Became &quot;Self-Consciousness in Excess&quot;</title>
+      <link>https://zehaojin.com/blog/self-conscious/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/self-conscious/</guid>
+      <pubDate>Fri, 21 Apr 2023 00:00:00 +0000</pubDate>
+      <description>Starting from a podcast about localization, this essay traces how the English word &quot;self-consciousness&quot; got mistranslated into the sneering Chinese phrase &quot;self-consciousness in excess,&quot; and argues that one wrongly chosen word can quietly shape how kind a society becomes.</description>
+      <category>Essay</category>
+      <category>Philosophy of Language</category>
+      <category>Translation</category>
+      <category>Self-Consciousness</category>
+    </item>
+    <item>
+      <title>Aim for the Stars</title>
+      <link>https://zehaojin.com/blog/aim-for-the-stars/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/aim-for-the-stars/</guid>
+      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
+      <description>A letter to myself, written while deciding whether to go abroad for grad school. It builds a pyramid that runs from cosmology to worldview to a philosophy of life, and warns against letting it stand on its point. Includes the full text of Liu Cixin&#x27;s 2018 Clarke Award speech and a short reflection on the spirit of science fiction.</description>
+      <category>Essay</category>
+      <category>Philosophy</category>
+      <category>Science Fiction</category>
+      <category>Life Planning</category>
+    </item>
+    <item>
+      <title>The Salt of Life</title>
+      <link>https://zehaojin.com/blog/salt-of-life/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/salt-of-life/</guid>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      <description>Starting from the quiet gap between cosmos and universe, this essay reaches through Gide&#x27;s last words, the salt of the Gospel of Matthew, and the Axial Age to ask how we might find the savor of life again in a disenchanted modern world.</description>
+      <category>Philosophy</category>
+      <category>Essay</category>
+      <category>Modernity</category>
+      <category>Literature</category>
+    </item>
+    <item>
+      <title>Knowing the World Anew (II): Analog &amp; Digital</title>
+      <link>https://zehaojin.com/blog/analog-and-digital/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/analog-and-digital/</guid>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <description>From vinyl records and analog computers to the height of Everest, the author traces the hidden opposition between Analog and Digital, splits the Symbolic into a realm of feeling and speech and a realm of numbers, and lands on a quiet plea: take hold of life, feel it, and don&#x27;t let it slip away.</description>
+      <category>Essay</category>
+      <category>Philosophy</category>
+      <category>Digitalization</category>
+      <category>Cognition</category>
+    </item>
+    <item>
+      <title>Knowing the World Anew (I): The Real, the Symbolic, the Imaginary</title>
+      <link>https://zehaojin.com/blog/three-realms/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/three-realms/</guid>
+      <pubDate>Tue, 02 Aug 2022 00:00:00 +0000</pubDate>
+      <description>Using Lacan and Žižek&#x27;s three registers, this essay moves from the misrecognized self in the mirror, through the society built of signs, to the Real that can never be spoken yet keeps taking its revenge through the cracks. A philosophical essay on cognition, signs, and what the world is before we name it.</description>
+      <category>Philosophy</category>
+      <category>Lacan</category>
+      <category>Žižek</category>
+      <category>Semiotics</category>
+    </item>
+    <item>
+      <title>The Creator</title>
+      <link>https://zehaojin.com/blog/the-creator/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/the-creator/</guid>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      <description>What do we actually create for? This essay unfolds three answers, for yourself, for the reader, and for the work itself, then asks whether serious work can still survive in an age of shrinking attention and shifting media.</description>
+      <category>Essay</category>
+      <category>Writing</category>
+      <category>Media</category>
+      <category>Attention</category>
+    </item>
+    <item>
+      <title>After the Machine Shop</title>
+      <link>https://zehaojin.com/blog/after-the-machine-shop/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/after-the-machine-shop/</guid>
+      <pubDate>Sun, 24 Jul 2022 00:00:00 +0000</pubDate>
+      <description>A short metalworking practicum, running from turning and welding to casting and smart manufacturing, finally let me glimpse the whole tangled chain of craft and technology behind the modern world, and answer a question that had been nagging me: how is any of the stuff I use every day actually made?</description>
+      <category>Essay</category>
+      <category>Machine Shop</category>
+      <category>Industry</category>
+      <category>Understanding</category>
+    </item>
+    <item>
+      <title>When Hope Fades, Action Begins</title>
+      <link>https://zehaojin.com/blog/when-hope-fades/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/when-hope-fades/</guid>
+      <pubDate>Sun, 19 Jun 2022 00:00:00 +0000</pubDate>
+      <description>A reflection on hope as the thing that quietly keeps us from acting. Once we give up the fantasy that the normal will fix itself, a social problem stops being society&#x27;s and becomes our own, and that is when real action begins.</description>
+      <category>Essay</category>
+      <category>Philosophy</category>
+      <category>Social Issues</category>
+      <category>Action</category>
+    </item>
+    <item>
+      <title>Trying to Become a &quot;Bored&quot; Person</title>
+      <link>https://zehaojin.com/blog/patience-for-boredom/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/patience-for-boredom/</guid>
+      <pubDate>Sat, 21 May 2022 00:00:00 +0000</pubDate>
+      <description>Starting from Byung-Chul Han&#x27;s The Burnout Society, this essay separates two kinds of rest: the burnout kind that only drags us back into frantic activity, and the boredom kind, non-teleological and open to every future, where deep boredom becomes the source of creativity. The author asks why the things he once loved had started to feel like work, and decides to give boredom a little more patience.</description>
+      <category>Essay</category>
+      <category>Philosophy</category>
+      <category>The Burnout Society</category>
+      <category>Byung-Chul Han</category>
+    </item>
+    <item>
+      <title>Coffee, Whisky, and the Capacity to Feel</title>
+      <link>https://zehaojin.com/blog/coffee-whisky/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/coffee-whisky/</guid>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      <description>Starting from a cup of Yirgacheffe and a glass of Talisker 10, this essay uses the flavor wheels of coffee and whisky to explore the gap between language and the senses, and why our capacity to feel is worth protecting.</description>
+      <category>Essay</category>
+      <category>Sensitivity</category>
+      <category>Coffee</category>
+      <category>Language and the Senses</category>
+    </item>
+    <item>
+      <title>Cover the Canvas (a translation)</title>
+      <link>https://zehaojin.com/blog/cover-the-canvas/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/cover-the-canvas/</guid>
+      <pubDate>Sat, 09 Apr 2022 00:00:00 +0000</pubDate>
+      <description>A translation of Steven Pressfield on why the first draft is the hardest. The only order that counts is to cover the canvas: like Mattis&#x27;s Marines pushing on Baghdad, go around the hard spots, keep moving, and get something whole down before perfectionism can stop you.</description>
+      <category>Essay</category>
+      <category>Writing</category>
+      <category>Creativity</category>
+      <category>Translation</category>
+    </item>
+    <item>
+      <title>Please Stop Trying to Write Metafiction</title>
+      <link>https://zehaojin.com/blog/against-metafiction/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/against-metafiction/</guid>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+      <description>A piece of metafiction about metafiction. The author plays the reader trying to talk himself out of writing it, then hands the paradox of plagiarism, citation, and scholarly honesty to everyone reading, teasing you right down to the last line.</description>
+      <category>Literature</category>
+      <category>Metafiction</category>
+      <category>Essay</category>
+      <category>Postmodernism</category>
+    </item>
+    <item>
+      <title>Cervantes, Borges, Calvino</title>
+      <link>https://zehaojin.com/blog/three-writers/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/three-writers/</guid>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      <description>From the metafictional tricks of Don Quixote, to Borges rewriting the Quixote word for word, to Calvino pushing narrative form to its limit, three writers break literature open across generations in their own independent spirit. It ends on hypertext, Heidegger&#x27;s web of meaning, and a Bei Dao poem one character long.</description>
+      <category>Literature</category>
+      <category>Avant-garde</category>
+      <category>Metafiction</category>
+      <category>Hypertext</category>
+      <category>Philosophy</category>
+    </item>
+    <item>
+      <title>The Quest for Consciousness EP1: On Feeling and Reason</title>
+      <link>https://zehaojin.com/blog/sense-and-reason/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/sense-and-reason/</guid>
+      <pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate>
+      <description>From The Hitchhiker&#x27;s Guide to the Galaxy to Gödel&#x27;s incompleteness theorem, the author lands on a bold claim: emotion is first-order reason, and reason is self-referential emotion. A reflective essay on how feeling and reason are tangled together rather than opposed.</description>
+      <category>Essay</category>
+      <category>Cognitive Science</category>
+      <category>Consciousness</category>
+      <category>Philosophy</category>
+    </item>
+    <item>
+      <title>Cognitive Science EP1, An Introduction: What Is Cognitive Science?</title>
+      <link>https://zehaojin.com/blog/cognitive-science/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/cognitive-science/</guid>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <description>A young field that is huge abroad and barely known back home. Why did philosophy, psychology, linguistics, anthropology, computer science, and neuroscience all collide around the same big question? This is the first essay in my cognitive science series.</description>
+      <category>Cognitive Science</category>
+      <category>Essay</category>
+      <category>Interdisciplinary</category>
+      <category>Mind</category>
+    </item>
+    <item>
+      <title>Love, Death, and Higher Mathematics: Poland&#x27;s Science Fiction Master, Stanisław Lem</title>
+      <link>https://zehaojin.com/blog/stanislaw-lem/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/stanislaw-lem/</guid>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      <description>A love letter to the Polish science fiction genius Stanisław Lem and his story collection The Cyberiad, winding from the war-torn history of his birthplace Lviv to a poem about love and death written entirely in the language of higher mathematics.</description>
+      <category>Essay</category>
+      <category>Science Fiction</category>
+      <category>Literature</category>
+      <category>Stanisław Lem</category>
+    </item>
+    <item>
+      <title>How to Climb Out of the Nihilism Swamp</title>
+      <link>https://zehaojin.com/blog/nihilism/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/nihilism/</guid>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <description>From Nietzsche&#x27;s &quot;God is dead&quot; to the decision paralysis of young people in the information age, this essay asks why so many of us lose our sense of meaning, and how the young Marx&#x27;s &quot;Reflections on the Choice of a Profession&quot; might point a way back to solid ground.</description>
+      <category>Philosophy</category>
+      <category>Nihilism</category>
+      <category>Essay</category>
+      <category>Meaning</category>
+    </item>
+    <item>
+      <title>The Wisdom Condensed in Words (II): How Do You Understand a Concept?</title>
+      <link>https://zehaojin.com/blog/understanding-a-concept/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/understanding-a-concept/</guid>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <description>It starts from a strange discovery: vectors, arrays, polynomials, and linear functions are secretly the same thing. From there it asks what a concept really is, why some are easy to grasp and others impossible, and how you would name something that resists being felt at all.</description>
+      <category>essay</category>
+      <category>philosophy</category>
+      <category>mathematics</category>
+      <category>cognitive science</category>
+    </item>
+    <item>
+      <title>The Wisdom Condensed in Words (I): Structuralism</title>
+      <link>https://zehaojin.com/blog/structuralism/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/structuralism/</guid>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      <description>Starting from Hilbert&#x27;s strange idea of swapping points and lines for tables and beer mugs, this essay wanders through Wittgenstein&#x27;s language games, the wave-particle duality of light, and Calvino&#x27;s city made of nothing but strings, all to argue that a word means something only inside its web of relations.</description>
+      <category>Philosophy</category>
+      <category>Structuralism</category>
+      <category>Language</category>
+      <category>Essay</category>
+    </item>
+    <item>
+      <title>A Short Essay | What Kind of Scholar Do I Want to Be?</title>
+      <link>https://zehaojin.com/blog/what-kind-of-scholar/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/what-kind-of-scholar/</guid>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <description>A short note of self-encouragement: to study is not only to gather knowledge but to seek its coherence and its truth. Drawing on Jin Yuelin, Feynman, and Wang Dingding, the author refuses to cage curiosity inside rigid disciplinary boxes and bets on the possibilities that live between fields.</description>
+      <category>Essay</category>
+      <category>Philosophy</category>
+      <category>Knowledge</category>
+      <category>Interdisciplinary</category>
+    </item>
+    <item>
+      <title>What Made Me Fall in Love with Architecture</title>
+      <link>https://zehaojin.com/blog/architecture/</link>
+      <guid isPermaLink="true">https://zehaojin.com/blog/architecture/</guid>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      <description>An essay on buildings, space, and the history of ideas. From Bauhaus to Art Deco, from an aerial view of Paris to the Tsinghua campus, the author explores what he calls the architectural imagination: how the spaces we build quietly shape the way we live and think.</description>
+      <category>Essay</category>
+      <category>Architecture</category>
+      <category>Philosophy</category>
+      <category>Tsinghua</category>
+    </item>
+  </channel>
+</rss>
