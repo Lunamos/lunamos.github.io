@@ -90,19 +90,19 @@ a:hover { color: var(--magenta); }
 /* ---------- The window ---------- */
 .desk {
   position: relative; z-index: 1;
-  padding: clamp(1rem, 3vh, 2.5rem) clamp(0.9rem, 2.5vw, 2.5rem);
+  padding: clamp(1rem, 3vh, 2.2rem) clamp(0.8rem, 2vw, 2rem);
 }
 .window {
-  max-width: 71rem;
-  margin: 0;                    /* left-leaning: no auto centering */
+  max-width: 85rem;
+  margin: 0 auto;               /* centered, with slim desk gutters */
   background: var(--paper);
   border: 2px solid var(--desk-deep);
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.45);
   display: flex; flex-direction: column;
   min-height: calc(100vh - 5rem);
 }
-/* post pages have no rail: the window hugs the reading column */
-body.blog:not(.blog-list) .window { max-width: 55rem; }
+/* post pages have no rail: a narrower window, reading column centered */
+body.blog:not(.blog-list) .window { max-width: 71rem; }
 
 /* ---------- Title bar ---------- */
 .titlebar {
@@ -241,6 +241,8 @@ html[lang^="zh"] .rail h1 { font-weight: 900; }
 
 /* ---------- Main pane: timeline archive ---------- */
 .main-pane { flex: 1; min-width: 0; padding: 1.9rem 2.4rem 2.6rem 2.2rem; }
+/* cap line length; the timeline sits centered in whatever width remains */
+.main-pane .post-list, .main-pane .empty { max-width: 52rem; margin: 0 auto; }
 
 .year-group { margin: 0 0 1.9rem; }
 .year-head {
@@ -314,7 +316,7 @@ html[lang^="zh"] .entry-title { font-weight: 700; }
 /* ---------- Single post ---------- */
 .post-pane { flex: 1; min-width: 0; padding: 2.2rem clamp(1.6rem, 4vw, 3.2rem) 3rem; }
 
-.post-head { max-width: var(--measure); margin: 0 0 2.2rem; text-align: left; }
+.post-head { max-width: var(--measure); margin: 0 auto 2.2rem; text-align: left; }
 .post-head .kicker {
   font-family: var(--pixel); font-size: .78rem; letter-spacing: .14em;
   text-transform: uppercase; color: var(--magenta);
@@ -334,7 +336,7 @@ html[lang^="zh"] .post-head h1 { font-weight: 900; }
   background-size: 6px 6px; opacity: .22;
 }
 
-.reading { max-width: var(--measure); margin: 0; }
+.reading { max-width: var(--measure); margin: 0 auto; }
 
 /* ---------- Prose (the readable core — deliberately calm) ---------- */
 .prose { color: var(--ink); font-family: var(--font-read); font-size: 1.07rem; line-height: 1.78; font-weight: 400; }
@@ -436,7 +438,7 @@ html[lang^="zh"] .prose pre { line-height: 1.75; }
 .prose mjx-container { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
 
 /* ---------- Post footer / back link ---------- */
-.post-foot { max-width: var(--measure); margin: 3.2rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.post-foot { max-width: var(--measure); margin: 3.2rem auto 0; padding-top: 1.5rem; border-top: 1px solid var(--line); }
 .post-foot .row { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
 .back-link {
   font-family: var(--pixel); font-size: .88rem; color: var(--ink-soft);
@@ -470,7 +472,10 @@ html[lang^="zh"] .prose pre { line-height: 1.75; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {
-  .desk { padding: .8rem .7rem; }
+  .desk { padding: .55rem .5rem; }
+  .window { box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.45); }
+  .titlebar { flex-wrap: wrap; row-gap: .3rem; }
+  .statusbar { flex-wrap: wrap; row-gap: .2rem; font-size: .72rem; }
   .win-body { flex-direction: column; }
   .rail {
     width: auto; flex: none;
