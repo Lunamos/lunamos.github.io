@@ -2,6 +2,9 @@
 
 .blog-build/
 
+# Local Claude Code tooling (preview server config etc.)
+.claude/
+
 # Working drafts & source material — not for the published site
 reference/
 成稿归档/

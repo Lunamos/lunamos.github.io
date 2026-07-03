@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static site builder for zehaojin.com — SEO-friendly blog pre-rendering.
+"""Static site builder for zehaojin.com — SEO/GEO-friendly blog pre-rendering.
 
 For every post listed in contents/blog/posts.json this script:
 
@@ -8,6 +8,11 @@ For every post listed in contents/blog/posts.json this script:
     content and fully baked <title>, meta description, Open Graph / Twitter
     cards and JSON-LD (so search engines AND non-JS social scrapers such as
     WeChat, X/Twitter, LinkedIn and Slack get correct titles and previews),
+  * pre-renders the blog listing at  blog/index.html  with every post card
+    baked in (both languages) plus tag chips and a search box; the JS layer
+    only filters/paginates what is already in the HTML,
+  * writes llms.txt (site overview for LLM crawlers) and llms-full.txt
+    (the complete Markdown of every post) at the site root — GEO,
   * regenerates sitemap.xml (clean URLs + hreflang language alternates), and
   * regenerates blog/feed.xml (an RSS 2.0 feed for the blog).
 
@@ -26,9 +31,11 @@ from __future__ import annotations
 import html
 import json
 import re
+from collections import Counter
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
+from urllib.parse import quote
 
 import markdown
 
@@ -39,6 +46,9 @@ BLOG_MD_DIR = ROOT / "contents" / "blog"
 BLOG_OUT_DIR = ROOT / "blog"
 SITEMAP_OUT = ROOT / "sitemap.xml"
 FEED_OUT = BLOG_OUT_DIR / "feed.xml"
+INDEX_OUT = BLOG_OUT_DIR / "index.html"
+LLMS_OUT = ROOT / "llms.txt"
+LLMS_FULL_OUT = ROOT / "llms-full.txt"
 
 DEFAULT_IMAGE = f"{BASE_URL}/static/assets/img/jzh.jpg"
 LANGS = ("en", "cn")
@@ -189,8 +199,14 @@ def build_article_block(post: dict, lang: str, md_text: str) -> tuple[str, str |
         + "</header>"
     )
     reading = f'<div class="reading prose fade-up" style="animation-delay:90ms">{body}</div>'
+    tag_links = "".join(
+        f'<a class="tag" href="/blog/?lang={lang}&amp;tag={quote(t)}">{esc(t)}</a>'
+        for t in tags
+    )
     foot = (
-        '<div class="post-foot fade-up"><div class="row">'
+        '<div class="post-foot fade-up">'
+        + (f'<div class="post-tags">{tag_links}</div>' if tag_links else "")
+        + '<div class="row">'
         f'<a class="back-link" href="/blog/?lang={lang}">‹ {esc(BACK_TEXT[lang])}</a>'
         "</div></div>"
     )
@@ -236,6 +252,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 
   <!-- Per-article structured data (baked at build time) -->
   <script type="application/ld+json">{{JSON_LD}}</script>
+  <script type="application/ld+json">{{JSON_LD_BREADCRUMB}}</script>
 
   <link rel="stylesheet" href="/static/css/blog.css" />
 
@@ -250,10 +267,10 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <body class="blog">
   <header class="blog-header">
     <div class="wrap">
-      <a class="blog-brand" href="/"><span class="dot"></span><span>Zehao Jin&nbsp;·&nbsp;金泽昊</span></a>
+      <a class="blog-brand" href="/"><span class="dot"></span><span>ZEHAOJIN.COM</span></a>
       <nav class="blog-nav">
         <a href="/blog/" id="nav-all">All posts</a>
-        <button class="aero-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+        <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
       </nav>
     </div>
   </header>
@@ -265,7 +282,8 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   </main>
 
   <footer class="blog-footer">
-    <div>© Zehao Jin 2026 · <a href="/">Academic homepage</a> · <a href="https://github.com/lunamos">GitHub</a></div>
+    <div>© 2026 ZEHAO JIN · <a href="/">HOME</a> · <a href="/blog/">BLOG</a> · <a href="https://github.com/lunamos">GITHUB</a> · <a href="/blog/feed.xml">RSS</a></div>
+    <div class="foot-sub">640×400 FOREVER · NO LIFEGUARD ON DUTY ヽ(´ー`)ノ</div>
   </footer>
 
   <script type="application/json" id="post-meta">{{POST_META}}</script>
@@ -335,10 +353,21 @@ def build_post_page(post: dict) -> None:
     }
     if post.get("date"):
         ld["datePublished"] = post["date"]
-        ld["dateModified"] = post["date"]
+        ld["dateModified"] = post.get("updated") or post["date"]
     if tags_primary:
         ld["keywords"] = ", ".join(tags_primary)
     json_ld = json.dumps(ld, ensure_ascii=False)
+
+    breadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{BASE_URL}/"},
+            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE_URL}/blog/"},
+            {"@type": "ListItem", "position": 3, "name": pick(post["title"], primary), "item": canonical},
+        ],
+    }
+    json_ld_breadcrumb = json.dumps(breadcrumb, ensure_ascii=False)
 
     # Per-language meta for the in-page language toggle.
     post_meta = {
@@ -364,6 +393,7 @@ def build_post_page(post: dict) -> None:
         "{{ARTICLE_TAGS}}": article_tags_meta,
         "{{TW_CARD}}": tw_card,
         "{{JSON_LD}}": json_ld,
+        "{{JSON_LD_BREADCRUMB}}": json_ld_breadcrumb,
         "{{POST_META}}": post_meta_json,
         "{{ARTICLES}}": articles_html,
     }
@@ -373,6 +403,361 @@ def build_post_page(post: dict) -> None:
     out_dir = BLOG_OUT_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "index.html").write_text(page, encoding="utf-8")
+
+
+# --------------------------------------------------------------------------- #
+# Blog index (pre-rendered listing: cards, tag chips, search — SEO-crawlable)
+# --------------------------------------------------------------------------- #
+UI = {
+    "en": {"all": "All", "search_ph": "Search title, summary, tags…",
+           "more": "More ▾", "less": "Less ▴"},
+    "cn": {"all": "全部", "search_ph": "搜索标题、摘要、标签…",
+           "more": "更多 ▾", "less": "收起 ▴"},
+}
+CHIPS_VISIBLE = 12  # incl. the "All" chip; the rest fold behind a More toggle
+
+
+def raw_tags(post: dict, lang: str) -> list[str]:
+    return (post.get("tags") or {}).get(lang) or []
+
+
+def tag_stats(posts: list[dict], lang: str) -> list[tuple[str, int]]:
+    """(tag, count) sorted by frequency then name; case-insensitive merge."""
+    counts: Counter[str] = Counter()
+    display: dict[str, str] = {}
+    for p in posts:
+        for t in pick_list(p.get("tags"), lang):
+            key = t.strip().lower()
+            counts[key] += 1
+            display.setdefault(key, t.strip())
+    return sorted(
+        ((display[k], n) for k, n in counts.items()),
+        key=lambda x: (-x[1], x[0]),
+    )
+
+
+def tag_translation_map(posts: list[dict]) -> dict:
+    """tags.cn[i] ↔ tags.en[i] are parallel; build a lookup so the client can
+    carry an active tag filter across a language switch."""
+    en2cn: dict[str, str] = {}
+    cn2en: dict[str, str] = {}
+    for p in posts:
+        ens, cns = raw_tags(p, "en"), raw_tags(p, "cn")
+        for a, b in zip(ens, cns):
+            en2cn[a] = b
+            cn2en[b] = a
+    return {"en": en2cn, "cn": cn2en}
+
+
+def fmt_entry_date(iso: str) -> str:
+    """MM.DD — the year lives in the group heading; digits suit the pixel font."""
+    try:
+        d = datetime.strptime(iso, "%Y-%m-%d")
+    except (TypeError, ValueError):
+        return iso or ""
+    return f"{d.month:02d}.{d.day:02d}"
+
+
+def build_index_entry(post: dict, lang: str) -> str:
+    slug = post["slug"]
+    title = pick(post["title"], lang)
+    summary = pick(post.get("summary"), lang)
+    tags = pick_list(post.get("tags"), lang)
+    href = f"/blog/{quote(slug)}/?lang={lang}"
+
+    # Search blob spans BOTH languages so "philosophy" finds 哲学 posts too.
+    blob_parts: list[str] = []
+    for l in LANGS:
+        blob_parts.append(pick(post["title"], l))
+        blob_parts.append(pick(post.get("summary"), l))
+        blob_parts.extend(raw_tags(post, l))
+    blob = " ".join(blob_parts).lower()
+
+    tag_line = ""
+    if tags:
+        tag_line = '<span class="entry-tags">' + " ".join(
+            f"#{esc(t)}" for t in tags
+        ) + "</span>"
+
+    return (
+        f'<a class="post-entry" href="{href}" data-slug="{esc(slug)}"'
+        f' data-tags="{esc("|".join(t.lower() for t in tags))}"'
+        f' data-search="{esc(blob)}">'
+        f'<span class="entry-date">{esc(fmt_entry_date(post.get("date", "")))}</span>'
+        '<span class="entry-main">'
+        f'<span class="entry-title">{esc(title)}</span>'
+        + (f'<span class="entry-summary">{esc(summary)}</span>' if summary else "")
+        + tag_line
+        + "</span></a>"
+    )
+
+
+def build_index_list(posts: list[dict], lang: str) -> str:
+    """Year-grouped chronological list (posts arrive sorted newest-first)."""
+    groups: dict[str, list[str]] = {}
+    order: list[str] = []
+    for p in posts:
+        year = (p.get("date") or "")[:4] or "unknown"
+        if year not in groups:
+            groups[year] = []
+            order.append(year)
+        groups[year].append(build_index_entry(p, lang))
+    sections = []
+    for year in order:
+        sections.append(
+            f'<section class="year-group"><h2 class="year-head">{esc(year)}</h2>\n'
+            + "\n".join(groups[year])
+            + "\n</section>"
+        )
+    return "\n".join(sections)
+
+
+def build_chip_row(posts: list[dict], lang: str, hidden: bool) -> str:
+    chips = [
+        f'<button type="button" class="chip is-active" data-tag="">{UI[lang]["all"]}</button>'
+    ]
+    for tag, n in tag_stats(posts, lang):
+        chips.append(
+            f'<button type="button" class="chip" data-tag="{esc(tag.lower())}">'
+            f'{esc(tag)}<span class="count">{n}</span></button>'
+        )
+    row_cls = "tag-row"
+    if len(chips) > CHIPS_VISIBLE:
+        row_cls += " collapsed"
+        chips.append(
+            '<button type="button" class="chip chip-more" data-more'
+            f' data-label-more="{esc(UI[lang]["more"])}"'
+            f' data-label-less="{esc(UI[lang]["less"])}">{UI[lang]["more"]}</button>'
+        )
+    h = " hidden" if hidden else ""
+    return f'<div class="{row_cls}" data-lang="{lang}"{h}>' + "".join(chips) + "</div>"
+
+
+INDEX_TEMPLATE = """<!DOCTYPE html>
+<!-- GENERATED by tools/build.py — do not edit by hand. -->
+<html lang="en">
+<head>
+  <!-- Redirect legacy GitHub Pages host to the canonical domain, preserving path -->
+  <script>(function(){if(location.hostname==='lunamos.github.io'){location.replace('https://zehaojin.com'+location.pathname+location.search+location.hash);}})();</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title id="page-title">Blog · Zehao Jin</title>
+  <meta name="description" id="meta-desc" content="Essays and notes by Zehao Jin (金泽昊) — on AI, neuroscience, literature, and life. Bilingual: English / 中文." />
+  <meta name="author" content="Zehao Jin" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://zehaojin.com/blog/" />
+  <link rel="alternate" hreflang="en" href="https://zehaojin.com/blog/?lang=en" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://zehaojin.com/blog/?lang=cn" />
+  <link rel="alternate" hreflang="x-default" href="https://zehaojin.com/blog/" />
+  <link rel="alternate" type="application/rss+xml" title="Zehao Jin · Blog" href="/blog/feed.xml" />
+  <link rel="icon" type="image/x-icon" href="/static/assets/jzh.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Zehao Jin · Blog" />
+  <meta property="og:title" content="Blog · Zehao Jin (金泽昊)" />
+  <meta property="og:description" content="Essays and notes on AI, neuroscience, literature, and life. Bilingual EN / 中文." />
+  <meta property="og:url" content="https://zehaojin.com/blog/" />
+  <meta property="og:image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Blog · Zehao Jin (金泽昊)" />
+  <meta name="twitter:description" content="Essays and notes on AI, neuroscience, literature, and life. Bilingual EN / 中文." />
+  <meta name="twitter:image" content="https://zehaojin.com/static/assets/img/jzh.jpg" />
+
+  <!-- Structured data (baked at build time) -->
+  <script type="application/ld+json">{{JSON_LD}}</script>
+
+  <link rel="stylesheet" href="/static/css/blog.css" />
+
+  <!-- Google Analytics (shared with the main site) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RTHNRCWR2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-6RTHNRCWR2');
+  </script>
+</head>
+<body class="blog blog-list">
+  <header class="blog-header">
+    <div class="wrap">
+      <a class="blog-brand" href="/"><span class="dot"></span><span>ZEHAOJIN.COM</span></a>
+      <nav class="blog-nav">
+        <a href="/">Homepage</a>
+        <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blog-main">
+    <div class="list-hero">
+      <p class="hero-kicker">C:\ZEHAOJIN\BLOG&gt;<span class="cursor" aria-hidden="true"></span></p>
+      <h1 id="hero-title"><span class="accent">Writing</span></h1>
+      <p id="hero-sub"></p>
+    </div>
+
+    <div class="toolbar" id="toolbar">
+      <div class="searchwrap">
+        <svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+        <input type="search" id="post-search" placeholder="Search…" autocomplete="off" aria-label="Search posts" />
+        <button type="button" id="search-clear" class="s-clear" aria-label="Clear search" hidden>×</button>
+      </div>
+{{CHIP_ROWS}}
+      <p class="result-note" id="result-note" hidden></p>
+    </div>
+
+{{POST_LISTS}}
+
+    <div class="empty" id="no-results" hidden></div>
+  </main>
+
+  <footer class="blog-footer">
+    <div>© 2026 ZEHAO JIN · <a href="/">HOME</a> · <a href="https://github.com/lunamos">GITHUB</a> · <a href="/blog/feed.xml">RSS</a> · <a href="/llms.txt">LLMS.TXT</a></div>
+    <div class="foot-sub">640×400 FOREVER · NO LIFEGUARD ON DUTY ヽ(´ー`)ノ</div>
+  </footer>
+
+  <script type="application/json" id="tag-map">{{TAG_MAP}}</script>
+  <script type="application/json" id="ui-strings">{{UI_STRINGS}}</script>
+  <script src="/static/js/blog-i18n.js"></script>
+  <script src="/static/js/blog-list.js"></script>
+</body>
+</html>
+"""
+
+
+def build_blog_index(posts: list[dict]) -> None:
+    lists = []
+    for lang in LANGS:
+        body = build_index_list(posts, lang)
+        hidden = "" if lang == "en" else " hidden"
+        lists.append(
+            f'    <div class="post-list" data-lang="{lang}"{hidden}>\n{body}\n    </div>'
+        )
+    chip_rows = "\n".join(
+        build_chip_row(posts, lang, hidden=(lang != "en")) for lang in LANGS
+    )
+
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Zehao Jin · Blog",
+        "url": f"{BASE_URL}/blog/",
+        "inLanguage": ["en", "zh-CN"],
+        "author": {"@type": "Person", "name": "Zehao Jin", "url": f"{BASE_URL}/"},
+        "description": "Essays and notes by Zehao Jin (金泽昊) on AI, neuroscience, literature, and life.",
+        "blogPost": [
+            {
+                "@type": "BlogPosting",
+                "headline": pick(p["title"], "en"),
+                "url": f"{BASE_URL}/blog/{p['slug']}/",
+                "datePublished": p.get("date", ""),
+                "keywords": ", ".join(pick_list(p.get("tags"), "en")),
+            }
+            for p in posts
+        ],
+    }
+
+    page = INDEX_TEMPLATE
+    for token, value in {
+        "{{JSON_LD}}": json.dumps(ld, ensure_ascii=False),
+        "{{CHIP_ROWS}}": chip_rows,
+        "{{POST_LISTS}}": "\n".join(lists),
+        "{{TAG_MAP}}": json.dumps(tag_translation_map(posts), ensure_ascii=False),
+        "{{UI_STRINGS}}": json.dumps(UI, ensure_ascii=False),
+    }.items():
+        page = page.replace(token, value)
+    INDEX_OUT.write_text(page, encoding="utf-8")
+
+
+# --------------------------------------------------------------------------- #
+# llms.txt / llms-full.txt — GEO: a site overview + full content for LLMs
+# --------------------------------------------------------------------------- #
+LLMS_INTRO = """# Zehao Jin (金泽昊)
+
+> Personal website and bilingual (English / 简体中文) blog of Zehao Jin (金泽昊),
+> an M.S. student in Computational Science and Engineering at Georgia Tech who
+> researches the alignment of large language models — mechanistic
+> interpretability, safety alignment, AI agents, and harness engineering
+> ("the neuroscience of LLMs").
+
+Zehao Jin is advised by Prof. Chao Zhang at Georgia Tech and received his B.S.
+from Tsinghua University (Xingjian College) in 2025, where he worked with
+Prof. Yanan Sui. He has interned with the foundation-model teams at StepFun and
+Meituan LongCat. His blog collects essays on AI, neuroscience, philosophy,
+literature, and life; every post is available in both English and Chinese.
+
+## Pages
+
+- [Homepage](https://zehaojin.com/): bio, news, experience, publications, awards
+- [Blog index](https://zehaojin.com/blog/): all essays, with tags and search
+- [RSS feed](https://zehaojin.com/blog/feed.xml)
+- [CV, English (PDF)](https://zehaojin.com/docs/CV_Zehao_Jin_EN.pdf)
+- [CV, Chinese (PDF)](https://zehaojin.com/docs/CV_Zehao_Jin_CN.pdf)
+
+## Contact & profiles
+
+- Email: lunamos.thu@gmail.com
+- GitHub: https://github.com/lunamos
+- Google Scholar: https://scholar.google.com/citations?user=C2givFIAAAAJ
+- LinkedIn: https://www.linkedin.com/in/zehaojin
+- Hugging Face: https://huggingface.co/Lunamos
+"""
+
+
+def build_llms_txt(posts: list[dict]) -> str:
+    lines = [LLMS_INTRO, "## Blog posts (newest first)", ""]
+    for p in posts:
+        url = f"{BASE_URL}/blog/{p['slug']}/"
+        title_en = pick(p["title"], "en")
+        title_cn = pick(p["title"], "cn")
+        summary = pick(p.get("summary"), "en")
+        tags = ", ".join(pick_list(p.get("tags"), "en"))
+        title = title_en if title_en == title_cn else f"{title_en} / {title_cn}"
+        lines.append(f"- [{title}]({url}) ({p.get('date', '')}): {summary}"
+                     + (f" [Tags: {tags}]" if tags else ""))
+    lines += [
+        "",
+        "## Full content",
+        "",
+        f"- [llms-full.txt]({BASE_URL}/llms-full.txt): complete Markdown text of"
+        " every blog post, both languages",
+        f"- Per-post raw Markdown: {BASE_URL}/contents/blog/<slug>.en.md and"
+        f" {BASE_URL}/contents/blog/<slug>.cn.md",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def build_llms_full_txt(posts: list[dict]) -> str:
+    chunks = [
+        "# Zehao Jin (金泽昊) — full blog content",
+        "",
+        "Every post from https://zehaojin.com/blog/ in Markdown, newest first.",
+        "Each post appears in English and then in Chinese (both written by the author).",
+        "",
+    ]
+    for p in posts:
+        url = f"{BASE_URL}/blog/{p['slug']}/"
+        chunks += ["", "---", ""]
+        chunks.append(f"# {pick(p['title'], 'en')}")
+        chunks.append("")
+        chunks.append(f"- URL: {url}")
+        chunks.append(f"- Date: {p.get('date', '')}")
+        tags = ", ".join(pick_list(p.get("tags"), "en"))
+        if tags:
+            chunks.append(f"- Tags: {tags}")
+        for lang, label in (("en", "English version"), ("cn", "中文版")):
+            md_path = BLOG_MD_DIR / f"{p['slug']}.{lang}.md"
+            if not md_path.exists():
+                continue
+            chunks += ["", f"## {label} · {pick(p['title'], lang)}", ""]
+            chunks.append(md_path.read_text(encoding="utf-8").strip())
+    chunks.append("")
+    return "\n".join(chunks)
 
 
 # --------------------------------------------------------------------------- #
@@ -409,7 +794,8 @@ def build_sitemap(posts: list[dict]) -> str:
     ]
     for p in posts:
         loc = f"{BASE_URL}/blog/{p['slug']}/"
-        entries.append(url_entry(loc, p.get("date", today), "yearly", "0.6", True))
+        lastmod = p.get("updated") or p.get("date", today)
+        entries.append(url_entry(loc, lastmod, "yearly", "0.6", True))
 
     body = "\n".join(entries)
     return (
@@ -478,11 +864,19 @@ def main() -> None:
     for p in posts:
         build_post_page(p)
 
+    build_blog_index(posts)
+    print(f"Wrote {INDEX_OUT.relative_to(ROOT)} (pre-rendered listing, {len(posts)} posts × {len(LANGS)} languages)")
+
     SITEMAP_OUT.write_text(build_sitemap(posts), encoding="utf-8")
     print(f"Wrote {SITEMAP_OUT.relative_to(ROOT)} ({SITEMAP_OUT.read_text().count('<url>')} URLs)")
 
     FEED_OUT.write_text(build_feed(posts), encoding="utf-8")
     print(f"Wrote {FEED_OUT.relative_to(ROOT)} ({len(posts)} items)")
+
+    LLMS_OUT.write_text(build_llms_txt(posts), encoding="utf-8")
+    LLMS_FULL_OUT.write_text(build_llms_full_txt(posts), encoding="utf-8")
+    print(f"Wrote llms.txt ({LLMS_OUT.stat().st_size // 1024} KB) and "
+          f"llms-full.txt ({LLMS_FULL_OUT.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":
