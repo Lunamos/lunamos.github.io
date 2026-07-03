@@ -16,9 +16,10 @@
     heroSub: document.getElementById('hero-sub'),
     search: document.getElementById('post-search'),
     searchClear: document.getElementById('search-clear'),
-    note: document.getElementById('result-note'),
+    note: document.getElementById('status-note'),
     empty: document.getElementById('no-results')
   };
+  var noteDefault = el.note ? el.note.textContent : '';
 
   var tagMap = {};
   var ui = {};
@@ -36,10 +37,12 @@
 
   function applyStaticText() {
     document.getElementById('page-title').textContent = window.BlogI18n.t('pageTitle');
-    el.heroTitle.innerHTML = '<span class="accent">' + window.BlogI18n.t('writing') + '</span>';
+    el.heroTitle.textContent = window.BlogI18n.t('writing');
     el.heroSub.textContent = window.BlogI18n.t('heroSub');
-    var hp = document.querySelector('.blog-nav a[href="/"]');
+    var hp = document.getElementById('nav-home');
     if (hp) hp.textContent = window.BlogI18n.t('homepage');
+    var rh = document.getElementById('rail-home');
+    if (rh) rh.textContent = window.BlogI18n.t('homepage');
     if (el.search && ui[L()]) el.search.placeholder = ui[L()].search_ph;
   }
 
@@ -90,13 +93,18 @@
       total += visibleInGroup;
     });
 
-    // result note + empty state
+    // status bar note + empty state
     var filtering = !!(state.q || state.tag);
-    el.note.hidden = !filtering;
-    if (filtering) {
-      el.note.textContent = (L() === 'cn')
-        ? '► 找到 ' + total + ' 篇文章'
-        : '► ' + total + ' post' + (total === 1 ? '' : 's') + ' found';
+    if (el.note) {
+      if (filtering) {
+        el.note.textContent = (L() === 'cn')
+          ? '► 找到 ' + total + ' 篇'
+          : '► ' + total + ' POST' + (total === 1 ? '' : 'S') + ' FOUND';
+        el.note.classList.add('filtering');
+      } else {
+        el.note.textContent = noteDefault;
+        el.note.classList.remove('filtering');
+      }
     }
     el.empty.hidden = total > 0;
     if (!total) el.empty.textContent = window.BlogI18n.t('empty');

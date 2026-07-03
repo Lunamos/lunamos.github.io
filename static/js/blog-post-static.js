@@ -29,8 +29,8 @@
     if (m.summary) setAttr('meta-desc', 'content', m.summary);
     document.documentElement.lang = (l === 'cn') ? 'zh' : 'en';
 
-    var na = document.getElementById('nav-all');
-    if (na) na.textContent = window.BlogI18n.t('allPosts');
+    var nh = document.getElementById('nav-home');
+    if (nh) nh.textContent = window.BlogI18n.t('homepage');
 
     if (visible) {
       if (window.ProgImg) window.ProgImg.enhance(visible);

@@ -265,26 +265,30 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
   </script>
 </head>
 <body class="blog">
-  <header class="blog-header">
-    <div class="wrap">
-      <a class="blog-brand" href="/"><span class="dot"></span><span>ZEHAOJIN.COM</span></a>
-      <nav class="blog-nav">
-        <a href="/blog/" id="nav-all">All posts</a>
-        <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
-      </nav>
-    </div>
-  </header>
+  <div class="desk">
+    <div class="window">
+      <header class="titlebar">
+        <a class="tb-brand" href="/blog/"><span class="dot"></span><span>ZEHAO.LOG</span></a>
+        <nav class="tb-nav">
+          <a href="/" id="nav-home">Homepage</a>
+          <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+        </nav>
+      </header>
 
-  <main class="blog-main">
-    <article id="article">
+      <div class="win-body">
+        <main class="post-pane">
+          <article id="article">
 {{ARTICLES}}
-    </article>
-  </main>
+          </article>
+        </main>
+      </div>
 
-  <footer class="blog-footer">
-    <div>© 2026 ZEHAO JIN · <a href="/">HOME</a> · <a href="/blog/">BLOG</a> · <a href="https://github.com/lunamos">GITHUB</a> · <a href="/blog/feed.xml">RSS</a></div>
-    <div class="foot-sub">640×400 FOREVER · NO LIFEGUARD ON DUTY ヽ(´ー`)ノ</div>
-  </footer>
+      <footer class="statusbar">
+        <span>{{SLUG}}.md · {{PUB_ISO}}</span>
+        <span class="st-right"><span>EN/中文</span><span>© 2026 ZEHAO JIN</span></span>
+      </footer>
+    </div>
+  </div>
 
   <script type="application/json" id="post-meta">{{POST_META}}</script>
   <script>
@@ -381,6 +385,7 @@ def build_post_page(post: dict) -> None:
 
     page = PAGE_TEMPLATE
     replacements = {
+        "{{SLUG}}": esc(slug),
         "{{HTML_LANG}}": "en" if primary == "en" else "zh",
         "{{TITLE}}": title,
         "{{DESC}}": desc,
@@ -483,17 +488,18 @@ def build_index_entry(post: dict, lang: str) -> str:
         f'<a class="post-entry" href="{href}" data-slug="{esc(slug)}"'
         f' data-tags="{esc("|".join(t.lower() for t in tags))}"'
         f' data-search="{esc(blob)}">'
+        '<span class="entry-top">'
         f'<span class="entry-date">{esc(fmt_entry_date(post.get("date", "")))}</span>'
-        '<span class="entry-main">'
         f'<span class="entry-title">{esc(title)}</span>'
+        "</span>"
         + (f'<span class="entry-summary">{esc(summary)}</span>' if summary else "")
         + tag_line
-        + "</span></a>"
+        + "</a>"
     )
 
 
 def build_index_list(posts: list[dict], lang: str) -> str:
-    """Year-grouped chronological list (posts arrive sorted newest-first)."""
+    """Year-grouped timeline (posts arrive sorted newest-first)."""
     groups: dict[str, list[str]] = {}
     order: list[str] = []
     for p in posts:
@@ -506,8 +512,9 @@ def build_index_list(posts: list[dict], lang: str) -> str:
     for year in order:
         sections.append(
             f'<section class="year-group"><h2 class="year-head">{esc(year)}</h2>\n'
+            '<div class="year-entries">\n'
             + "\n".join(groups[year])
-            + "\n</section>"
+            + "\n</div></section>"
         )
     return "\n".join(sections)
 
@@ -583,42 +590,61 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   </script>
 </head>
 <body class="blog blog-list">
-  <header class="blog-header">
-    <div class="wrap">
-      <a class="blog-brand" href="/"><span class="dot"></span><span>ZEHAOJIN.COM</span></a>
-      <nav class="blog-nav">
-        <a href="/">Homepage</a>
-        <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
-      </nav>
-    </div>
-  </header>
+  <div class="desk">
+    <div class="window">
+      <header class="titlebar">
+        <a class="tb-brand" href="/blog/"><span class="dot"></span><span>ZEHAO.LOG</span></a>
+        <nav class="tb-nav">
+          <a href="/" id="nav-home">Homepage</a>
+          <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+        </nav>
+      </header>
 
-  <main class="blog-main">
-    <div class="list-hero">
-      <p class="hero-kicker">C:\ZEHAOJIN\BLOG&gt;<span class="cursor" aria-hidden="true"></span></p>
-      <h1 id="hero-title"><span class="accent">Writing</span></h1>
-      <p id="hero-sub"></p>
-    </div>
+      <div class="win-body">
+        <aside class="rail">
+          <div class="rail-sticky">
+            <span class="kicker">C:\ZEHAOJIN\BLOG&gt;<span class="cursor" aria-hidden="true"></span></span>
+            <h1 id="hero-title">Writing</h1>
+            <p class="sub" id="hero-sub"></p>
 
-    <div class="toolbar" id="toolbar">
-      <div class="searchwrap">
-        <svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
-        <input type="search" id="post-search" placeholder="Search…" autocomplete="off" aria-label="Search posts" />
-        <button type="button" id="search-clear" class="s-clear" aria-label="Clear search" hidden>×</button>
-      </div>
+            <div class="rail-block">
+              <p class="rail-label" id="label-search">SEARCH</p>
+              <div class="searchwrap">
+                <svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+                <input type="search" id="post-search" placeholder="Search…" autocomplete="off" aria-label="Search posts" />
+                <button type="button" id="search-clear" class="s-clear" aria-label="Clear search" hidden>×</button>
+              </div>
+            </div>
+
+            <div class="rail-block">
+              <p class="rail-label" id="label-tags">TAGS</p>
 {{CHIP_ROWS}}
-      <p class="result-note" id="result-note" hidden></p>
-    </div>
+            </div>
 
+            <div class="rail-block">
+              <p class="rail-label">LINKS</p>
+              <nav class="rail-nav">
+                <a href="/" id="rail-home">Academic homepage</a>
+                <a href="https://github.com/lunamos">GitHub</a>
+                <a href="/blog/feed.xml">RSS</a>
+                <a href="/llms.txt">llms.txt</a>
+              </nav>
+            </div>
+          </div>
+        </aside>
+
+        <main class="main-pane">
 {{POST_LISTS}}
+          <div class="empty" id="no-results" hidden></div>
+        </main>
+      </div>
 
-    <div class="empty" id="no-results" hidden></div>
-  </main>
-
-  <footer class="blog-footer">
-    <div>© 2026 ZEHAO JIN · <a href="/">HOME</a> · <a href="https://github.com/lunamos">GITHUB</a> · <a href="/blog/feed.xml">RSS</a> · <a href="/llms.txt">LLMS.TXT</a></div>
-    <div class="foot-sub">640×400 FOREVER · NO LIFEGUARD ON DUTY ヽ(´ー`)ノ</div>
-  </footer>
+      <footer class="statusbar">
+        <span id="status-note">READY · {{POST_COUNT}} POSTS</span>
+        <span class="st-right"><span>EN/中文</span><span>© 2026 ZEHAO JIN</span></span>
+      </footer>
+    </div>
+  </div>
 
   <script type="application/json" id="tag-map">{{TAG_MAP}}</script>
   <script type="application/json" id="ui-strings">{{UI_STRINGS}}</script>
@@ -666,6 +692,7 @@ def build_blog_index(posts: list[dict]) -> None:
         "{{JSON_LD}}": json.dumps(ld, ensure_ascii=False),
         "{{CHIP_ROWS}}": chip_rows,
         "{{POST_LISTS}}": "\n".join(lists),
+        "{{POST_COUNT}}": str(len(posts)),
         "{{TAG_MAP}}": json.dumps(tag_translation_map(posts), ensure_ascii=False),
         "{{UI_STRINGS}}": json.dumps(UI, ensure_ascii=False),
     }.items():

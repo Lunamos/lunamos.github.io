@@ -53,18 +53,19 @@
   </script>
 </head>
 <body class="blog">
-  <header class="blog-header">
-    <div class="wrap">
-      <a class="blog-brand" href="/"><span class="dot"></span><span>ZEHAOJIN.COM</span></a>
-      <nav class="blog-nav">
-        <a href="/blog/" id="nav-all">All posts</a>
-        <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
-      </nav>
-    </div>
-  </header>
+  <div class="desk">
+    <div class="window">
+      <header class="titlebar">
+        <a class="tb-brand" href="/blog/"><span class="dot"></span><span>ZEHAO.LOG</span></a>
+        <nav class="tb-nav">
+          <a href="/" id="nav-home">Homepage</a>
+          <button class="px-btn" id="lang-toggle" type="button" aria-label="Switch language"></button>
+        </nav>
+      </header>
 
-  <main class="blog-main">
-    <article id="article">
+      <div class="win-body">
+        <main class="post-pane">
+          <article id="article">
 <div class="post-lang" data-lang="en"><header class="post-head fade-up"><div class="kicker">Interpretability</div><h1>How to Install a &quot;Thought Seal&quot; into a Language Model | Interpretability SP1</h1><div class="byline"><span>Jun 7, 2026</span><span>·</span><span>25 min read</span></div><div class="rule"></div></header><div class="reading prose fade-up" style="animation-delay:90ms"><blockquote>
 <p>I am starting a new series of posts on the interpretability of language models. These pieces are my personal study notes, focused on the core questions and the main work in mechanistic interpretability (MechInterp) for large language models.</p>
 <p>What I want to do with this series is show you how genuinely fun and strange the field of interpretability is, and along the way introduce the recent work I have been doing with my collaborators, especially FLAS, the best general representation / activation steering method we have so far.
@@ -582,13 +583,16 @@
 <p>这么看的话，在人类语言的空间里，《龙与地下城》永远和代码大神联系在一起了，随着各大模型厂商对 GPT 的蒸馏，这个特性也会被带到别的模型当中，对游戏和奇幻的热爱永远留在了 AI 的灵魂里，这或许才是真正难以被修改的「思想钢印」，真不赖。</p>
 <p><img alt="Image" src="/static/assets/img/blog/flas/15.jpg">
 <em>某版《神经漫游者》的封面，很帅</em></p></div><div class="post-foot fade-up"><div class="post-tags"><a class="tag" href="/blog/?lang=cn&amp;tag=%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7">可解释性</a><a class="tag" href="/blog/?lang=cn&amp;tag=%E6%BF%80%E6%B4%BB%E5%BC%95%E5%AF%BC">激活引导</a><a class="tag" href="/blog/?lang=cn&amp;tag=%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B">大语言模型</a><a class="tag" href="/blog/?lang=cn&amp;tag=AI%E5%AE%89%E5%85%A8">AI安全</a></div><div class="row"><a class="back-link" href="/blog/?lang=cn">‹ 返回全部文章</a></div></div></div>
-    </article>
-  </main>
+          </article>
+        </main>
+      </div>
 
-  <footer class="blog-footer">
-    <div>© 2026 ZEHAO JIN · <a href="/">HOME</a> · <a href="/blog/">BLOG</a> · <a href="https://github.com/lunamos">GITHUB</a> · <a href="/blog/feed.xml">RSS</a></div>
-    <div class="foot-sub">640×400 FOREVER · NO LIFEGUARD ON DUTY ヽ(´ー`)ノ</div>
-  </footer>
+      <footer class="statusbar">
+        <span>flas.md · 2026-06-07</span>
+        <span class="st-right"><span>EN/中文</span><span>© 2026 ZEHAO JIN</span></span>
+      </footer>
+    </div>
+  </div>
 
   <script type="application/json" id="post-meta">{"en": {"title": "How to Install a \"Thought Seal\" into a Language Model | Interpretability SP1", "summary": "We built FLAS, the best general activation steering method so far. With no extra training, it can plant any concept (goblins, brands, values) into a model's replies at any strength, while barely touching the model's own abilities. It starts from the \"Thought Seal\" in The Three-Body Problem and runs all the way to soft ad placement, interpretability, and AI safety."}, "cn": {"title": "如何给语言模型植入「思想钢印」？| 可解释性 SP1", "summary": "我们做出了 FLAS，目前最好的通用激活引导方法：不用任何额外训练，就能以任意强度把任意概念（哥布林、品牌、价值观）植入模型回复，而几乎不损伤模型本身的能力。从《三体》的「思想钢印」讲起，一路聊到广告软植入、可解释性与 AI 安全。"}}</script>
   <script>
