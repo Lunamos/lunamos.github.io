@@ -11,6 +11,7 @@
       <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Ruixuan Deng*, Junran Wang*, Xinjie Shen, Chao Zhang</p>
       <div class="pub-meta">
         <span class="badge-venue">ICML 2026 MechInterp Workshop</span>
+        <span class="badge-venue violet">NeurIPS 2026 · Under Review (5/4/4)</span>
       </div>
       <div class="pub-links">
         <a href="https://flas-ai.github.io"><i class="bi bi-globe"></i>Project</a>
@@ -58,7 +59,7 @@
       <img loading="lazy" decoding="async" src="static/assets/img/pub/sa.png" alt="Stochastic Attention" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
     </div>
     <div class="pub-info">
-      <p class="pub-title">Stochastic Attention: Connectome-Inspired Randomized Routing for Expressive Linear-Time Attention</p>
+      <p class="pub-title">Stochastic Attention: Randomized Routing for Expressive Linear-Time Attention</p>
       <p class="pub-authors"><span class="author-me">Zehao Jin</span>, Yanan Sui</p>
       <div class="pub-meta">
         <span class="badge-venue gray">Preprint · Under review</span>

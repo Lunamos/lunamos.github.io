@@ -16,8 +16,8 @@ Zehao Jin (金泽昊) -->
   </div>
   <div class="profile-bio">
     <h3>About Me</h3>
-    <p>Hi! I'm a first-year M.S. student in Computational Science and Engineering at <strong>Georgia Tech</strong>, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from <strong>Tsinghua University</strong> in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
-    <p>I work on <strong>LLM interpretability</strong> and <strong>AI alignment</strong>. I also care about <strong>harness</strong> engineering for <strong>code agents</strong> and <strong>work agents</strong>. I'm currently interning with the foundation model team at <strong>StepFun</strong>, and previously interned at <strong>Meituan LongCat</strong> team, where I worked on agent evaluation, multimodal LLM deployment and evaluation, and agent framework design.</p>
+    <p>Hi! I'm an M.S. student in Computational Science and Engineering at <strong>Georgia Tech</strong>, advised by <a href="http://chaozhang.org">Prof. Chao Zhang</a>. I got my B.S. from <strong>Tsinghua University</strong> in 2025, where I worked with <a href="https://yanansui.com">Prof. Yanan Sui</a>.</p>
+    <p>I work on <strong>foundation-model post-training</strong>, <strong>AI agents</strong>, <strong>evaluation</strong>, and <strong>mechanistic interpretability</strong>. I care about turning model internals and agent traces into reliable interventions and training signals. I'm currently a Foundation Model Research Intern at <strong>StepFun</strong>, working on post-training and environment evaluation for Coding Agent and Working Agent. Previously, at <strong>Meituan LongCat</strong>, I worked on physical-world reasoning for VLMs, VLA training and evaluation infrastructure, and memory-augmented VLM agents.</p>
   </div>
 </div>
 
@@ -29,8 +29,8 @@ Zehao Jin (金泽昊) -->
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
-    <h4>Safety &amp; Alignment</h4>
-    <p>Trustworthiness, privacy, and jailbreak robustness, toward safer and more human-aligned models.</p>
+    <h4>Post-Training &amp; Evaluation</h4>
+    <p>Training recipes, environments, and behavioral evaluation for more capable and reliable foundation models.</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>
@@ -48,7 +48,7 @@ Zehao Jin (金泽昊) -->
 <div class="edu-list">
   <div class="edu-item">
     <span class="edu-dot"></span>
-    <span class="edu-text"><strong>Georgia Institute of Technology</strong>, M.S. in Computational Science and Engineering <span class="edu-date">· Jan 2026 - Present</span></span>
+    <span class="edu-text"><strong>Georgia Institute of Technology</strong>, M.S. in Computational Science and Engineering <span class="edu-date">· Jan 2026 - May 2027 (expected)</span></span>
   </div>
   <div class="edu-item">
     <span class="edu-dot"></span>

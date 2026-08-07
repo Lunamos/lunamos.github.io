@@ -2,9 +2,8 @@
 
 > Personal website and bilingual (English / 简体中文) blog of Zehao Jin (金泽昊),
 > an M.S. student in Computational Science and Engineering at Georgia Tech who
-> researches the alignment of large language models — mechanistic
-> interpretability, safety alignment, AI agents, and harness engineering
-> ("the neuroscience of LLMs").
+> researches foundation-model post-training, AI agents, evaluation, and
+> mechanistic interpretability.
 
 Zehao Jin is advised by Prof. Chao Zhang at Georgia Tech and received his B.S.
 from Tsinghua University (Xingjian College) in 2025, where he worked with
