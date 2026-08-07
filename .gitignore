@@ -10,3 +10,10 @@ reference/
 成稿归档/
 *.tex
 docs/个人简历_金泽昊_中英_0607.pdf
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
