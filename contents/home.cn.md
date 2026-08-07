@@ -16,8 +16,8 @@
   </div>
   <div class="profile-bio">
     <h3>关于我</h3>
-    <p>你好！我是<strong>佐治亚理工学院</strong>计算科学与工程专业的一年级硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于<strong>清华大学</strong>，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
-    <p>我目前的研究方向是<strong>大语言模型的可解释性</strong>和<strong>安全对齐</strong>，我也关心 <strong>code agent</strong> 和 <strong>work agent</strong> 的 <strong>harness</strong> 工程。我正在<strong>阶跃星辰（StepFun）</strong>基模团队实习，也曾在<strong>美团 LongCat</strong> 基模团队实习，做过 Agent 评测、多模态大模型部署与评测、以及 Agent 框架设计。</p>
+    <p>你好！我是<strong>佐治亚理工学院</strong>计算科学与工程专业硕士研究生，导师是 <a href="http://chaozhang.org">Chao Zhang 教授</a>。2025 年本科毕业于<strong>清华大学</strong>，本科期间跟随 <a href="https://yanansui.com">Yanan Sui 教授</a>做研究。</p>
+    <p>我目前关注<strong>基础模型后训练</strong>、<strong>AI Agent</strong>、<strong>模型评测</strong>和<strong>机制可解释性</strong>，也希望将模型内部机制与 Agent trace 转化为可靠的干预方法和训练信号。我正在<strong>阶跃星辰（StepFun）</strong>基模团队实习，参与 Coding Agent 与 Working Agent 的后训练和环境评测；此前在<strong>美团 LongCat</strong> 基模团队从事 VLM 物理世界理解、VLA 训练评测基建与带 Memory 的 VLM Agent 研究。</p>
   </div>
 </div>
 
@@ -29,12 +29,12 @@
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-shield-check"></i></div>
-    <h4>安全与对齐</h4>
-    <p>关心模型的可信、隐私和越狱，为了更安全的价值观对齐的模型。</p>
+    <h4>后训练与评测</h4>
+    <p>研究训练配方、环境构建与行为评测，让基础模型更加可靠且能力更强。</p>
   </div>
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-person-gear"></i></div>
-    <h4>智能体与 Harness</h4>
+    <h4>Agent 与 Harness</h4>
     <p>人和 AI 的协作，Harness 工程，为了更好的通用表现和自我进化。</p>
   </div>
 </div>
@@ -48,7 +48,7 @@
 <div class="edu-list">
   <div class="edu-item">
     <span class="edu-dot"></span>
-    <span class="edu-text"><strong>佐治亚理工学院</strong>，计算科学与工程 硕士 <span class="edu-date">· 2026 年 1 月 - 至今</span></span>
+    <span class="edu-text"><strong>佐治亚理工学院</strong>，计算科学与工程 硕士 <span class="edu-date">· 2026 年 1 月 - 2027 年 5 月（预计）</span></span>
   </div>
   <div class="edu-item">
     <span class="edu-dot"></span>

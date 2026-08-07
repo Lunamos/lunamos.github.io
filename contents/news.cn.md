@@ -1,6 +1,11 @@
 <div class="news-list">
 
   <div class="news-item">
+    <div class="news-date">2026.08</div>
+    <div class="news-text"><a href="https://flas-ai.github.io"><strong>FLAS</strong></a> 正在投稿 <strong>NeurIPS 2026</strong>（评审分数：5/4/4）。</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">2026.06</div>
     <div class="news-text">论文 <a href="https://flas-ai.github.io"><strong>FLAS: Flow-based Activation Steering</strong></a> 被 <strong>ICML 2026 Mechanistic Interpretability Workshop</strong> 接收！🎉</div>
   </div>
