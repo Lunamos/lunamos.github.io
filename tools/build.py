@@ -817,24 +817,11 @@ def build_sitemap(posts: list[dict]) -> str:
     entries = [
         url_entry(f"{BASE_URL}/", today, "monthly", "1.0", True),
         url_entry(f"{BASE_URL}/blog/", newest, "weekly", "0.8", True),
-        url_entry(f"{BASE_URL}/mechinterp/", today, "weekly", "0.8", False),
     ]
     for p in posts:
         loc = f"{BASE_URL}/blog/{p['slug']}/"
         lastmod = p.get("updated") or p.get("date", today)
         entries.append(url_entry(loc, lastmod, "yearly", "0.6", True))
-
-    mechinterp_slugs = [
-        "thinking-drafts-faithfulness",
-        "rfeval",
-        "interpretable-traces-unexpected-outcomes",
-        "actonomy",
-        "traceprobe",
-        "latent-programming-horizons",
-        "reasoning-is-latent",
-    ]
-    for slug in mechinterp_slugs:
-        entries.append(url_entry(f"{BASE_URL}/mechinterp/papers/{slug}/", today, "monthly", "0.6", False))
 
     body = "\n".join(entries)
     return (
