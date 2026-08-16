@@ -226,4 +226,17 @@
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://zehaojin.com/mechinterp/</loc>
+        <lastmod>2026-08-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/thinking-drafts-faithfulness/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/rfeval/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/interpretable-traces-unexpected-outcomes/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/actonomy/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/traceprobe/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/latent-programming-horizons/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://zehaojin.com/mechinterp/papers/reasoning-is-latent/</loc><lastmod>2026-08-15</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
