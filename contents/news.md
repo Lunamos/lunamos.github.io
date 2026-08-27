@@ -1,6 +1,11 @@
 <div class="news-list">
 
   <div class="news-item">
+    <div class="news-date">2026.08</div>
+    <div class="news-text">Our paper <a href="https://openreview.net/forum?id=oa3nIGBPnp"><strong>Meeseeks-Multilingual</strong></a>, a multi-turn, multi-constraint benchmark for multilingual instruction-following and self-correction, is accepted to <strong>EMNLP Findings 2026</strong>! 🎉</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">2026.06</div>
     <div class="news-text">Our paper <a href="https://flas-ai.github.io"><strong>FLAS: Flow-based Activation Steering</strong></a> is accepted to the <strong>ICML 2026 Mechanistic Interpretability Workshop</strong>! 🎉</div>
   </div>
