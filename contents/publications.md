@@ -59,7 +59,7 @@
     </div>
     <div class="pub-info">
       <p class="pub-title">Meeseeks-Multilingual: A Multi-Turn, Multi-Constraint Benchmark Evaluating Multilingual Instruction-Following and Self-Correction</p>
-      <p class="pub-authors">Jiaming Wang*, Hefei Chen*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Yanxin Zhuo*, Ruicheng Liao*, Jinrong Ma, Xiaoyu Li, Xuezhi Cao</p>
+      <p class="pub-authors">Jiaming Wang*, Hefei Chen*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Yanxin Zhuo, Ruicheng Liao, Jinrong Ma, Xiaoyu Li, Xuezhi Cao</p>
       <div class="pub-meta">
         <span class="badge-venue green">EMNLP Findings 2026</span>
       </div>
