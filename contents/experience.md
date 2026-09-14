@@ -8,7 +8,7 @@
       <p class="tl-role">Foundation Model Research Intern · <span class="tl-org">StepFun (阶跃星辰)</span></p>
       <p class="tl-meta">May 2026 - Present &middot; Shanghai, China</p>
       <ul>
-        <li>Ran <strong>SFT, RL, and OPD</strong> experiments for Coding Agent and Working Agent, achieving team-best results on <strong>SWE-Pro</strong> and <strong>SWE-Atlas</strong> with an internal model; the resulting training recipes are being incorporated into the next model iteration.</li>
+        <li>Ran <strong>SFT, RL, and OPD</strong> experiments for Coding Agent and Working Agent. The training recipes are being incorporated into the next model iteration.</li>
         <li>Built an <strong>LLM-orchestrated pipeline</strong> to generate, refine, and evaluate coding-agent environments, with automated checks for task and rubric quality and the completeness of workspaces and attachments.</li>
         <li>Defined and validated <strong>10+ trace-level indicators</strong> for agent failure modes, focusing on long-horizon context inefficiency; benchmarked them across frontier coding models for behavioral analysis and failure attribution.</li>
       </ul>

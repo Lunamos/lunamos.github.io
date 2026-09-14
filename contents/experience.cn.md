@@ -8,9 +8,9 @@
       <p class="tl-role">基础模型研究实习生 · <span class="tl-org">阶跃星辰 (StepFun)</span></p>
       <p class="tl-meta">2026 年 5 月 - 至今 · 上海</p>
       <ul>
-        <li>面向 <strong>Coding Agent</strong> 与 <strong>Working Agent</strong> 开展 SFT、RL 和 OPD 后训练实验，内部模型在 <strong>SWE-Pro</strong> 与 <strong>SWE-Atlas</strong> 上取得组内最佳结果，训练配方正合入下一代模型迭代。</li>
+        <li>面向 <strong>Coding Agent</strong> 与 <strong>Working Agent</strong> 开展 SFT、RL 和 OPD 后训练实验，训练配方正合入下一代模型迭代。</li>
         <li>搭建基于 <strong>LLM Orchestration</strong> 的 Coding Agent 环境生成、优化与评测流水线，自动检查 Task 与 Rubric 的合理性和丰富度，以及工作目录、环境与附件的完整性。</li>
-        <li>定义并验证 <strong>10+ 项 trace-level 失败模式指标</strong>，重点分析长程任务的上下文效率；在多款前沿 Coding 模型上对比指标命中率，分析行为特征与失败归因。</li>
+        <li>定义并验证 <strong>10+ 项 trace-level bad pattern</strong>，重点分析长程任务的上下文效率。在多款前沿 Coding 模型上对比指标命中率，分析行为特征与失败归因。</li>
       </ul>
     </div>
   </div>
