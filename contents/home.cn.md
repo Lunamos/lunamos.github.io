@@ -24,7 +24,7 @@
 <div class="interests">
   <div class="interest-card">
     <div class="ic-ico"><i class="bi bi-cpu"></i></div>
-    <h4>机械可解释性</h4>
+    <h4>机制可解释性</h4>
     <p>尝试理解 LLM 内部的运行原理，为了理解智能如何产生和涌现。</p>
   </div>
   <div class="interest-card">
