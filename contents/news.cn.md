@@ -1,6 +1,11 @@
 <div class="news-list">
 
   <div class="news-item">
+    <div class="news-date">2026.09</div>
+    <div class="news-text">论文 <a href="https://flas-ai.github.io"><strong>FLAS</strong></a> 和 <a href="https://immersed-privacy.github.io"><strong>ImmersedPrivacy</strong></a> 均被 <strong>NeurIPS 2026 主会</strong>接收为 <strong>Poster</strong>！🎉</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">2026.08</div>
     <div class="news-text">论文 <a href="https://openreview.net/forum?id=oa3nIGBPnp"><strong>Meeseeks-Multilingual</strong></a>（多轮、多约束的多语言指令遵循与自我修正评测基准）被 <strong>EMNLP Findings 2026</strong> 接收！🎉</div>
   </div>

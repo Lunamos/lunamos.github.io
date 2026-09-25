@@ -1,6 +1,11 @@
 <div class="news-list">
 
   <div class="news-item">
+    <div class="news-date">2026.09</div>
+    <div class="news-text">Our papers <a href="https://flas-ai.github.io"><strong>FLAS</strong></a> and <a href="https://immersed-privacy.github.io"><strong>ImmersedPrivacy</strong></a> have both been accepted as <strong>NeurIPS 2026 Posters</strong>! 🎉</div>
+  </div>
+
+  <div class="news-item">
     <div class="news-date">2026.08</div>
     <div class="news-text">Our paper <a href="https://openreview.net/forum?id=oa3nIGBPnp"><strong>Meeseeks-Multilingual</strong></a>, a multi-turn, multi-constraint benchmark for multilingual instruction-following and self-correction, is accepted to <strong>EMNLP Findings 2026</strong>! 🎉</div>
   </div>

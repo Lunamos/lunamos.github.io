@@ -10,6 +10,7 @@
       <p class="pub-title">Beyond Steering Vector: Flow-based Activation Steering for Inference-Time Intervention</p>
       <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Ruixuan Deng*, Junran Wang*, Xinjie Shen, Chao Zhang</p>
       <div class="pub-meta">
+        <span class="badge-venue violet">NeurIPS 2026 Poster</span>
         <span class="badge-venue">ICML 2026 MechInterp Workshop</span>
       </div>
       <div class="pub-links">
@@ -17,6 +18,91 @@
         <a href="https://arxiv.org/abs/2605.05892"><i class="bi bi-file-earmark-text"></i>Paper</a>
         <a href="https://github.com/flas-ai/FLAS"><i class="bi bi-github"></i>Code</a>
         <a href="https://huggingface.co/spaces/Lunamos/flas-demo"><i class="bi bi-robot"></i>Demo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/immersed_privacy.png" alt="VLM privacy in the physical world" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</p>
+      <p class="pub-authors">Junran Wang*, Xinjie Shen*, <span class="author-me">Zehao Jin</span>*, Pan Li</p>
+      <div class="pub-meta">
+        <span class="badge-venue violet">NeurIPS 2026 Poster</span>
+        <span class="badge-venue teal">ICML 2026 Workshop AIWILD</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://immersed-privacy.github.io"><i class="bi bi-globe"></i>Project</a>
+        <a href="https://arxiv.org/abs/2605.05340"><i class="bi bi-file-earmark-text"></i>Paper</a>
+        <a href="https://github.com/immersed-privacy/immersed-privacy"><i class="bi bi-github"></i>Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/sopmaze.png" alt="SOP-Maze" onerror="this.src='static/assets/img/pub/sae_scaffold.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">SOP-Maze: Evaluating Large Language Models on Complicated Business Standard Operating Procedures</p>
+      <p class="pub-authors">Jiaming Wang*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Hefei Chen*, Yilin Jin*, Peng Ding*, Xiaoyu Li, Xuezhi Cao</p>
+      <div class="pub-meta">
+        <span class="badge-venue green">ACL Findings 2026</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.08942"><i class="bi bi-file-earmark-text"></i>Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/meeseeks_multilingual.svg" alt="Meeseeks-Multilingual benchmark" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Meeseeks-Multilingual: A Multi-Turn, Multi-Constraint Benchmark Evaluating Multilingual Instruction-Following and Self-Correction</p>
+      <p class="pub-authors">Jiaming Wang*, Hefei Chen*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Yanxin Zhuo, Ruicheng Liao, Jinrong Ma, Xiaoyu Li, Xuezhi Cao</p>
+      <div class="pub-meta">
+        <span class="badge-venue green">EMNLP Findings 2026</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://openreview.net/forum?id=oa3nIGBPnp"><i class="bi bi-file-earmark-text"></i>Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/sa.png" alt="Stochastic Attention" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Stochastic Attention: Randomized Routing for Expressive Linear-Time Attention</p>
+      <p class="pub-authors"><span class="author-me">Zehao Jin</span>, Yanan Sui</p>
+      <div class="pub-meta">
+        <span class="badge-venue gray">Preprint Under Review</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2604.00754"><i class="bi bi-file-earmark-text"></i>Paper</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-thumb">
+      <img loading="lazy" decoding="async" src="static/assets/img/pub/cosyne2026.png" alt="Drosophila connectome model" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
+    </div>
+    <div class="pub-info">
+      <p class="pub-title">Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</p>
+      <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Yaoye Zhu, Chen Zhang, Yanan Sui</p>
+      <div class="pub-meta">
+        <span class="badge-venue amber">Cosyne 2026</span>
+      </div>
+      <div class="pub-links">
+        <a href="https://lnsgroup.cc/research/FlyGM/"><i class="bi bi-globe"></i>Project</a>
+        <a href="https://arxiv.org/abs/2602.17997"><i class="bi bi-file-earmark-text"></i>Paper</a>
+        <a href="https://youtu.be/XVP8RdXqyGw"><i class="bi bi-youtube"></i>Video</a>
       </div>
     </div>
   </div>
@@ -49,90 +135,6 @@
       </div>
       <div class="pub-links">
         <a href="https://openreview.net/forum?id=yTLuHmBQkG"><i class="bi bi-file-earmark-text"></i>Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/meeseeks_multilingual.svg" alt="Meeseeks-Multilingual benchmark" />
-    </div>
-    <div class="pub-info">
-      <p class="pub-title">Meeseeks-Multilingual: A Multi-Turn, Multi-Constraint Benchmark Evaluating Multilingual Instruction-Following and Self-Correction</p>
-      <p class="pub-authors">Jiaming Wang*, Hefei Chen*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Yanxin Zhuo, Ruicheng Liao, Jinrong Ma, Xiaoyu Li, Xuezhi Cao</p>
-      <div class="pub-meta">
-        <span class="badge-venue green">EMNLP Findings 2026</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://openreview.net/forum?id=oa3nIGBPnp"><i class="bi bi-file-earmark-text"></i>Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/sa.png" alt="Stochastic Attention" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
-    </div>
-    <div class="pub-info">
-      <p class="pub-title">Stochastic Attention: Randomized Routing for Expressive Linear-Time Attention</p>
-      <p class="pub-authors"><span class="author-me">Zehao Jin</span>, Yanan Sui</p>
-      <div class="pub-meta">
-        <span class="badge-venue gray">Preprint · Under review</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2604.00754"><i class="bi bi-file-earmark-text"></i>Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/immersed_privacy.png" alt="VLM privacy in the physical world" />
-    </div>
-    <div class="pub-info">
-      <p class="pub-title">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</p>
-      <p class="pub-authors">Junran Wang*, Xinjie Shen*, <span class="author-me">Zehao Jin</span>*, Pan Li</p>
-      <div class="pub-meta">
-        <span class="badge-venue teal">ICML 2026 Workshop AIWILD</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://immersed-privacy.github.io"><i class="bi bi-globe"></i>Project</a>
-        <a href="https://arxiv.org/abs/2605.05340"><i class="bi bi-file-earmark-text"></i>Paper</a>
-        <a href="https://github.com/immersed-privacy/immersed-privacy"><i class="bi bi-github"></i>Code</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/sopmaze.png" alt="SOP-Maze" onerror="this.src='static/assets/img/pub/sae_scaffold.svg'" />
-    </div>
-    <div class="pub-info">
-      <p class="pub-title">SOP-Maze: Evaluating Large Language Models on Complicated Business Standard Operating Procedures</p>
-      <p class="pub-authors">Jiaming Wang*, Zhe Tang*, <span class="author-me">Zehao Jin</span>*, Hefei Chen*, Yilin Jin*, Peng Ding*, Xiaoyu Li, Xuezhi Cao</p>
-      <div class="pub-meta">
-        <span class="badge-venue green">ACL Findings 2026</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://arxiv.org/abs/2510.08942"><i class="bi bi-file-earmark-text"></i>Paper</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="pub-thumb">
-      <img loading="lazy" decoding="async" src="static/assets/img/pub/cosyne2026.png" alt="Drosophila connectome model" onerror="this.src='static/assets/img/pub/connectome_llm.svg'" />
-    </div>
-    <div class="pub-info">
-      <p class="pub-title">Whole-Brain Connectome-Instantiated Model for Whole-Body Movement Control in Drosophila</p>
-      <p class="pub-authors"><span class="author-me">Zehao Jin</span>*, Yaoye Zhu, Chen Zhang, Yanan Sui</p>
-      <div class="pub-meta">
-        <span class="badge-venue amber">Cosyne 2026</span>
-      </div>
-      <div class="pub-links">
-        <a href="https://lnsgroup.cc/research/FlyGM/"><i class="bi bi-globe"></i>Project</a>
-        <a href="https://arxiv.org/abs/2602.17997"><i class="bi bi-file-earmark-text"></i>Paper</a>
-        <a href="https://youtu.be/XVP8RdXqyGw"><i class="bi bi-youtube"></i>Video</a>
       </div>
     </div>
   </div>
