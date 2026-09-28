@@ -303,6 +303,21 @@ section header h2 { display: flex; align-items: center; gap: .5rem; }
 }
 .pub-links a:hover { background: var(--accent); color: #fff !important; border-color: var(--accent) !important; }
 
+.pub:has(.pub-video) .pub-thumb { align-self: flex-start; }
+.pub-video { margin-top: .65rem; }
+.pub-video > summary {
+    display: flex; align-items: center; gap: .4rem; width: fit-content;
+    cursor: pointer; list-style: none; color: var(--accent);
+    font-size: .82rem; font-weight: 500; border-radius: 4px;
+}
+.pub-video > summary::-webkit-details-marker { display: none; }
+.pub-video > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.pub-video[open] > summary .bi-chevron-down { transform: rotate(180deg); }
+.pub-video iframe {
+    display: block; width: 100%; aspect-ratio: 16 / 9; min-height: 200px;
+    margin-top: .7rem; border: 0; border-radius: 10px; background: #000;
+}
+
 /* ---- News ---- */
 .news-list { display: flex; flex-direction: column; gap: .1rem; }
 .news-item { display: flex; gap: 1rem; padding: .7rem 0; border-bottom: 1px dashed var(--line); }

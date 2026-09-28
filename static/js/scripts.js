@@ -91,6 +91,23 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
     Promise.all(section_names.map(loadSection)).then(() => {
+        // Load videos only when opened, and stop playback when closed.
+        document.querySelectorAll('.pub-video').forEach(function (details) {
+            const frame = details.querySelector('iframe');
+            const label = details.querySelector('.pub-video-label');
+            function updateVideo() {
+                label.textContent = details.open
+                    ? (lang === 'cn' ? '收起视频' : 'Hide video')
+                    : (lang === 'cn' ? '展开观看（英文）' : 'Watch here (English)');
+                if (details.open) {
+                    frame.src = frame.dataset.src;
+                } else {
+                    frame.removeAttribute('src');
+                }
+            }
+            details.addEventListener('toggle', updateVideo);
+            updateVideo();
+        });
         // Progressive (blur-up) loading for any opt-in <img class="prog"> in content.
         if (window.ProgImg) window.ProgImg.enhance(document);
         // Typeset math a single time; wait for MathJax if it is still loading.
