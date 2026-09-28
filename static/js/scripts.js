@@ -16,6 +16,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     const lang = getSiteLang();
     const langSuffix = lang === 'cn' ? '.cn' : '';
+    document.documentElement.lang = lang === 'cn' ? 'zh-CN' : 'en';
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -46,7 +47,9 @@ window.addEventListener('DOMContentLoaded', event => {
         langBtn.addEventListener('click', function () {
             var next = lang === 'cn' ? 'en' : 'cn';
             localStorage.setItem('site-lang', next);
-            location.reload();
+            var url = new URL(location.href);
+            url.searchParams.set('lang', next);
+            location.assign(url.href);
         });
     }
 

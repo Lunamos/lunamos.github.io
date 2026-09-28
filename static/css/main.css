@@ -303,10 +303,14 @@ section header h2 { display: flex; align-items: center; gap: .5rem; }
 }
 .pub-links a:hover { background: var(--accent); color: #fff !important; border-color: var(--accent) !important; }
 
-.pub:has(.pub-video) .pub-thumb { align-self: flex-start; }
-.pub-video { margin-top: .65rem; }
+.pub:has(> .pub-video) {
+    display: grid; grid-template-columns: 188px minmax(0, 1fr);
+    row-gap: .65rem; align-items: start;
+}
+.pub-video { grid-column: 1 / -1; min-width: 0; }
 .pub-video > summary {
     display: flex; align-items: center; gap: .4rem; width: fit-content;
+    margin-left: calc(188px + 1.2rem);
     cursor: pointer; list-style: none; color: var(--accent);
     font-size: .82rem; font-weight: 500; border-radius: 4px;
 }
@@ -425,6 +429,8 @@ section#home { position: relative; z-index: 1; }
     .profile-bio p { text-align: left; }
     .interests { grid-template-columns: 1fr; }
     .pub { flex-direction: column; }
+    .pub:has(> .pub-video) { grid-template-columns: minmax(0, 1fr); }
+    .pub-video > summary { margin-left: 0; }
     .pub-thumb { flex-basis: auto; width: 100%; aspect-ratio: 16 / 8; }
     .news-item { flex-direction: column; gap: .15rem; }
     .news-date { flex-basis: auto; }

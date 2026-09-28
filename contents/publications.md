@@ -20,11 +20,11 @@
         <a href="https://huggingface.co/spaces/Lunamos/flas-demo"><i class="bi bi-robot"></i>Demo</a>
         <a href="https://www.youtube.com/watch?v=5Tg7fNdvvvs" target="_blank" rel="noopener"><i class="bi bi-youtube"></i>Video (EN)</a>
       </div>
-      <details class="pub-video">
-        <summary><i class="bi bi-play-circle" aria-hidden="true"></i><span class="pub-video-label">Watch here (English)</span><i class="bi bi-chevron-down" aria-hidden="true"></i></summary>
-        <iframe data-src="https://www.youtube-nocookie.com/embed/5Tg7fNdvvvs" title="FLAS paper video (English)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </details>
     </div>
+    <details class="pub-video">
+      <summary><i class="bi bi-play-circle" aria-hidden="true"></i><span class="pub-video-label">Watch here (English)</span><i class="bi bi-chevron-down" aria-hidden="true"></i></summary>
+      <iframe data-src="https://www.youtube-nocookie.com/embed/5Tg7fNdvvvs" title="FLAS paper video (English)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </details>
   </div>
 
   <div class="pub">
